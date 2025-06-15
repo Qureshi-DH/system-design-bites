@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 15
+Pages so far: 17
 
 ## All concepts
 
@@ -41,6 +41,8 @@ Everything that stands between a user's request and your code.
 | --- | --- |
 | [Load Balancing](concepts/03-traffic/load-balancing.md) | A load balancer sits in front of a group of servers and spreads incoming requests across them. Users see one address, and no server gets buried while its neighbors sit idle. |
 | [Reverse Proxies](concepts/03-traffic/reverse-proxies.md) | A reverse proxy is a server that sits in front of your app servers and takes every request first. It handles chores like TLS, compression, and caching, and the outside world never talks to your app directly. |
+| [API Gateways](concepts/03-traffic/api-gateways.md) | An API gateway is one front door for many backend services. Clients call one address, and the gateway handles routing, login checks, rate limits, and request shaping so each service doesn't have to. |
+| [Rate Limiting](concepts/03-traffic/rate-limiting.md) | Rate limiting caps how many requests a client can send in a window of time. One noisy client gets slowed down, and everyone else keeps a fast service. |
 
 ## Contributing
 
