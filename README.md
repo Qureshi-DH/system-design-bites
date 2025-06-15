@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 13
+Pages so far: 15
 
 ## All concepts
 
@@ -32,6 +32,15 @@ Growing from one server to many without falling over.
 | [Autoscaling](concepts/02-scaling/autoscaling.md) | Autoscaling adds servers when load rises and removes them when it falls, based on a metric you pick. You pay for the traffic you have, not the traffic you're afraid of. |
 | [Single Point of Failure](concepts/02-scaling/single-point-of-failure.md) | A single point of failure is one part whose failure takes the whole system down with it. Every system starts with a few, so the job is to find them before they find you. |
 | [High Availability](concepts/02-scaling/high-availability.md) | High availability means a system keeps serving through the failures that will happen anyway: dead servers, bad disks, a lost data center. It's measured in nines, and each extra nine costs far more than the last. |
+
+### 3. Traffic and Edge
+
+Everything that stands between a user's request and your code.
+
+| Concept | In one line |
+| --- | --- |
+| [Load Balancing](concepts/03-traffic/load-balancing.md) | A load balancer sits in front of a group of servers and spreads incoming requests across them. Users see one address, and no server gets buried while its neighbors sit idle. |
+| [Reverse Proxies](concepts/03-traffic/reverse-proxies.md) | A reverse proxy is a server that sits in front of your app servers and takes every request first. It handles chores like TLS, compression, and caching, and the outside world never talks to your app directly. |
 
 ## Contributing
 
