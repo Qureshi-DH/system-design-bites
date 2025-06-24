@@ -19,7 +19,7 @@ The catch: WebSockets give you a pipe, nothing more. There is no automatic recon
 
 A chat app has 400,000 users online across 20 WebSocket servers, about 20,000 connections each. Maya, on server 4, sends "running late" to a group that includes Sam, who is on server 11.
 
-Server 4 saves the message to the database, then publishes it to the group's channel in Redis. Server 11 is subscribed to that channel becuase Sam is connected to it, so it pushes the message down Sam's socket. Sam sees it about 50 ms after Maya hits send. Typing indicators flow the same way, several times a second, and that constant two way chatter is exactly what WebSockets are good at.
+Server 4 saves the message to the database, then publishes it to the group's channel in Redis. Server 11 is subscribed to that channel because Sam is connected to it, so it pushes the message down Sam's socket. Sam sees it about 50 ms after Maya hits send. Typing indicators flow the same way, several times a second, and that constant two way chatter is exactly what WebSockets are good at.
 
 When server 11 is redeployed, Sam's app reconnects to another server and asks for every message after the last ID it saw, so nothing is lost.
 

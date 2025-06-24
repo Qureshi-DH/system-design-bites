@@ -6,7 +6,7 @@
 
 Your browser wants `shop.example.com`. It checks its own cache, then the operating system's. On a miss, it asks a recursive resolver, usually run by your ISP or a public service like `1.1.1.1` or `8.8.8.8`. The resolver does the legwork:
 
-1. **Root servers.** It asks a root server, wich says "for `.com`, ask these servers".
+1. **Root servers.** It asks a root server, which says "for `.com`, ask these servers".
 2. **Top level domain servers.** The `.com` servers say "`example.com` is handled by these name servers".
 3. **Authoritative servers.** Those hold the real answer: `shop.example.com` is `203.0.113.10`.
 
