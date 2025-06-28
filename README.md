@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 27
+Pages so far: 30
 
 ## All concepts
 
@@ -60,6 +60,16 @@ How bytes actually travel, and how servers push updates to users.
 | [Long Polling](concepts/04-networking/long-polling.md) | Long polling fakes server push with plain HTTP. The client asks "anything new?" and the server holds the request open until it has news or a timeout hits, then the client asks again. |
 | [Server Sent Events](concepts/04-networking/server-sent-events.md) | Server Sent Events keep one HTTP response open so the server can push a stream of text updates to the browser. It is the simplest way to send live updates one way, from server to client. |
 | [WebSockets](concepts/04-networking/websockets.md) | A WebSocket is one long lived connection where the client and the server can both send messages at any moment. It is the standard choice for chat, multiplayer games, and live collaboration. |
+
+### 5. APIs
+
+How apps and services talk to each other, and how to change that contract without breaking anyone.
+
+| Concept | In one line |
+| --- | --- |
+| [REST](concepts/05-apis/rest.md) | REST is the most common way to design a web API. Everything is a resource with its own URL, and you act on it with standard HTTP methods like GET, POST, and DELETE. |
+| [GraphQL](concepts/05-apis/graphql.md) | GraphQL lets the client ask for exactly the fields it needs, across related data, in one request. You trade simple URLs and easy caching for flexibility, plus a server that has to defend itself from expensive queries. |
+| [gRPC](concepts/05-apis/grpc.md) | gRPC lets one service call a function on another service as if it were local, sending compact binary messages over HTTP/2. It is fast, strictly typed, and a favorite for traffic between your own backend services. |
 
 ## Contributing
 
