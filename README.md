@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 34
+Pages so far: 36
 
 ## All concepts
 
@@ -74,6 +74,15 @@ How apps and services talk to each other, and how to change that contract withou
 | [Pagination](concepts/05-apis/pagination.md) | Pagination splits a big list into pages so an API never returns a million rows at once. Offset pagination is simple but slows down and skips rows on big, changing tables, while cursor pagination stays fast and stable. |
 | [API Versioning](concepts/05-apis/api-versioning.md) | API versioning lets you change an API without breaking the apps already using it. Old clients keep the old behavior, new clients opt into the new one, and the old version retires on a schedule. |
 | [Serialization Formats](concepts/05-apis/serialization-formats.md) | Serialization turns the objects in your program into bytes you can send or store. JSON is readable and works everywhere, while binary formats like Protobuf and Avro are smaller, faster, and come with schemas that make change safer. |
+
+### 6. Caching
+
+Keeping answers close so you never fetch or compute the same thing twice.
+
+| Concept | In one line |
+| --- | --- |
+| [Caching](concepts/06-caching/caching.md) | A cache keeps a copy of data somewhere faster and closer than where it really lives. Reads that hit the copy skip the slow trip, which makes apps quicker and keeps databases from melting. |
+| [Caching Strategies](concepts/06-caching/caching-strategies.md) | A caching strategy is the rule for how reads and writes move between your cache and your database. Pick the wrong one and you serve stale data, lose writes, or fill the cache with junk. |
 
 ## Contributing
 
