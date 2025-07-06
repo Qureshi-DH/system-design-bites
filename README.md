@@ -8,7 +8,7 @@ Pages so far: 39
 
 ### 1. Performance
 
-How fast your system feels, and how much work it can take before it slows down.
+How fast your system feels, and how much work it can take before it slows down. [Open section](concepts/01-performance/README.md)
 
 | Concept | In one line |
 | --- | --- |
@@ -21,7 +21,7 @@ How fast your system feels, and how much work it can take before it slows down.
 
 ### 2. Scaling
 
-Growing from one server to many without falling over.
+Growing from one server to many without falling over. [Open section](concepts/02-scaling/README.md)
 
 | Concept | In one line |
 | --- | --- |
@@ -35,7 +35,7 @@ Growing from one server to many without falling over.
 
 ### 3. Traffic and Edge
 
-Everything that stands between a user's request and your code.
+Everything that stands between a user's request and your code. [Open section](concepts/03-traffic/README.md)
 
 | Concept | In one line |
 | --- | --- |
@@ -48,7 +48,7 @@ Everything that stands between a user's request and your code.
 
 ### 4. Networking and Real Time
 
-How bytes actually travel, and how servers push updates to users.
+How bytes actually travel, and how servers push updates to users. [Open section](concepts/04-networking/README.md)
 
 | Concept | In one line |
 | --- | --- |
@@ -63,7 +63,7 @@ How bytes actually travel, and how servers push updates to users.
 
 ### 5. APIs
 
-How apps and services talk to each other, and how to change that contract without breaking anyone.
+How apps and services talk to each other, and how to change that contract without breaking anyone. [Open section](concepts/05-apis/README.md)
 
 | Concept | In one line |
 | --- | --- |
@@ -77,7 +77,7 @@ How apps and services talk to each other, and how to change that contract withou
 
 ### 6. Caching
 
-Keeping answers close so you never fetch or compute the same thing twice.
+Keeping answers close so you never fetch or compute the same thing twice. [Open section](concepts/06-caching/README.md)
 
 | Concept | In one line |
 | --- | --- |
