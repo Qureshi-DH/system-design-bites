@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 39
+Pages so far: 41
 
 ## All concepts
 
@@ -86,6 +86,15 @@ Keeping answers close so you never fetch or compute the same thing twice. [Open 
 | [Cache Eviction](concepts/06-caching/cache-eviction.md) | A cache has limited memory, so when it fills up, something has to go. The eviction policy decides what gets thrown out, and a good one keeps the data people actually ask for. |
 | [Cache Invalidation](concepts/06-caching/cache-invalidation.md) | Cache invalidation means removing a cached copy when the real data changes. Get it wrong and users keep seeing old prices, old names, or the plan they already paid to upgrade from. |
 | [Cache Stampede](concepts/06-caching/cache-stampede.md) | A cache stampede happens when a popular cached value expires and thousands of requests miss at the same moment, all rushing the database to rebuild it. The database falls over right when traffic is highest. |
+
+### 7. Laws
+
+Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Amdahl's Law](concepts/23-laws/amdahls-law.md) | Amdahl's Law says the part of a job that can't run in parallel caps your speedup. If 10% of the work must happen in order, a thousand machines still can't make it more than 10 times faster. |
+| [Universal Scalability Law](concepts/23-laws/universal-scalability-law.md) | The Universal Scalability Law predicts what happens to throughput as you add servers. Waiting on shared things flattens the curve, servers syncing with each other bends it down, and past the peak more servers get less done. |
 
 ## Contributing
 
