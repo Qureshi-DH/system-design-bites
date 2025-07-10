@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 41
+Pages so far: 43
 
 ## All concepts
 
@@ -87,7 +87,16 @@ Keeping answers close so you never fetch or compute the same thing twice. [Open 
 | [Cache Invalidation](concepts/06-caching/cache-invalidation.md) | Cache invalidation means removing a cached copy when the real data changes. Get it wrong and users keep seeing old prices, old names, or the plan they already paid to upgrade from. |
 | [Cache Stampede](concepts/06-caching/cache-stampede.md) | A cache stampede happens when a popular cached value expires and thousands of requests miss at the same moment, all rushing the database to rebuild it. The database falls over right when traffic is highest. |
 
-### 7. Laws
+### 7. Databases
+
+Storing data correctly first, then making it fast. [Open section](concepts/07-databases/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [SQL vs NoSQL](concepts/07-databases/sql-vs-nosql.md) | SQL databases store data in tables you can join and change together safely. NoSQL is a family of other shapes, each built to answer a few known questions fast at huge scale. |
+| [ACID Transactions](concepts/07-databases/acid-transactions.md) | A transaction groups several database changes so they all happen or none do. ACID is the four promises that make that true, even when users collide or the server loses power. |
+
+### 8. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
