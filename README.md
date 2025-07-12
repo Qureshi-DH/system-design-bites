@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 43
+Pages so far: 45
 
 ## All concepts
 
@@ -95,6 +95,8 @@ Storing data correctly first, then making it fast. [Open section](concepts/07-da
 | --- | --- |
 | [SQL vs NoSQL](concepts/07-databases/sql-vs-nosql.md) | SQL databases store data in tables you can join and change together safely. NoSQL is a family of other shapes, each built to answer a few known questions fast at huge scale. |
 | [ACID Transactions](concepts/07-databases/acid-transactions.md) | A transaction groups several database changes so they all happen or none do. ACID is the four promises that make that true, even when users collide or the server loses power. |
+| [Isolation Levels](concepts/07-databases/isolation-levels.md) | Isolation levels decide how much transactions running at the same time can see of each other's work. Stricter levels prevent more strange bugs and cost you more waiting, retries, or both. |
+| [MVCC](concepts/07-databases/mvcc.md) | MVCC lets a database keep several versions of each row, so readers see a consistent snapshot while writers keep working. Nobody waits on anybody, but old versions pile up and have to be cleaned away. |
 
 ### 8. Laws
 
