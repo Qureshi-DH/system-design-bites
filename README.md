@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 48
+Pages so far: 49
 
 ## All concepts
 
@@ -100,6 +100,7 @@ Storing data correctly first, then making it fast. [Open section](concepts/07-da
 | [Database Indexing](concepts/07-databases/database-indexing.md) | An index is a sorted copy of one or more columns that points back to the full rows. It turns "read every row" into "jump straight there", and every index you add slows down writes. |
 | [Query Optimization](concepts/07-databases/query-optimization.md) | Query optimization is finding out why a query is slow and fixing it, usually by reading the plan the database made for it. Most slow queries read far more rows than they return. |
 | [N+1 Queries](concepts/07-databases/n-plus-one-queries.md) | An N+1 query happens when code fetches a list with one query, then runs one more query for every item in it. It looks harmless with 3 rows and buries your database with 3,000. |
+| [Connection Pooling](concepts/07-databases/connection-pooling.md) | A connection pool keeps a few database connections open and lends them to requests, instead of opening a fresh one each time. It saves time on every query and keeps the database from drowning in connections. |
 
 ### 8. Laws
 
