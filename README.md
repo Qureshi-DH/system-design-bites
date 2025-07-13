@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 45
+Pages so far: 48
 
 ## All concepts
 
@@ -97,6 +97,9 @@ Storing data correctly first, then making it fast. [Open section](concepts/07-da
 | [ACID Transactions](concepts/07-databases/acid-transactions.md) | A transaction groups several database changes so they all happen or none do. ACID is the four promises that make that true, even when users collide or the server loses power. |
 | [Isolation Levels](concepts/07-databases/isolation-levels.md) | Isolation levels decide how much transactions running at the same time can see of each other's work. Stricter levels prevent more strange bugs and cost you more waiting, retries, or both. |
 | [MVCC](concepts/07-databases/mvcc.md) | MVCC lets a database keep several versions of each row, so readers see a consistent snapshot while writers keep working. Nobody waits on anybody, but old versions pile up and have to be cleaned away. |
+| [Database Indexing](concepts/07-databases/database-indexing.md) | An index is a sorted copy of one or more columns that points back to the full rows. It turns "read every row" into "jump straight there", and every index you add slows down writes. |
+| [Query Optimization](concepts/07-databases/query-optimization.md) | Query optimization is finding out why a query is slow and fixing it, usually by reading the plan the database made for it. Most slow queries read far more rows than they return. |
+| [N+1 Queries](concepts/07-databases/n-plus-one-queries.md) | An N+1 query happens when code fetches a list with one query, then runs one more query for every item in it. It looks harmless with 3 rows and buries your database with 3,000. |
 
 ### 8. Laws
 
