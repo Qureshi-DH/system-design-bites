@@ -4,7 +4,7 @@
 
 ## How it works
 
-Opening a database connection is slow work. There's a TCP handshake, a TLS handshake, and a login. Postgres then starts a whole new server process for the connection, wich costs several megabytes of memory. All of that can take tens of milliseconds, often longer than the query you wanted to run.
+Opening a database connection is slow work. There's a TCP handshake, a TLS handshake, and a login. Postgres then starts a whole new server process for the connection, which costs several megabytes of memory. All of that can take tens of milliseconds, often longer than the query you wanted to run.
 
 A pool opens, say, 10 connections at startup and keeps them. Each request borrows one, runs its queries, and hands it back. No handshakes, no login, no new process.
 
