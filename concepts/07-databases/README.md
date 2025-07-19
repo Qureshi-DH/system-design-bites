@@ -14,5 +14,7 @@ Storing data correctly first, then making it fast.
 | [Connection Pooling](connection-pooling.md) | A connection pool keeps a few database connections open and lends them to requests, instead of opening a fresh one each time. It saves time on every query and keeps the database from drowning in connections. |
 | [Normalization vs Denormalization](normalization-vs-denormalization.md) | Normalization stores each fact in exactly one place and joins tables when you read. Denormalization copies facts to where they're read, trading extra writes and the risk of drift for faster queries. |
 | [Materialized Views](materialized-views.md) | A materialized view saves the result of an expensive query as a real table. Reads become nearly instant, and the price is that the data is only as fresh as the last refresh. |
+| [Database Migrations](database-migrations.md) | A database migration changes the schema of a live database: adding columns, renaming them, building indexes. Done carelessly, it locks a busy table or breaks the servers still running old code. |
+| [Schema Versioning](schema-versioning.md) | Schema versioning tracks which shape of data each database holds and each piece of code expects. It lets you change tables and event formats without old readers choking on new data. |
 
 [Back to all concepts](../../README.md)
