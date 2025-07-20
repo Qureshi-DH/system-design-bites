@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 55
+Pages so far: 57
 
 ## All concepts
 
@@ -114,6 +114,8 @@ What happens inside a database, plus special stores for files, text, and maps. [
 | --- | --- |
 | [Storage Engines](concepts/08-storage/storage-engines.md) | A storage engine is the part of a database that decides how bytes sit on disk. B trees favor fast reads, LSM trees favor fast writes, and that one choice shapes everything above it. |
 | [Write Ahead Log](concepts/08-storage/write-ahead-log.md) | A write ahead log is an append only file where a database records every change before applying it. If the server crashes, the database replays the log and every committed change comes back. |
+| [Object Storage](concepts/08-storage/object-storage.md) | Object storage, like Amazon S3, keeps files of any size under a key inside a bucket. It's cheap, practically bottomless, and very durable, but it is not a disk you can edit in place. |
+| [Full Text Search](concepts/08-storage/full-text-search.md) | Full text search finds documents by the words inside them and ranks the best matches first. It builds an inverted index ahead of time, so a search never has to scan every row. |
 
 ### 9. Laws
 
