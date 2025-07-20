@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 53
+Pages so far: 55
 
 ## All concepts
 
@@ -106,7 +106,16 @@ Storing data correctly first, then making it fast. [Open section](concepts/07-da
 | [Database Migrations](concepts/07-databases/database-migrations.md) | A database migration changes the schema of a live database: adding columns, renaming them, building indexes. Done carelessly, it locks a busy table or breaks the servers still running old code. |
 | [Schema Versioning](concepts/07-databases/schema-versioning.md) | Schema versioning tracks which shape of data each database holds and each piece of code expects. It lets you change tables and event formats without old readers choking on new data. |
 
-### 8. Laws
+### 8. Storage and Search
+
+What happens inside a database, plus special stores for files, text, and maps. [Open section](concepts/08-storage/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Storage Engines](concepts/08-storage/storage-engines.md) | A storage engine is the part of a database that decides how bytes sit on disk. B trees favor fast reads, LSM trees favor fast writes, and that one choice shapes everything above it. |
+| [Write Ahead Log](concepts/08-storage/write-ahead-log.md) | A write ahead log is an append only file where a database records every change before applying it. If the server crashes, the database replays the log and every committed change comes back. |
+
+### 9. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
