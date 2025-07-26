@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 65
+Pages so far: 67
 
 ## All concepts
 
@@ -122,7 +122,16 @@ What happens inside a database, plus special stores for files, text, and maps. [
 | [Geospatial Indexing](concepts/08-storage/geospatial-indexing.md) | A geospatial index splits the map into cells, so a database can answer "what's near this point?" by checking a few nearby cells instead of measuring the distance to everything. |
 | [OLTP vs OLAP](concepts/08-storage/oltp-vs-olap.md) | OLTP is the day job of your database, millions of tiny reads and writes for live users. OLAP is analytics, a few huge queries over years of history, and it wants a different kind of database. |
 
-### 9. Laws
+### 9. Data at Scale
+
+Copying and splitting data across many machines. [Open section](concepts/09-data-at-scale/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Replication](concepts/09-data-at-scale/replication.md) | Replication keeps copies of the same data on several machines. If one dies, another already has everything, and you can spread reads across the copies. |
+| [Read Replicas](concepts/09-data-at-scale/read-replicas.md) | Read replicas are copies of your database that only serve reads. Most apps read far more than they write, so moving reads to replicas takes most of the load off the main database. |
+
+### 10. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
