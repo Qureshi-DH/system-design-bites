@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 67
+Pages so far: 69
 
 ## All concepts
 
@@ -130,6 +130,8 @@ Copying and splitting data across many machines. [Open section](concepts/09-data
 | --- | --- |
 | [Replication](concepts/09-data-at-scale/replication.md) | Replication keeps copies of the same data on several machines. If one dies, another already has everything, and you can spread reads across the copies. |
 | [Read Replicas](concepts/09-data-at-scale/read-replicas.md) | Read replicas are copies of your database that only serve reads. Most apps read far more than they write, so moving reads to replicas takes most of the load off the main database. |
+| [Partitioning](concepts/09-data-at-scale/partitioning.md) | Partitioning splits one big table into smaller pieces by a rule, like one piece per month. Queries only touch the pieces they need, and old data goes away in one cheap step. |
+| [Sharding](concepts/09-data-at-scale/sharding.md) | Sharding splits your data across several database servers, and each one holds a slice. It's how you grow past what one machine can store or write, and you pay for it in complexity forever. |
 
 ### 10. Laws
 
