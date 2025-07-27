@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 69
+Pages so far: 71
 
 ## All concepts
 
@@ -132,6 +132,8 @@ Copying and splitting data across many machines. [Open section](concepts/09-data
 | [Read Replicas](concepts/09-data-at-scale/read-replicas.md) | Read replicas are copies of your database that only serve reads. Most apps read far more than they write, so moving reads to replicas takes most of the load off the main database. |
 | [Partitioning](concepts/09-data-at-scale/partitioning.md) | Partitioning splits one big table into smaller pieces by a rule, like one piece per month. Queries only touch the pieces they need, and old data goes away in one cheap step. |
 | [Sharding](concepts/09-data-at-scale/sharding.md) | Sharding splits your data across several database servers, and each one holds a slice. It's how you grow past what one machine can store or write, and you pay for it in complexity forever. |
+| [Consistent Hashing](concepts/09-data-at-scale/consistent-hashing.md) | Consistent hashing puts servers and keys on the same circle, and each key belongs to the next server along it. Add or remove a server and only a small slice of keys moves, instead of nearly all of them. |
+| [Hot Spots](concepts/09-data-at-scale/hot-spots.md) | A hot spot is one key, shard, or server getting far more traffic than the rest. Spreading your data evenly doesn't help when everyone wants the same piece of it. |
 
 ### 10. Laws
 
