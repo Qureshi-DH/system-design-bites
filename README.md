@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 71
+Pages so far: 73
 
 ## All concepts
 
@@ -134,6 +134,8 @@ Copying and splitting data across many machines. [Open section](concepts/09-data
 | [Sharding](concepts/09-data-at-scale/sharding.md) | Sharding splits your data across several database servers, and each one holds a slice. It's how you grow past what one machine can store or write, and you pay for it in complexity forever. |
 | [Consistent Hashing](concepts/09-data-at-scale/consistent-hashing.md) | Consistent hashing puts servers and keys on the same circle, and each key belongs to the next server along it. Add or remove a server and only a small slice of keys moves, instead of nearly all of them. |
 | [Hot Spots](concepts/09-data-at-scale/hot-spots.md) | A hot spot is one key, shard, or server getting far more traffic than the rest. Spreading your data evenly doesn't help when everyone wants the same piece of it. |
+| [Change Data Capture](concepts/09-data-at-scale/change-data-capture.md) | Change data capture reads your database's own change log and turns every insert, update, and delete into an event. Search indexes, caches, and analytics stay in sync without your app writing to each one. |
+| [Unique ID Generation](concepts/09-data-at-scale/unique-id-generation.md) | Every order, message, and user needs an ID that never repeats. One database can just count, but once you have many servers, you need IDs that any machine can make without asking anyone else. |
 
 ### 10. Laws
 
