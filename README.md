@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 74
+Pages so far: 76
 
 ## All concepts
 
@@ -138,7 +138,16 @@ Copying and splitting data across many machines. [Open section](concepts/09-data
 | [Change Data Capture](concepts/09-data-at-scale/change-data-capture.md) | Change data capture reads your database's own change log and turns every insert, update, and delete into an event. Search indexes, caches, and analytics stay in sync without your app writing to each one. |
 | [Unique ID Generation](concepts/09-data-at-scale/unique-id-generation.md) | Every order, message, and user needs an ID that never repeats. One database can just count, but once you have many servers, you need IDs that any machine can make without asking anyone else. |
 
-### 10. Laws
+### 10. Distributed Systems
+
+The rules of the game once your system runs on more than one computer. [Open section](concepts/10-distributed-systems/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Network Partitions](concepts/10-distributed-systems/network-partitions.md) | A network partition is when some machines can't reach others, even though they're all still running. It happens far more often than people expect, and it's the root of most distributed systems headaches. |
+| [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md) | When the network splits a distributed database in two, each side has to choose: keep answering and risk stale data, or stop answering until it can be sure. You cannot have both. |
+
+### 11. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
