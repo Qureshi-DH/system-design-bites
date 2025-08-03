@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 79
+Pages so far: 81
 
 ## All concepts
 
@@ -149,6 +149,8 @@ The rules of the game once your system runs on more than one computer. [Open sec
 | [Strong Consistency](concepts/10-distributed-systems/strong-consistency.md) | Strong consistency means a system with many copies of the data behaves as if there's only one. Once a write succeeds, every later read, from any server, sees it. |
 | [Eventual Consistency](concepts/10-distributed-systems/eventual-consistency.md) | Eventual consistency means replicas can disagree for a while, but if writes stop, they all end up with the same data. You get speed and availability, and you accept reads that are briefly stale. |
 | [Quorum](concepts/10-distributed-systems/quorum.md) | A quorum is the minimum number of replicas that must respond before a read or write counts. Pick the numbers right and every read is guaranteed to include at least one copy of the latest write. |
+| [Clock Skew](concepts/10-distributed-systems/clock-skew.md) | Every server has its own clock, and no two of them agree exactly. That gap is clock skew, and it means timestamps from different machines can put events in the wrong order. |
+| [Logical Clocks](concepts/10-distributed-systems/logical-clocks.md) | Logical clocks order events with counters instead of wall clock time. They tell you what happened before what, even when every server's clock is wrong. |
 
 ### 11. Laws
 
