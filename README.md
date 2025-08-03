@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 76
+Pages so far: 79
 
 ## All concepts
 
@@ -146,6 +146,9 @@ The rules of the game once your system runs on more than one computer. [Open sec
 | --- | --- |
 | [Network Partitions](concepts/10-distributed-systems/network-partitions.md) | A network partition is when some machines can't reach others, even though they're all still running. It happens far more often than people expect, and it's the root of most distributed systems headaches. |
 | [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md) | When the network splits a distributed database in two, each side has to choose: keep answering and risk stale data, or stop answering until it can be sure. You cannot have both. |
+| [Strong Consistency](concepts/10-distributed-systems/strong-consistency.md) | Strong consistency means a system with many copies of the data behaves as if there's only one. Once a write succeeds, every later read, from any server, sees it. |
+| [Eventual Consistency](concepts/10-distributed-systems/eventual-consistency.md) | Eventual consistency means replicas can disagree for a while, but if writes stop, they all end up with the same data. You get speed and availability, and you accept reads that are briefly stale. |
+| [Quorum](concepts/10-distributed-systems/quorum.md) | A quorum is the minimum number of replicas that must respond before a read or write counts. Pick the numbers right and every read is guaranteed to include at least one copy of the latest write. |
 
 ### 11. Laws
 
