@@ -11,5 +11,7 @@ The rules of the game once your system runs on more than one computer.
 | [Quorum](quorum.md) | A quorum is the minimum number of replicas that must respond before a read or write counts. Pick the numbers right and every read is guaranteed to include at least one copy of the latest write. |
 | [Clock Skew](clock-skew.md) | Every server has its own clock, and no two of them agree exactly. That gap is clock skew, and it means timestamps from different machines can put events in the wrong order. |
 | [Logical Clocks](logical-clocks.md) | Logical clocks order events with counters instead of wall clock time. They tell you what happened before what, even when every server's clock is wrong. |
+| [Heartbeats](heartbeats.md) | A heartbeat is a tiny "I'm alive" message a server sends every few seconds. When the heartbeats stop, the rest of the system assumes it's dead and moves its work elsewhere. |
+| [Gossip Protocol](gossip-protocol.md) | In a gossip protocol, every node regularly swaps news with a few random peers. Like a rumor at a party, an update reaches the whole cluster in a handful of rounds, with no central server in charge. |
 
 [Back to all concepts](../../README.md)
