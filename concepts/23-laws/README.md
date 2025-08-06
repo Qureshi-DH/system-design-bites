@@ -4,6 +4,8 @@ Named laws and classic results that explain why systems, and the teams that buil
 
 | Concept | In one line |
 | --- | --- |
+| [Fallacies of Distributed Computing](fallacies-of-distributed-computing.md) | Eight things everyone assumes about the network the first time they build a distributed system. All eight are false, and each one breeds its own family of production bugs. |
+| [PACELC](pacelc.md) | PACELC extends CAP to normal days: during a Partition, pick Availability or Consistency, Else pick Latency or Consistency. That second choice hits every single request, not just the rare outage. |
 | [Amdahl's Law](amdahls-law.md) | Amdahl's Law says the part of a job that can't run in parallel caps your speedup. If 10% of the work must happen in order, a thousand machines still can't make it more than 10 times faster. |
 | [Universal Scalability Law](universal-scalability-law.md) | The Universal Scalability Law predicts what happens to throughput as you add servers. Waiting on shared things flattens the curve, servers syncing with each other bends it down, and past the peak more servers get less done. |
 | [Kingman's Formula](kingmans-formula.md) | Kingman's formula estimates how long work waits in a queue. Waiting grows like utilization over one minus utilization, so a worker that's 95% busy makes jobs wait about five times longer than one at 80%. |
