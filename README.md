@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 85
+Pages so far: 88
 
 ## All concepts
 
@@ -154,7 +154,17 @@ The rules of the game once your system runs on more than one computer. [Open sec
 | [Heartbeats](concepts/10-distributed-systems/heartbeats.md) | A heartbeat is a tiny "I'm alive" message a server sends every few seconds. When the heartbeats stop, the rest of the system assumes it's dead and moves its work elsewhere. |
 | [Gossip Protocol](concepts/10-distributed-systems/gossip-protocol.md) | In a gossip protocol, every node regularly swaps news with a few random peers. Like a rumor at a party, an update reaches the whole cluster in a handful of rounds, with no central server in charge. |
 
-### 11. Laws
+### 11. Coordination
+
+Getting many machines to agree on who is in charge and what happened. [Open section](concepts/11-coordination/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Leader Election](concepts/11-coordination/leader-election.md) | Leader election picks exactly one server out of several to do a job that must not run twice, and picks a new one fast when that server dies. |
+| [Consensus](concepts/11-coordination/consensus.md) | Consensus lets a group of servers agree on the same ordered list of changes, even while some of them are down. A change counts once a majority has saved it. |
+| [Split Brain](concepts/11-coordination/split-brain.md) | Split brain is when two servers both believe they are the leader and both accept writes. Your data forks into two histories, and someone has to stitch them back together by hand. |
+
+### 12. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
