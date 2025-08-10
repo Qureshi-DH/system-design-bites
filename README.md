@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 88
+Pages so far: 89
 
 ## All concepts
 
@@ -163,6 +163,7 @@ Getting many machines to agree on who is in charge and what happened. [Open sect
 | [Leader Election](concepts/11-coordination/leader-election.md) | Leader election picks exactly one server out of several to do a job that must not run twice, and picks a new one fast when that server dies. |
 | [Consensus](concepts/11-coordination/consensus.md) | Consensus lets a group of servers agree on the same ordered list of changes, even while some of them are down. A change counts once a majority has saved it. |
 | [Split Brain](concepts/11-coordination/split-brain.md) | Split brain is when two servers both believe they are the leader and both accept writes. Your data forks into two histories, and someone has to stitch them back together by hand. |
+| [Distributed Locks](concepts/11-coordination/distributed-locks.md) | A distributed lock makes sure only one process, across many machines, works on a thing at a time. The hard part isn't taking the lock, it's knowing you still hold it. |
 
 ### 12. Laws
 
