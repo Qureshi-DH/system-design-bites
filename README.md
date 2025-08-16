@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 95
+Pages so far: 98
 
 ## All concepts
 
@@ -168,7 +168,17 @@ Getting many machines to agree on who is in charge and what happened. [Open sect
 | [Two Phase Commit](concepts/11-coordination/two-phase-commit.md) | Two phase commit makes several databases commit a change together or not at all. A coordinator asks everyone to promise first, then tells everyone to go. |
 | [Saga Pattern](concepts/11-coordination/saga-pattern.md) | A saga splits one big transaction across services into a chain of small local ones. If a step fails, it runs compensating actions to undo the steps that already happened. |
 
-### 12. Laws
+### 12. Concurrency and Runtime
+
+Bugs that only appear when two things happen at once, and how memory behaves in long running services. [Open section](concepts/12-concurrency/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Race Conditions](concepts/12-concurrency/race-conditions.md) | A race condition is a bug where the result depends on which of two operations gets there first. It hides in testing and shows up under real traffic, usually as lost money or a double booking. |
+| [Thread Safety](concepts/12-concurrency/thread-safety.md) | Code is thread safe when it still works with many threads calling it at the same moment. The danger is always the same thing: data that is both shared and changing. |
+| [Deadlocks](concepts/12-concurrency/deadlocks.md) | A deadlock is two workers each holding a lock the other one needs, so both wait forever. Nothing crashes, things just stop. |
+
+### 13. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
