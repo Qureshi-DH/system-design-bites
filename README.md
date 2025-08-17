@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 100
+Pages so far: 102
 
 ## All concepts
 
@@ -179,6 +179,8 @@ Bugs that only appear when two things happen at once, and how memory behaves in 
 | [Deadlocks](concepts/12-concurrency/deadlocks.md) | A deadlock is two workers each holding a lock the other one needs, so both wait forever. Nothing crashes, things just stop. |
 | [Optimistic Locking](concepts/12-concurrency/optimistic-locking.md) | Optimistic locking lets everyone read and edit freely, then rejects a save if someone else changed the data first. Nobody waits, and conflicts get caught instead of silently overwritten. |
 | [Pessimistic Locking](concepts/12-concurrency/pessimistic-locking.md) | Pessimistic locking grabs a lock on the data before changing it, so anyone else who wants the same row waits their turn. It's the safe choice when many people fight over the same thing. |
+| [Memory Leaks](concepts/12-concurrency/memory-leaks.md) | A memory leak is memory your service keeps holding but will never use again. In a long running service it piles up for hours, until the process gets killed for running out of memory. |
+| [Garbage Collection](concepts/12-concurrency/garbage-collection.md) | Garbage collection (GC) frees memory your program no longer uses, so you never have to free it by hand. The price is that the collector sometimes pauses your app, and those pauses land on your slowest requests. |
 
 ### 13. Laws
 
