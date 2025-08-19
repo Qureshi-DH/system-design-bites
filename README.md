@@ -4,6 +4,21 @@ System design concepts explained simply. One page per concept: the idea in one l
 
 Pages so far: 103
 
+## Start here
+
+New to all of this? Read these in order. Together they tell the story of how most web systems grow up.
+
+1. [Latency](concepts/01-performance/latency.md): how slow is slow
+2. [Horizontal Scaling](concepts/02-scaling/horizontal-scaling.md): growing past one server
+3. [Load Balancing](concepts/03-traffic/load-balancing.md): spreading the traffic
+4. [Caching](concepts/06-caching/caching.md): the cheapest speedup there is
+5. [Database Indexing](concepts/07-databases/database-indexing.md): making queries fast
+6. [Replication](concepts/09-data-at-scale/replication.md): never keeping one copy
+7. [Sharding](concepts/09-data-at-scale/sharding.md): when one database is not enough
+8. [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md): the tradeoff behind every distributed database
+
+After that, jump to any section below. Every page links to its neighbors, so it is easy to wander.
+
 ## All concepts
 
 ### 1. Performance
