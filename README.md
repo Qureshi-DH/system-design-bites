@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 103
+Pages so far: 106
 
 ## Start here
 
@@ -214,6 +214,9 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Kingman's Formula](concepts/23-laws/kingmans-formula.md) | Kingman's formula estimates how long work waits in a queue. Waiting grows like utilization over one minus utilization, so a worker that's 95% busy makes jobs wait about five times longer than one at 80%. |
 | [Zipf's Law](concepts/23-laws/zipfs-law.md) | Zipf's Law says popularity falls off with rank: the second most popular item gets about half the traffic of the first, the third about a third. That's why a small cache catches most requests, and why a few keys run hot. |
 | [Pareto Principle](concepts/23-laws/pareto-principle.md) | The Pareto principle is the rough pattern that most of an effect comes from a few causes, often quoted as 80/20. In systems work it means profile first, because a handful of endpoints or queries usually cause most of the slowness. |
+| [Conway's Law](concepts/23-laws/conways-law.md) | Systems end up shaped like the teams that build them. Two teams that rarely talk build two parts with a thin, awkward seam between them, so if you want a certain architecture, arrange the teams first. |
+| [Hyrum's Law](concepts/23-laws/hyrums-law.md) | Once enough people use your API, every behavior they can see becomes part of the contract, documented or not. Someone depends on your error text, your response order, and your timing. |
+| [Gall's Law](concepts/23-laws/galls-law.md) | Every complex system that works grew out of a simple system that worked. Design the complex version from scratch and it won't work, and no amount of patching will fix it. |
 
 ## Contributing
 
