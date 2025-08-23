@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 106
+Pages so far: 109
 
 ## Start here
 
@@ -16,6 +16,7 @@ New to all of this? Read these in order. Together they tell the story of how mos
 6. [Replication](concepts/09-data-at-scale/replication.md): never keeping one copy
 7. [Sharding](concepts/09-data-at-scale/sharding.md): when one database is not enough
 8. [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md): the tradeoff behind every distributed database
+9. [Message Queues](concepts/13-messaging/message-queues.md): doing work later
 
 After that, jump to any section below. Every page links to its neighbors, so it is easy to wander.
 
@@ -198,7 +199,17 @@ Bugs that only appear when two things happen at once, and how memory behaves in 
 | [Memory Leaks](concepts/12-concurrency/memory-leaks.md) | A memory leak is memory your service keeps holding but will never use again. In a long running service it piles up for hours, until the process gets killed for running out of memory. |
 | [Garbage Collection](concepts/12-concurrency/garbage-collection.md) | Garbage collection (GC) frees memory your program no longer uses, so you never have to free it by hand. The price is that the collector sometimes pauses your app, and those pauses land on your slowest requests. |
 
-### 13. Laws
+### 13. Messaging and Events
+
+Letting services talk without waiting on each other. [Open section](concepts/13-messaging/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Message Queues](concepts/13-messaging/message-queues.md) | A message queue is a waiting line for jobs. Producers drop work in, workers take it out at their own pace, and a traffic spike becomes a longer line instead of an outage. |
+| [Pub/Sub](concepts/13-messaging/pub-sub.md) | In pub/sub, a publisher sends a message to a topic, and every subscriber to that topic gets its own copy. The publisher has no idea who is listening, so you can add listeners without touching it. |
+| [Event Streaming](concepts/13-messaging/event-streaming.md) | Event streaming keeps every event in a durable, append only log that many readers move through at their own pace. Unlike a queue, reading doesn't delete anything, so you can replay last week whenever you need to. |
+
+### 14. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
