@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 114
+Pages so far: 117
 
 ## Start here
 
@@ -233,6 +233,9 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Conway's Law](concepts/23-laws/conways-law.md) | Systems end up shaped like the teams that build them. Two teams that rarely talk build two parts with a thin, awkward seam between them, so if you want a certain architecture, arrange the teams first. |
 | [Hyrum's Law](concepts/23-laws/hyrums-law.md) | Once enough people use your API, every behavior they can see becomes part of the contract, documented or not. Someone depends on your error text, your response order, and your timing. |
 | [Gall's Law](concepts/23-laws/galls-law.md) | Every complex system that works grew out of a simple system that worked. Design the complex version from scratch and it won't work, and no amount of patching will fix it. |
+| [Postel's Law](concepts/23-laws/postels-law.md) | Be strict in what you send and forgiving in what you accept. It helped the early internet's mismatched machines talk to each other, and taken too far, it turns everyone's bugs into permanent features. |
+| [Goodhart's Law](concepts/23-laws/goodharts-law.md) | Turn a metric into a target and people will find ways to hit the number without doing the thing it was meant to measure. The dashboard turns green and stops telling you anything. |
+| [Brooks's Law](concepts/23-laws/brooks-law.md) | Throw more engineers at a late software project and it usually ships even later. Newcomers need weeks to become useful, and every extra person adds conversations, so the team slows down before it speeds up. |
 
 ## Contributing
 
