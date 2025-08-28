@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 120
+Pages so far: 122
 
 ## Start here
 
@@ -216,6 +216,8 @@ Letting services talk without waiting on each other. [Open section](concepts/13-
 | [Outbox Pattern](concepts/13-messaging/outbox-pattern.md) | The outbox pattern saves an event in the same database transaction as the change that caused it, and a separate relay publishes it later. They commit together, so you never lose an event or send one for a change that never happened. |
 | [Event Sourcing](concepts/13-messaging/event-sourcing.md) | Event sourcing stores every change as an event in a log that never gets edited, instead of overwriting the current state. You get the current state by replaying the events, so the full history comes for free. |
 | [CQRS](concepts/13-messaging/cqrs.md) | CQRS, short for Command Query Responsibility Segregation, splits your data model in two: one shaped for writes and one shaped for reads. Each side gets fast at its own job, and reads can lag a little behind. |
+| [Batch vs Stream Processing](concepts/13-messaging/batch-vs-stream-processing.md) | Batch processing crunches a big pile of data on a schedule, while stream processing handles each event the moment it arrives. Batch is simpler and cheaper, stream gives answers in seconds instead of hours. |
+| [Cron Jobs](concepts/13-messaging/cron-jobs.md) | A cron job is a task that runs on a schedule, like "every day at 2 AM". Easy to set up, and easy to get wrong once your app runs on more than one server. |
 
 ### 14. Laws
 
