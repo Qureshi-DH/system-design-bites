@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 122
+Pages so far: 126
 
 ## Start here
 
@@ -17,6 +17,7 @@ New to all of this? Read these in order. Together they tell the story of how mos
 7. [Sharding](concepts/09-data-at-scale/sharding.md): when one database is not enough
 8. [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md): the tradeoff behind every distributed database
 9. [Message Queues](concepts/13-messaging/message-queues.md): doing work later
+10. [Idempotency](concepts/14-reliability/idempotency.md): making retries safe
 
 After that, jump to any section below. Every page links to its neighbors, so it is easy to wander.
 
@@ -219,7 +220,18 @@ Letting services talk without waiting on each other. [Open section](concepts/13-
 | [Batch vs Stream Processing](concepts/13-messaging/batch-vs-stream-processing.md) | Batch processing crunches a big pile of data on a schedule, while stream processing handles each event the moment it arrives. Batch is simpler and cheaper, stream gives answers in seconds instead of hours. |
 | [Cron Jobs](concepts/13-messaging/cron-jobs.md) | A cron job is a task that runs on a schedule, like "every day at 2 AM". Easy to set up, and easy to get wrong once your app runs on more than one server. |
 
-### 14. Laws
+### 14. Reliability
+
+Patterns that stop one failure from turning into an outage. [Open section](concepts/14-reliability/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Timeouts](concepts/14-reliability/timeouts.md) | A timeout is how long you are willing to wait for a reply before giving up. Without one, a single slow dependency can freeze every request that touches it. |
+| [Retries](concepts/14-reliability/retries.md) | A retry sends a failed call again, betting the failure was a blip. Done right, it hides a flaky network, and done wrong, it turns a small outage into a big one. |
+| [Exponential Backoff](concepts/14-reliability/exponential-backoff.md) | Exponential backoff makes each retry wait twice as long as the last. Add a little randomness, and a crowd of failing clients spreads out instead of stampeding a server the moment it comes back. |
+| [Idempotency](concepts/14-reliability/idempotency.md) | An idempotent operation gives the same result whether it runs once or ten times. It is what makes retries safe, so a flaky network never charges a customer twice. |
+
+### 15. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
