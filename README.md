@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 129
+Pages so far: 131
 
 ## Start here
 
@@ -233,6 +233,8 @@ Patterns that stop one failure from turning into an outage. [Open section](conce
 | [Circuit Breakers](concepts/14-reliability/circuit-breakers.md) | A circuit breaker stops calling a dependency that keeps failing and fails fast instead. Your service stays quick, and the broken one gets room to recover. |
 | [Bulkheads](concepts/14-reliability/bulkheads.md) | A bulkhead gives each dependency its own small pool of threads or connections. When one dependency gets slow, it can only drown its own pool, and everything else keeps working. |
 | [Load Shedding](concepts/14-reliability/load-shedding.md) | Load shedding is a server dropping some requests on purpose when it gets more than it can handle. Rejecting a fifth of them fast beats serving all of them too slowly to matter. |
+| [Graceful Degradation](concepts/14-reliability/graceful-degradation.md) | Graceful degradation means that when one piece of your system breaks, users get a smaller version of the product instead of an error page. Lose the recommendations, keep the video playing. |
+| [Health Checks](concepts/14-reliability/health-checks.md) | A health check is a tiny endpoint, like `/health`, that the load balancer calls every few seconds. If a server stops passing it, the load balancer stops sending that server traffic. |
 
 ### 15. Laws
 
