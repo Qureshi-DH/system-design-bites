@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 126
+Pages so far: 129
 
 ## Start here
 
@@ -230,6 +230,9 @@ Patterns that stop one failure from turning into an outage. [Open section](conce
 | [Retries](concepts/14-reliability/retries.md) | A retry sends a failed call again, betting the failure was a blip. Done right, it hides a flaky network, and done wrong, it turns a small outage into a big one. |
 | [Exponential Backoff](concepts/14-reliability/exponential-backoff.md) | Exponential backoff makes each retry wait twice as long as the last. Add a little randomness, and a crowd of failing clients spreads out instead of stampeding a server the moment it comes back. |
 | [Idempotency](concepts/14-reliability/idempotency.md) | An idempotent operation gives the same result whether it runs once or ten times. It is what makes retries safe, so a flaky network never charges a customer twice. |
+| [Circuit Breakers](concepts/14-reliability/circuit-breakers.md) | A circuit breaker stops calling a dependency that keeps failing and fails fast instead. Your service stays quick, and the broken one gets room to recover. |
+| [Bulkheads](concepts/14-reliability/bulkheads.md) | A bulkhead gives each dependency its own small pool of threads or connections. When one dependency gets slow, it can only drown its own pool, and everything else keeps working. |
+| [Load Shedding](concepts/14-reliability/load-shedding.md) | Load shedding is a server dropping some requests on purpose when it gets more than it can handle. Rejecting a fifth of them fast beats serving all of them too slowly to matter. |
 
 ### 15. Laws
 
