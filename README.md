@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 131
+Pages so far: 134
 
 ## Start here
 
@@ -235,6 +235,9 @@ Patterns that stop one failure from turning into an outage. [Open section](conce
 | [Load Shedding](concepts/14-reliability/load-shedding.md) | Load shedding is a server dropping some requests on purpose when it gets more than it can handle. Rejecting a fifth of them fast beats serving all of them too slowly to matter. |
 | [Graceful Degradation](concepts/14-reliability/graceful-degradation.md) | Graceful degradation means that when one piece of your system breaks, users get a smaller version of the product instead of an error page. Lose the recommendations, keep the video playing. |
 | [Health Checks](concepts/14-reliability/health-checks.md) | A health check is a tiny endpoint, like `/health`, that the load balancer calls every few seconds. If a server stops passing it, the load balancer stops sending that server traffic. |
+| [Liveness and Readiness Probes](concepts/14-reliability/liveness-and-readiness-probes.md) | Kubernetes asks every container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation. |
+| [Graceful Shutdown](concepts/14-reliability/graceful-shutdown.md) | Graceful shutdown means a server that's told to stop first finishes the requests it already started, then exits. Without it, every deploy cuts off whatever was in flight. |
+| [Chaos Engineering](concepts/14-reliability/chaos-engineering.md) | Chaos engineering means breaking parts of your system on purpose, while you're watching, to find the weak spots before a real outage finds them for you. |
 
 ### 15. Laws
 
