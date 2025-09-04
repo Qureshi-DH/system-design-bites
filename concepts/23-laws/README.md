@@ -20,5 +20,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Postel's Law](postels-law.md) | Be strict in what you send and forgiving in what you accept. It helped the early internet's mismatched machines talk to each other, and taken too far, it turns everyone's bugs into permanent features. |
 | [Goodhart's Law](goodharts-law.md) | Turn a metric into a target and people will find ways to hit the number without doing the thing it was meant to measure. The dashboard turns green and stops telling you anything. |
 | [Brooks's Law](brooks-law.md) | Throw more engineers at a late software project and it usually ships even later. Newcomers need weeks to become useful, and every extra person adds conversations, so the team slows down before it speeds up. |
+| [Law of Leaky Abstractions](law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
+| [Chesterton's Fence](chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
 [Back to all concepts](../../README.md)
