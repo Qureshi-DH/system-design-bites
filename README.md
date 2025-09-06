@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 136
+Pages so far: 139
 
 ## Start here
 
@@ -239,7 +239,17 @@ Patterns that stop one failure from turning into an outage. [Open section](conce
 | [Graceful Shutdown](concepts/14-reliability/graceful-shutdown.md) | Graceful shutdown means a server that's told to stop first finishes the requests it already started, then exits. Without it, every deploy cuts off whatever was in flight. |
 | [Chaos Engineering](concepts/14-reliability/chaos-engineering.md) | Chaos engineering means breaking parts of your system on purpose, while you're watching, to find the weak spots before a real outage finds them for you. |
 
-### 15. Laws
+### 15. Architecture
+
+How to slice a system into pieces, and what each shape costs you. [Open section](concepts/15-architecture/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Monolith vs Microservices](concepts/15-architecture/monolith-vs-microservices.md) | A monolith is one app you build and deploy as a single unit. Microservices split it into many small services that ship on their own, which buys team independence and costs you network calls, operations work, and data headaches. |
+| [Service Discovery](concepts/15-architecture/service-discovery.md) | Service discovery is how one service finds the current addresses of another. When instances start, die, and move every few minutes, hard coded IP addresses stop working on day one. |
+| [Service Mesh](concepts/15-architecture/service-mesh.md) | A service mesh puts a small proxy next to every service and sends all traffic through it. Retries, encryption, and traffic metrics happen in the proxy, so every team gets them without changing a line of code. |
+
+### 16. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
