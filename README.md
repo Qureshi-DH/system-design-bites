@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 145
+Pages so far: 149
 
 ## Start here
 
@@ -279,6 +279,17 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Brooks's Law](concepts/23-laws/brooks-law.md) | Throw more engineers at a late software project and it usually ships even later. Newcomers need weeks to become useful, and every extra person adds conversations, so the team slows down before it speeds up. |
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
+
+### 17. Principles
+
+Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [End to End Principle](concepts/24-principles/end-to-end-principle.md) | Some guarantees, like "this file arrived intact", can only be checked by the two ends that care about the result. Lower layers can make them faster, but they can't make them correct. |
+| [Principle of Least Privilege](concepts/24-principles/principle-of-least-privilege.md) | Give every user, service, and process only the permissions it needs for its job, and nothing more. When something gets hacked or goes wrong, the damage stops at that small set. |
+| [Defense in Depth](concepts/24-principles/defense-in-depth.md) | Defense in depth stacks several independent security layers, so an attacker has to beat all of them. When one control fails, and one always does eventually, the next one is still standing. |
+| [Kerckhoffs's Principle](concepts/24-principles/kerckhoffs-principle.md) | A security system should stay safe even if attackers know everything about it except the key. Keep the secret small, so when it leaks you change a key instead of redesigning the whole system. |
 
 ## Contributing
 
