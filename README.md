@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 149
+Pages so far: 153
 
 ## Start here
 
@@ -255,7 +255,18 @@ How to slice a system into pieces, and what each shape costs you. [Open section]
 | [Serverless Limits](concepts/15-architecture/serverless-limits.md) | Serverless functions run your code on demand and bill by the millisecond, with no servers to manage. The trade is a set of hard limits on run time, memory, payload size, and concurrency that you have to design around. |
 | [Cold Starts](concepts/15-architecture/cold-starts.md) | A cold start is the extra wait when a serverless platform has to boot a fresh copy of your function before it can answer. It adds anywhere from under 100 milliseconds to several seconds, usually right when traffic spikes. |
 
-### 16. Laws
+### 16. Identity and Encryption
+
+Proving who someone is, deciding what they may do, and keeping data private. [Open section](concepts/16-identity-and-encryption/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Authentication vs Authorization](concepts/16-identity-and-encryption/authentication-vs-authorization.md) | Authentication checks who you are, and authorization checks what you are allowed to do. Mixing them up is how a logged in user ends up reading someone else's data. |
+| [Password Hashing](concepts/16-identity-and-encryption/password-hashing.md) | Never store passwords. Store a slow, salted hash of each one, so that when your database leaks, attackers get a pile of values that are painfully expensive to turn back into passwords. |
+| [OAuth](concepts/16-identity-and-encryption/oauth.md) | OAuth lets one app use your data in another app without ever seeing your password. You approve a limited scope once, and the app gets a token that can only do what you approved. |
+| [JWT Rotation](concepts/16-identity-and-encryption/jwt-rotation.md) | A JWT is a signed token any service can check without calling the auth server. Rotation means swapping the signing key on a schedule without logging everyone out, and keeping tokens short lived because a JWT is hard to take back. |
+
+### 17. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -280,7 +291,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 17. Principles
+### 18. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
