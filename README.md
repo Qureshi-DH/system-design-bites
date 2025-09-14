@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 160
+Pages so far: 164
 
 ## Start here
 
@@ -273,7 +273,18 @@ Proving who someone is, deciding what they may do, and keeping data private. [Op
 | [Encryption at Rest](concepts/16-identity-and-encryption/encryption-at-rest.md) | Encryption at rest scrambles data where it is stored: on disks, in databases, in backups. A stolen drive or leaked snapshot is useless without the key, but anyone who can query the live system still sees plain data. |
 | [Zero Trust](concepts/16-identity-and-encryption/zero-trust.md) | Zero trust drops the idea of a safe internal network. Every request, from a person or a service, has to prove who it is and gets only the access it needs, no matter where it comes from. |
 
-### 17. Laws
+### 17. Web Security
+
+The classic attacks on web apps and the defenses that stop them. [Open section](concepts/17-web-security/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [CORS](concepts/17-web-security/cors.md) | CORS is the browser rule that decides which other websites may read responses from your API. It protects your users' browsers, not your server, and that second part is what almost everyone gets wrong. |
+| [CSRF](concepts/17-web-security/csrf.md) | Cross site request forgery tricks a logged in user's browser into sending a request they never meant to send. The browser attaches their cookies automatically, so your server sees a perfectly valid session. |
+| [XSS](concepts/17-web-security/xss.md) | Cross site scripting is when an attacker gets their JavaScript to run on your page, inside your users' browsers. That script can do anything the user can do, which makes it one of the nastiest web bugs there is. |
+| [SQL Injection](concepts/17-web-security/sql-injection.md) | SQL injection happens when user input gets pasted into a database query and the database runs it as code. Parameterized queries fix it, and they have been around for decades. |
+
+### 18. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -298,7 +309,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 18. Principles
+### 19. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
