@@ -8,5 +8,8 @@ Rules of thumb that keep designs simple, safe, and easy to change.
 | [Principle of Least Privilege](principle-of-least-privilege.md) | Give every user, service, and process only the permissions it needs for its job, and nothing more. When something gets hacked or goes wrong, the damage stops at that small set. |
 | [Defense in Depth](defense-in-depth.md) | Defense in depth stacks several independent security layers, so an attacker has to beat all of them. When one control fails, and one always does eventually, the next one is still standing. |
 | [Kerckhoffs's Principle](kerckhoffs-principle.md) | A security system should stay safe even if attackers know everything about it except the key. Keep the secret small, so when it leaks you change a key instead of redesigning the whole system. |
+| [KISS](kiss.md) | KISS stands for "keep it simple, stupid". Pick the simplest design that meets the real need, because every extra moving part is one more thing to build, learn, watch, and fix at 3 a.m. |
+| [YAGNI](yagni.md) | YAGNI, short for "you aren't gonna need it", says don't build features or infrastructure for needs you only imagine. Build for the load and requirements you have today, and change the design when a real need shows up. |
+| [DRY](dry.md) | DRY, short for "don't repeat yourself", says every piece of knowledge in a system should live in exactly one place. It is about rules and facts, not about code that merely looks alike. |
 
 [Back to all concepts](../../README.md)
