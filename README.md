@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 170
+Pages so far: 174
 
 ## Start here
 
@@ -18,6 +18,7 @@ New to all of this? Read these in order. Together they tell the story of how mos
 8. [CAP Theorem](concepts/10-distributed-systems/cap-theorem.md): the tradeoff behind every distributed database
 9. [Message Queues](concepts/13-messaging/message-queues.md): doing work later
 10. [Idempotency](concepts/14-reliability/idempotency.md): making retries safe
+11. [Observability](concepts/18-observability/observability.md): seeing what is going on
 
 After that, jump to any section below. Every page links to its neighbors, so it is easy to wander.
 
@@ -287,7 +288,18 @@ The classic attacks on web apps and the defenses that stop them. [Open section](
 | [WAF](concepts/17-web-security/waf.md) | A web application firewall sits in front of your app and blocks requests that match known attack patterns. It buys you time and cuts the noise, but it never replaces fixing the actual bug. |
 | [DDoS Protection](concepts/17-web-security/ddos-protection.md) | A distributed denial of service attack floods you from thousands of machines at once until real users can't get in. You can't outgrow one on your own servers, so you absorb it at the edge. |
 
-### 18. Laws
+### 18. Observability
+
+Knowing what your system is doing, and whether your users are happy. [Open section](concepts/18-observability/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Observability](concepts/18-observability/observability.md) | Observability is how well you can answer new questions about your system using only what it already emits. With good observability, the next weird outage takes ten minutes to explain, not three days and a new deploy. |
+| [Logging](concepts/18-observability/logging.md) | Logs are the timestamped record of what your code did, one event per line. Done well, they let you rebuild exactly what happened to one request, at 3 AM, across ten services. |
+| [Metrics](concepts/18-observability/metrics.md) | Metrics are numbers your system records over time, like requests per second or memory in use. They're cheap to store and fast to graph, as long as you don't tag them with the wrong labels. |
+| [Distributed Tracing](concepts/18-observability/distributed-tracing.md) | Distributed tracing follows one request as it hops across all your services and records how long each hop took. When a request is slow, it shows you exactly where the time went. |
+
+### 19. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -312,7 +324,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 19. Principles
+### 20. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
