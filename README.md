@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 180
+Pages so far: 183
 
 ## Start here
 
@@ -343,6 +343,9 @@ Rules of thumb that keep designs simple, safe, and easy to change. [Open section
 | [KISS](concepts/24-principles/kiss.md) | KISS stands for "keep it simple, stupid". Pick the simplest design that meets the real need, because every extra moving part is one more thing to build, learn, watch, and fix at 3 a.m. |
 | [YAGNI](concepts/24-principles/yagni.md) | YAGNI, short for "you aren't gonna need it", says don't build features or infrastructure for needs you only imagine. Build for the load and requirements you have today, and change the design when a real need shows up. |
 | [DRY](concepts/24-principles/dry.md) | DRY, short for "don't repeat yourself", says every piece of knowledge in a system should live in exactly one place. It is about rules and facts, not about code that merely looks alike. |
+| [Separation of Concerns](concepts/24-principles/separation-of-concerns.md) | Separation of concerns means splitting a system so each part handles one kind of problem, like storage, business rules, or display. Then you can understand, change, and scale each part without dragging the others along. |
+| [Single Responsibility Principle](concepts/24-principles/single-responsibility-principle.md) | A module, class, or service should have only one reason to change, which in practice means it answers to one group of people. Then a change one team asks for can't quietly break another team's feature. |
+| [Coupling and Cohesion](concepts/24-principles/coupling-and-cohesion.md) | Coupling is how much one part of a system depends on the others, and cohesion is how well the things inside one part belong together. Aim for loose coupling and high cohesion, so most changes stay inside one box. |
 
 ## Contributing
 
