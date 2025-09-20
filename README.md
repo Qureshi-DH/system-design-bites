@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 183
+Pages so far: 187
 
 ## Start here
 
@@ -305,7 +305,18 @@ Knowing what your system is doing, and whether your users are happy. [Open secti
 | [SLAs](concepts/18-observability/slas.md) | A service level agreement is a contract that promises customers a level of service and spells out what you owe them if you miss it. It should always be looser than the target you hold yourself to internally. |
 | [Error Budgets](concepts/18-observability/error-budgets.md) | An error budget is the amount of failure your SLO allows: 100 percent minus the target. While budget is left you ship fast, and when it runs out, risky changes stop until reliability recovers. |
 
-### 19. Laws
+### 19. Build and Infrastructure
+
+Turning code into running software, the same way every time. [Open section](concepts/19-build-and-infra/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [CI/CD](concepts/19-build-and-infra/ci-cd.md) | CI/CD is a pipeline that builds and tests every change the moment you push it, then ships the ones that pass. Small changes go out many times a day instead of one scary release a month. |
+| [Build Caching](concepts/19-build-and-infra/build-caching.md) | Build caching skips every step whose inputs did not change and reuses the saved output. It turns a 10 minute build into a 90 second one, as long as you order the steps so the cache can actually hit. |
+| [Dependency Hell](concepts/19-build-and-infra/dependency-hell.md) | Dependency hell is when the libraries you use need different, incompatible versions of the same library underneath. Your own code is fine, but the app will not install, will not build, or breaks in places you never touched. |
+| [Semantic Versioning](concepts/19-build-and-infra/semantic-versioning.md) | Semantic versioning packs a promise into a version number: MAJOR.MINOR.PATCH. Which number moved tells everyone downstream whether upgrading is safe or will break their code. |
+
+### 20. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -330,7 +341,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 20. Principles
+### 21. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
