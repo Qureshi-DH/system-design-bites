@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 193
+Pages so far: 198
 
 ## Start here
 
@@ -322,7 +322,19 @@ Turning code into running software, the same way every time. [Open section](conc
 | [Terraform](concepts/19-build-and-infra/terraform.md) | Terraform is a widely used tool for infrastructure as code. You describe cloud resources in config files, it shows you a plan of exactly what will change, and only then does it make the change. |
 | [GitOps](concepts/19-build-and-infra/gitops.md) | GitOps makes a git repo the single source of truth for what runs in production. An agent inside the cluster keeps pulling that repo and making the cluster match, so deploying is a merge and rolling back is a revert. |
 
-### 20. Laws
+### 20. Releases
+
+Shipping changes safely, and undoing them fast when something breaks. [Open section](concepts/20-releases/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Feature Flags](concepts/20-releases/feature-flags.md) | A feature flag is an if statement you can flip without deploying. Ship the code turned off, turn it on for 1% of users, then everyone, and switch it off in seconds if it misbehaves. |
+| [Rolling Deployments](concepts/20-releases/rolling-deployments.md) | A rolling deployment swaps old servers for new ones a few at a time, so the service never goes down. The price is that both versions run side by side for a while. |
+| [Blue Green Deployment](concepts/20-releases/blue-green-deployment.md) | Blue green deployment runs two full copies of production. You deploy to the idle one, test it, then flip all traffic over at once, and flipping back is just as fast. |
+| [Canary Releases](concepts/20-releases/canary-releases.md) | A canary release sends a small slice of real traffic, like 5%, to the new version and compares its numbers with the old one. If the canary looks sick, you pull it before most users ever see it. |
+| [Rollbacks](concepts/20-releases/rollbacks.md) | A rollback puts the last good version back when a release goes wrong. Code is easy to roll back, but the data it already changed is not, and that's where rollbacks fail. |
+
+### 21. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -347,7 +359,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 21. Principles
+### 22. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
