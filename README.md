@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 190
+Pages so far: 193
 
 ## Start here
 
@@ -318,6 +318,9 @@ Turning code into running software, the same way every time. [Open section](conc
 | [Docker](concepts/19-build-and-infra/docker.md) | Docker packs your app, its runtime, and every library it needs into one image that runs the same on your laptop, in CI, and in production. It is the fix for "works on my machine". |
 | [Kubernetes](concepts/19-build-and-infra/kubernetes.md) | Kubernetes runs your containers across a fleet of machines. You write down what you want, like "6 copies of this service, always", and it keeps working until reality matches, even when machines die. |
 | [Helm Charts](concepts/19-build-and-infra/helm-charts.md) | A Helm chart is a package of Kubernetes YAML with blanks to fill in. You write the manifests once, then install the same chart in dev, staging, and production with different values for each. |
+| [Infrastructure as Code](concepts/19-build-and-infra/infrastructure-as-code.md) | Infrastructure as code means your servers, networks, and databases are described in text files that live in git. You change infrastructure by changing code, and anyone can rebuild the whole setup from scratch. |
+| [Terraform](concepts/19-build-and-infra/terraform.md) | Terraform is a widely used tool for infrastructure as code. You describe cloud resources in config files, it shows you a plan of exactly what will change, and only then does it make the change. |
+| [GitOps](concepts/19-build-and-infra/gitops.md) | GitOps makes a git repo the single source of truth for what runs in production. An agent inside the cluster keeps pulling that repo and making the cluster match, so deploying is a merge and rolling back is a revert. |
 
 ### 20. Laws
 
