@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 198
+Pages so far: 201
 
 ## Start here
 
@@ -375,6 +375,9 @@ Rules of thumb that keep designs simple, safe, and easy to change. [Open section
 | [Separation of Concerns](concepts/24-principles/separation-of-concerns.md) | Separation of concerns means splitting a system so each part handles one kind of problem, like storage, business rules, or display. Then you can understand, change, and scale each part without dragging the others along. |
 | [Single Responsibility Principle](concepts/24-principles/single-responsibility-principle.md) | A module, class, or service should have only one reason to change, which in practice means it answers to one group of people. Then a change one team asks for can't quietly break another team's feature. |
 | [Coupling and Cohesion](concepts/24-principles/coupling-and-cohesion.md) | Coupling is how much one part of a system depends on the others, and cohesion is how well the things inside one part belong together. Aim for loose coupling and high cohesion, so most changes stay inside one box. |
+| [Premature Optimization](concepts/24-principles/premature-optimization.md) | Premature optimization is tuning code for speed before you know it is slow, which costs time and clarity and usually speeds up the wrong thing. Measure first, then fix the part that actually matters. |
+| [Fail Fast](concepts/24-principles/fail-fast.md) | Fail fast means stopping with a loud, clear error the moment something is wrong, instead of limping along on bad data. A crash at startup is cheap, while a quiet wrong answer in production is expensive. |
+| [Twelve Factor App](concepts/24-principles/twelve-factor-app.md) | The Twelve Factor App is a checklist of 12 rules for building web services that deploy cleanly to any cloud and scale by running more copies. It reads like a description of how containers and Kubernetes expect your app to behave. |
 
 ## Contributing
 
