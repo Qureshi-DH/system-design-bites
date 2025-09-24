@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 201
+Pages so far: 204
 
 ## Start here
 
@@ -334,7 +334,17 @@ Shipping changes safely, and undoing them fast when something breaks. [Open sect
 | [Canary Releases](concepts/20-releases/canary-releases.md) | A canary release sends a small slice of real traffic, like 5%, to the new version and compares its numbers with the old one. If the canary looks sick, you pull it before most users ever see it. |
 | [Rollbacks](concepts/20-releases/rollbacks.md) | A rollback puts the last good version back when a release goes wrong. Code is easy to roll back, but the data it already changed is not, and that's where rollbacks fail. |
 
-### 21. Laws
+### 21. Disaster Recovery
+
+Planning for the day a whole database or region disappears. [Open section](concepts/21-disaster-recovery/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Backups](concepts/21-disaster-recovery/backups.md) | A backup is a copy of your data kept somewhere today's disaster cannot reach, so you can get it back after a bug, a breach, or a bad command. A backup you have never restored is a hope, not a backup. |
+| [Disaster Recovery](concepts/21-disaster-recovery/disaster-recovery.md) | Disaster recovery is your plan for when something big is gone: a whole region, your main database, or your cloud account. It decides how fast you come back and how much data you lose on the way. |
+| [RTO and RPO](concepts/21-disaster-recovery/rto-and-rpo.md) | RTO is how long you can afford to be down, and RPO is how much recent data you can afford to lose. Those two numbers decide your whole disaster recovery setup, and its bill. |
+
+### 22. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -359,7 +369,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 22. Principles
+### 23. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
