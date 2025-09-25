@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 204
+Pages so far: 207
 
 ## Start here
 
@@ -343,6 +343,9 @@ Planning for the day a whole database or region disappears. [Open section](conce
 | [Backups](concepts/21-disaster-recovery/backups.md) | A backup is a copy of your data kept somewhere today's disaster cannot reach, so you can get it back after a bug, a breach, or a bad command. A backup you have never restored is a hope, not a backup. |
 | [Disaster Recovery](concepts/21-disaster-recovery/disaster-recovery.md) | Disaster recovery is your plan for when something big is gone: a whole region, your main database, or your cloud account. It decides how fast you come back and how much data you lose on the way. |
 | [RTO and RPO](concepts/21-disaster-recovery/rto-and-rpo.md) | RTO is how long you can afford to be down, and RPO is how much recent data you can afford to lose. Those two numbers decide your whole disaster recovery setup, and its bill. |
+| [Failover](concepts/21-disaster-recovery/failover.md) | Failover is switching traffic from a broken primary to a standby that can take over. The hard parts are being sure the primary is really dead, and not bouncing back and forth when it is only slow. |
+| [Active/Active vs Active/Passive](concepts/21-disaster-recovery/active-active-vs-active-passive.md) | Active/passive keeps a standby site waiting until the main one fails, while active/active has every site serving real traffic all the time. Active/active recovers faster, but two sites taking writes can disagree about the data. |
+| [Multi Region Deployment](concepts/21-disaster-recovery/multi-region-deployment.md) | A multi region deployment runs your app in several parts of the world at once. Users get served from somewhere nearby, and losing one whole region does not take you offline. |
 
 ### 22. Laws
 
