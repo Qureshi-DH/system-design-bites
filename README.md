@@ -2,7 +2,7 @@
 
 System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
 
-Pages so far: 207
+Pages so far: 209
 
 ## Start here
 
@@ -347,7 +347,16 @@ Planning for the day a whole database or region disappears. [Open section](conce
 | [Active/Active vs Active/Passive](concepts/21-disaster-recovery/active-active-vs-active-passive.md) | Active/passive keeps a standby site waiting until the main one fails, while active/active has every site serving real traffic all the time. Active/active recovers faster, but two sites taking writes can disagree about the data. |
 | [Multi Region Deployment](concepts/21-disaster-recovery/multi-region-deployment.md) | A multi region deployment runs your app in several parts of the world at once. Users get served from somewhere nearby, and losing one whole region does not take you offline. |
 
-### 22. Laws
+### 22. Operations
+
+What happens when things break at 3 AM, and how teams learn from it. [Open section](concepts/22-operations/README.md)
+
+| Concept | In one line |
+| --- | --- |
+| [Load Testing](concepts/22-operations/load-testing.md) | Load testing sends realistic fake traffic at your system to find its limits before real users do. Done right, it tells you how much traffic you can take and which part breaks first. |
+| [Capacity Planning](concepts/22-operations/capacity-planning.md) | Capacity planning works out how much infrastructure you'll need for future peak traffic, and gets it in place before you need it. It turns a forecast and a load test into a server count with room to spare. |
+
+### 23. Laws
 
 Named laws and classic results that explain why systems, and the teams that build them, behave the way they do. [Open section](concepts/23-laws/README.md)
 
@@ -372,7 +381,7 @@ Named laws and classic results that explain why systems, and the teams that buil
 | [Law of Leaky Abstractions](concepts/23-laws/law-of-leaky-abstractions.md) | Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore. |
 | [Chesterton's Fence](concepts/23-laws/chestertons-fence.md) | Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back. |
 
-### 23. Principles
+### 24. Principles
 
 Rules of thumb that keep designs simple, safe, and easy to change. [Open section](concepts/24-principles/README.md)
 
