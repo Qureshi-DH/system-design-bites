@@ -36,3 +36,7 @@ The web tier could handle 5,000 checkouts a second, but every one squeezes throu
 ## Related
 
 [Latency](latency.md) · [Little's Law](littles-law.md) · [Back of the Envelope Math](back-of-the-envelope-math.md) · [Horizontal Scaling](../02-scaling/horizontal-scaling.md) · [Universal Scalability Law](../23-laws/universal-scalability-law.md)
+
+---
+
+[← Latency](latency.md) · [All concepts](../../README.md) · [P99 Latency →](p99-latency.md)

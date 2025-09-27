@@ -44,3 +44,7 @@ Each player lands on the closest game servers, so the part that needs speed stay
 ## Related
 
 [Active/Active vs Active/Passive](active-active-vs-active-passive.md) · [Disaster Recovery](disaster-recovery.md) · [Latency](../01-performance/latency.md) · [Replication](../09-data-at-scale/replication.md) · [CDN](../03-traffic/cdn.md)
+
+---
+
+[← Active/Active vs Active/Passive](active-active-vs-active-passive.md) · [All concepts](../../README.md) · [Production Incidents →](../22-operations/production-incidents.md)

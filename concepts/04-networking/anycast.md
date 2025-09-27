@@ -48,3 +48,7 @@ Every site announces the same address, and each viewer's network picks the best 
 ## Related
 
 [DNS](dns.md) · [CDN](../03-traffic/cdn.md) · [DDoS Protection](../17-web-security/ddos-protection.md) · [TCP vs UDP](tcp-vs-udp.md) · [Load Balancing](../03-traffic/load-balancing.md)
+
+---
+
+[← DNS](dns.md) · [All concepts](../../README.md) · [TCP vs UDP →](tcp-vs-udp.md)

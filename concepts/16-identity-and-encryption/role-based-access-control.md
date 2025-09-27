@@ -55,3 +55,7 @@ People point at roles, roles point at permissions, and the code only ever asks a
 ## Related
 
 [Authentication vs Authorization](authentication-vs-authorization.md) · [IAM](iam.md) · [Multitenancy](../15-architecture/multitenancy.md) · [Zero Trust](zero-trust.md)
+
+---
+
+[← JWT Rotation](jwt-rotation.md) · [All concepts](../../README.md) · [IAM →](iam.md)

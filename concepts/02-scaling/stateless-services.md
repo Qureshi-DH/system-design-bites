@@ -44,3 +44,7 @@ The servers hold nothing worth keeping. Every one of them looks up cart 8812 in 
 ## Related
 
 [Horizontal Scaling](horizontal-scaling.md) · [Sticky Sessions](sticky-sessions.md) · [Autoscaling](autoscaling.md) · [Rolling Deployments](../20-releases/rolling-deployments.md) · [Object Storage](../08-storage/object-storage.md)
+
+---
+
+[← Horizontal Scaling](horizontal-scaling.md) · [All concepts](../../README.md) · [Sticky Sessions →](sticky-sessions.md)

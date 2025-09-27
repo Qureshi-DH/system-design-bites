@@ -42,3 +42,7 @@ The roots disagree, so the replicas compare one level down. Half the tree matche
 ## Related
 
 [Replication](replication.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Gossip Protocol](../10-distributed-systems/gossip-protocol.md) · [Quorum](../10-distributed-systems/quorum.md) · [Consistent Hashing](consistent-hashing.md)
+
+---
+
+[← Read Replicas](read-replicas.md) · [All concepts](../../README.md) · [Partitioning →](partitioning.md)

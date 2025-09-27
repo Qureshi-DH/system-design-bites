@@ -55,3 +55,7 @@ Caret lets in patches and minors but stops at the next major. Tilde lets in only
 ## Related
 
 [Dependency Hell](dependency-hell.md) · [API Versioning](../05-apis/api-versioning.md) · [Schema Versioning](../07-databases/schema-versioning.md) · [CI/CD](ci-cd.md)
+
+---
+
+[← Dependency Hell](dependency-hell.md) · [All concepts](../../README.md) · [Docker →](docker.md)

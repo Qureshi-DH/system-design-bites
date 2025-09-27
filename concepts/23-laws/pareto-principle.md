@@ -42,3 +42,7 @@ The thick arrows show where the time goes. One endpoint out of 60 eats 60% of se
 ## Related
 
 [Premature Optimization](../24-principles/premature-optimization.md) · [Distributed Tracing](../18-observability/distributed-tracing.md) · [Query Optimization](../07-databases/query-optimization.md) · [Zipf's Law](zipfs-law.md) · [Database Indexing](../07-databases/database-indexing.md)
+
+---
+
+[← Zipf's Law](zipfs-law.md) · [All concepts](../../README.md) · [Conway's Law →](conways-law.md)

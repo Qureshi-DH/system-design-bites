@@ -49,3 +49,7 @@ The B tree finds the exact page and rewrites it, which keeps reads simple. The L
 ## Related
 
 [Write Ahead Log](write-ahead-log.md) · [Bloom Filters](bloom-filters.md) · [OLTP vs OLAP](oltp-vs-olap.md) · [Database Indexing](../07-databases/database-indexing.md) · [SQL vs NoSQL](../07-databases/sql-vs-nosql.md)
+
+---
+
+[← Schema Versioning](../07-databases/schema-versioning.md) · [All concepts](../../README.md) · [Write Ahead Log →](write-ahead-log.md)

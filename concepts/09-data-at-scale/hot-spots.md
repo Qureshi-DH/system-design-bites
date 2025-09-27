@@ -42,3 +42,7 @@ The thick arrow is the problem: every purchase lands on one row on one shard. Af
 ## Related
 
 [Sharding](sharding.md) · [Consistent Hashing](consistent-hashing.md) · [Caching](../06-caching/caching.md) · [Partitioning](partitioning.md) · [Zipf's Law](../23-laws/zipfs-law.md)
+
+---
+
+[← Consistent Hashing](consistent-hashing.md) · [All concepts](../../README.md) · [Change Data Capture →](change-data-capture.md)

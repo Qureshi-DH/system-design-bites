@@ -42,3 +42,7 @@ This is the diamond. The app is on top, two libraries sit in the middle, and the
 ## Related
 
 [Semantic Versioning](semantic-versioning.md) · [Build Caching](build-caching.md) · [CI/CD](ci-cd.md) · [Docker](docker.md)
+
+---
+
+[← Build Caching](build-caching.md) · [All concepts](../../README.md) · [Semantic Versioning →](semantic-versioning.md)

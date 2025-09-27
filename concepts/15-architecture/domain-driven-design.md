@@ -46,3 +46,7 @@ The same real order shows up three times, with a different shape and name in eac
 ## Related
 
 [Monolith vs Microservices](monolith-vs-microservices.md) · [Conway's Law](../23-laws/conways-law.md) · [Event Driven Architecture](../13-messaging/event-driven-architecture.md) · [Coupling and Cohesion](../24-principles/coupling-and-cohesion.md) · [Strangler Fig](strangler-fig.md)
+
+---
+
+[← Monolith vs Microservices](monolith-vs-microservices.md) · [All concepts](../../README.md) · [Service Discovery →](service-discovery.md)

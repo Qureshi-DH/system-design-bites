@@ -54,3 +54,7 @@ Look at who carries the 8 MB. The API only signs a permission slip and records t
 ## Related
 
 [CDN](../03-traffic/cdn.md) · [Backups](../21-disaster-recovery/backups.md) · [Encryption at Rest](../16-identity-and-encryption/encryption-at-rest.md) · [IAM](../16-identity-and-encryption/iam.md)
+
+---
+
+[← Write Ahead Log](write-ahead-log.md) · [All concepts](../../README.md) · [Full Text Search →](full-text-search.md)

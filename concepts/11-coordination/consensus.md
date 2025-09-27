@@ -58,3 +58,7 @@ Followers 3 and 4 sit in the dead zone and never answer. It doesn't matter. The 
 ## Related
 
 [Leader Election](leader-election.md) · [Quorum](../10-distributed-systems/quorum.md) · [Split Brain](split-brain.md) · [Replication](../09-data-at-scale/replication.md) · [FLP Impossibility](../23-laws/flp-impossibility.md)
+
+---
+
+[← Leader Election](leader-election.md) · [All concepts](../../README.md) · [Split Brain →](split-brain.md)

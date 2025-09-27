@@ -40,3 +40,7 @@ Players and bots both hit the edge first, and the flood is dropped there. Becaus
 ## Related
 
 [Rate Limiting](../03-traffic/rate-limiting.md) · [CDN](../03-traffic/cdn.md) · [Autoscaling](../02-scaling/autoscaling.md) · [Load Shedding](../14-reliability/load-shedding.md) · [WAF](waf.md)
+
+---
+
+[← WAF](waf.md) · [All concepts](../../README.md) · [Observability →](../18-observability/observability.md)

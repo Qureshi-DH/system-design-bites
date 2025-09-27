@@ -55,3 +55,7 @@ Worker A wakes up still believing it holds the lock. The lock service can't stop
 ## Related
 
 [Leader Election](leader-election.md) · [Split Brain](split-brain.md) · [Race Conditions](../12-concurrency/race-conditions.md) · [Garbage Collection](../12-concurrency/garbage-collection.md) · [Pessimistic Locking](../12-concurrency/pessimistic-locking.md)
+
+---
+
+[← Split Brain](split-brain.md) · [All concepts](../../README.md) · [Distributed Transactions →](distributed-transactions.md)

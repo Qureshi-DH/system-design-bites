@@ -49,3 +49,7 @@ Docker walks the layers top to bottom and reuses each one until it reaches the f
 ## Related
 
 [CI/CD](ci-cd.md) · [Docker](docker.md) · [Dependency Hell](dependency-hell.md) · [Caching](../06-caching/caching.md)
+
+---
+
+[← CI/CD](ci-cd.md) · [All concepts](../../README.md) · [Dependency Hell →](dependency-hell.md)

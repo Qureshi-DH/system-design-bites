@@ -50,3 +50,7 @@ Two machines make an ID in the same millisecond without talking to each other. T
 ## Related
 
 [Sharding](sharding.md) · [Clock Skew](../10-distributed-systems/clock-skew.md) · [Database Indexing](../07-databases/database-indexing.md) · [Logical Clocks](../10-distributed-systems/logical-clocks.md) · [Idempotency](../14-reliability/idempotency.md)
+
+---
+
+[← Change Data Capture](change-data-capture.md) · [All concepts](../../README.md) · [Network Partitions →](../10-distributed-systems/network-partitions.md)

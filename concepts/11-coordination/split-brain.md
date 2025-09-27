@@ -48,3 +48,7 @@ Zone A is cut off. B and the witness make 2 of 3 votes, so B becomes primary wit
 ## Related
 
 [Leader Election](leader-election.md) · [Network Partitions](../10-distributed-systems/network-partitions.md) · [Quorum](../10-distributed-systems/quorum.md) · [Failover](../21-disaster-recovery/failover.md) · [Consensus](consensus.md)
+
+---
+
+[← Consensus](consensus.md) · [All concepts](../../README.md) · [Distributed Locks →](distributed-locks.md)

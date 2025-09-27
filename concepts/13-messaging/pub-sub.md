@@ -46,3 +46,7 @@ Checkout publishes once and knows nothing about what's downstream. The topic cop
 ## Related
 
 [Message Queues](message-queues.md) · [Fan Out](fan-out.md) · [Event Driven Architecture](event-driven-architecture.md) · [Event Streaming](event-streaming.md) · [Webhooks](../05-apis/webhooks.md)
+
+---
+
+[← Message Queues](message-queues.md) · [All concepts](../../README.md) · [Event Streaming →](event-streaming.md)

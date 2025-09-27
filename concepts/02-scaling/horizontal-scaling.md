@@ -45,3 +45,7 @@ The app tier grows by adding identical boxes, and the load balancer doesn't care
 ## Related
 
 [Vertical Scaling](vertical-scaling.md) · [Stateless Services](stateless-services.md) · [Load Balancing](../03-traffic/load-balancing.md) · [Autoscaling](autoscaling.md) · [Amdahl's Law](../23-laws/amdahls-law.md)
+
+---
+
+[← Vertical Scaling](vertical-scaling.md) · [All concepts](../../README.md) · [Stateless Services →](stateless-services.md)

@@ -54,3 +54,7 @@ Viewers only ever touch the small precomputed table. The slow 40 second count st
 ## Related
 
 [Normalization vs Denormalization](normalization-vs-denormalization.md) · [Caching](../06-caching/caching.md) · [CQRS](../13-messaging/cqrs.md) · [OLTP vs OLAP](../08-storage/oltp-vs-olap.md) · [Cron Jobs](../13-messaging/cron-jobs.md)
+
+---
+
+[← Normalization vs Denormalization](normalization-vs-denormalization.md) · [All concepts](../../README.md) · [Database Migrations →](database-migrations.md)

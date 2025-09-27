@@ -48,3 +48,7 @@ The API only drops a job on the queue and replies. Each job goes to exactly one 
 ## Related
 
 [Pub/Sub](pub-sub.md) · [Backpressure](backpressure.md) · [Dead Letter Queues](dead-letter-queues.md) · [Delivery Guarantees](delivery-guarantees.md) · [Autoscaling](../02-scaling/autoscaling.md)
+
+---
+
+[← Garbage Collection](../12-concurrency/garbage-collection.md) · [All concepts](../../README.md) · [Pub/Sub →](pub-sub.md)

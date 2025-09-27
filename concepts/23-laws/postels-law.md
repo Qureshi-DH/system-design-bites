@@ -48,3 +48,7 @@ Three partners lean on three different quirks, and the old parser forgave all of
 ## Related
 
 [Hyrum's Law](hyrums-law.md) · [API Versioning](../05-apis/api-versioning.md) · [Serialization Formats](../05-apis/serialization-formats.md) · [Fail Fast](../24-principles/fail-fast.md) · [TCP vs UDP](../04-networking/tcp-vs-udp.md)
+
+---
+
+[← Gall's Law](galls-law.md) · [All concepts](../../README.md) · [Goodhart's Law →](goodharts-law.md)

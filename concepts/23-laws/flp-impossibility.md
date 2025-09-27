@@ -48,3 +48,7 @@ The followers act on a guess: silence means dead. When the guess turns out wrong
 ## Related
 
 [Consensus](../11-coordination/consensus.md) · [Leader Election](../11-coordination/leader-election.md) · [Timeouts](../14-reliability/timeouts.md) · [Heartbeats](../10-distributed-systems/heartbeats.md) · [Split Brain](../11-coordination/split-brain.md)
+
+---
+
+[← Byzantine Generals Problem](byzantine-generals-problem.md) · [All concepts](../../README.md) · [Amdahl's Law →](amdahls-law.md)

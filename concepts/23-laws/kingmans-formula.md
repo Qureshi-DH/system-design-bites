@@ -46,3 +46,7 @@ Same worker, same 10 ms per event. Going from 80% to 95% busy multiplies the wai
 ## Related
 
 [Little's Law](../01-performance/littles-law.md) · [Message Queues](../13-messaging/message-queues.md) · [Capacity Planning](../22-operations/capacity-planning.md) · [Tail Latency](../01-performance/tail-latency.md) · [Backpressure](../13-messaging/backpressure.md)
+
+---
+
+[← Universal Scalability Law](universal-scalability-law.md) · [All concepts](../../README.md) · [Zipf's Law →](zipfs-law.md)

@@ -40,3 +40,7 @@ The concurrency cap and the proxy act as two funnels. Only 300 copies run at onc
 ## Related
 
 [Cold Starts](cold-starts.md) · [Connection Pooling](../07-databases/connection-pooling.md) · [Stateless Services](../02-scaling/stateless-services.md) · [Object Storage](../08-storage/object-storage.md) · [Message Queues](../13-messaging/message-queues.md)
+
+---
+
+[← Multitenancy](multitenancy.md) · [All concepts](../../README.md) · [Cold Starts →](cold-starts.md)

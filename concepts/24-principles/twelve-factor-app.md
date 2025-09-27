@@ -52,3 +52,7 @@ Code becomes one image, and config joins it at release time. The same image runs
 ## Related
 
 [Docker](../19-build-and-infra/docker.md) · [Kubernetes](../19-build-and-infra/kubernetes.md) · [Stateless Services](../02-scaling/stateless-services.md) · [Secrets Management](../16-identity-and-encryption/secrets-management.md) · [Graceful Shutdown](../14-reliability/graceful-shutdown.md)
+
+---
+
+[← Fail Fast](fail-fast.md) · [All concepts](../../README.md)

@@ -54,3 +54,7 @@ The new pod dies at startup with an error that names the problem. Because it nev
 ## Related
 
 [Circuit Breakers](../14-reliability/circuit-breakers.md) · [Timeouts](../14-reliability/timeouts.md) · [Liveness and Readiness Probes](../14-reliability/liveness-and-readiness-probes.md) · [Rolling Deployments](../20-releases/rolling-deployments.md) · [Twelve Factor App](twelve-factor-app.md)
+
+---
+
+[← Premature Optimization](premature-optimization.md) · [All concepts](../../README.md) · [Twelve Factor App →](twelve-factor-app.md)

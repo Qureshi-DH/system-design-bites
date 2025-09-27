@@ -48,3 +48,7 @@ Every arrow is a network hop, and each label is one fallacy turning into a bug. 
 ## Related
 
 [Network Partitions](../10-distributed-systems/network-partitions.md) · [Timeouts](../14-reliability/timeouts.md) · [Latency](../01-performance/latency.md) · [Service Discovery](../15-architecture/service-discovery.md) · [Chaos Engineering](../14-reliability/chaos-engineering.md)
+
+---
+
+[← Cost Optimization](../22-operations/cost-optimization.md) · [All concepts](../../README.md) · [PACELC →](pacelc.md)

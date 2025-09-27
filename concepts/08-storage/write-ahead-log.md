@@ -55,3 +55,7 @@ The only thing that has to reach the disk before the reply is one small log reco
 ## Related
 
 [ACID Transactions](../07-databases/acid-transactions.md) · [Storage Engines](storage-engines.md) · [Replication](../09-data-at-scale/replication.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md) · [Backups](../21-disaster-recovery/backups.md)
+
+---
+
+[← Storage Engines](storage-engines.md) · [All concepts](../../README.md) · [Object Storage →](object-storage.md)

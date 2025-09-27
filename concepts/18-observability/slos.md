@@ -49,3 +49,7 @@ The system produces the SLI, and the SLO is the line it gets compared against. A
 ## Related
 
 [SLIs](slis.md) · [Error Budgets](error-budgets.md) · [SLAs](slas.md) · [High Availability](../02-scaling/high-availability.md) · [Goodhart's Law](../23-laws/goodharts-law.md)
+
+---
+
+[← SLIs](slis.md) · [All concepts](../../README.md) · [SLAs →](slas.md)

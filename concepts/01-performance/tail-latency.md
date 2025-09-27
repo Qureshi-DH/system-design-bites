@@ -43,3 +43,7 @@ The page waits for every arrow, so one slow replica would set the speed for the 
 ## Related
 
 [P99 Latency](p99-latency.md) · [Latency](latency.md) · [Timeouts](../14-reliability/timeouts.md) · [Idempotency](../14-reliability/idempotency.md) · [Graceful Degradation](../14-reliability/graceful-degradation.md)
+
+---
+
+[← P99 Latency](p99-latency.md) · [All concepts](../../README.md) · [Little's Law →](littles-law.md)

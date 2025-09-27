@@ -42,3 +42,7 @@ Three services, three databases, and no transaction that spans them. Step 1 is a
 ## Related
 
 [Two Phase Commit](two-phase-commit.md) · [Saga Pattern](saga-pattern.md) · [Outbox Pattern](../13-messaging/outbox-pattern.md) · [ACID Transactions](../07-databases/acid-transactions.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md)
+
+---
+
+[← Distributed Locks](distributed-locks.md) · [All concepts](../../README.md) · [Two Phase Commit →](two-phase-commit.md)

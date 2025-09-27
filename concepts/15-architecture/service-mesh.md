@@ -58,3 +58,7 @@ The two apps never talk to each other directly. Their sidecars do, over an encry
 ## Related
 
 [Service Discovery](service-discovery.md) · [Retries](../14-reliability/retries.md) · [Encryption in Transit](../16-identity-and-encryption/encryption-in-transit.md) · [Canary Releases](../20-releases/canary-releases.md) · [Kubernetes](../19-build-and-infra/kubernetes.md)
+
+---
+
+[← Service Discovery](service-discovery.md) · [All concepts](../../README.md) · [Backend for Frontend →](backend-for-frontend.md)

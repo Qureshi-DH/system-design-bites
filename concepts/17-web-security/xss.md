@@ -46,3 +46,7 @@ The same stored bio goes to every visitor. Whether it shows up as text or runs a
 ## Related
 
 [CSRF](csrf.md) · [SQL Injection](sql-injection.md) · [CORS](cors.md) · [WAF](waf.md)
+
+---
+
+[← CSRF](csrf.md) · [All concepts](../../README.md) · [SQL Injection →](sql-injection.md)

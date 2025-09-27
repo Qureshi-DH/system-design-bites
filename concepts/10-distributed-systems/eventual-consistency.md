@@ -37,3 +37,7 @@ Priya's write lands on the US replica and spreads to the others in the backgroun
 ## Related
 
 [CAP Theorem](cap-theorem.md) · [Strong Consistency](strong-consistency.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Clock Skew](clock-skew.md) · [Merkle Trees](../09-data-at-scale/merkle-trees.md)
+
+---
+
+[← Strong Consistency](strong-consistency.md) · [All concepts](../../README.md) · [Quorum →](quorum.md)

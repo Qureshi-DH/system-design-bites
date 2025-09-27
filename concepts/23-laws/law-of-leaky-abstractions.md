@@ -55,3 +55,7 @@ The feed service thinks it made one call. Under the abstraction, the ORM sent 51
 ## Related
 
 [N+1 Queries](../07-databases/n-plus-one-queries.md) · [TCP vs UDP](../04-networking/tcp-vs-udp.md) · [Fallacies of Distributed Computing](fallacies-of-distributed-computing.md) · [Timeouts](../14-reliability/timeouts.md) · [Hyrum's Law](hyrums-law.md)
+
+---
+
+[← Brooks's Law](brooks-law.md) · [All concepts](../../README.md) · [Chesterton's Fence →](chestertons-fence.md)

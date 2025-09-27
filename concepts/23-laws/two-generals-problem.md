@@ -49,3 +49,7 @@ The lost reply leaves the driver unsure, and no extra acknowledgment can fix tha
 ## Related
 
 [Idempotency](../14-reliability/idempotency.md) · [Retries](../14-reliability/retries.md) · [Delivery Guarantees](../13-messaging/delivery-guarantees.md) · [Two Phase Commit](../11-coordination/two-phase-commit.md) · [Byzantine Generals Problem](byzantine-generals-problem.md)
+
+---
+
+[← PACELC](pacelc.md) · [All concepts](../../README.md) · [Byzantine Generals Problem →](byzantine-generals-problem.md)

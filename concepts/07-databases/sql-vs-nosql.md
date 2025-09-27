@@ -44,3 +44,7 @@ Each kind of data goes to the store shaped for its questions. Orders need joins 
 ## Related
 
 [ACID Transactions](acid-transactions.md) · [Normalization vs Denormalization](normalization-vs-denormalization.md) · [Storage Engines](../08-storage/storage-engines.md) · [Sharding](../09-data-at-scale/sharding.md) · [CAP Theorem](../10-distributed-systems/cap-theorem.md)
+
+---
+
+[← Cache Stampede](../06-caching/cache-stampede.md) · [All concepts](../../README.md) · [ACID Transactions →](acid-transactions.md)

@@ -57,3 +57,7 @@ The password only ever goes to the photo app's own login page. PrintShop sees a 
 ## Related
 
 [Authentication vs Authorization](authentication-vs-authorization.md) · [JWT Rotation](jwt-rotation.md) · [CSRF](../17-web-security/csrf.md) · [TLS](tls.md) · [API Gateways](../03-traffic/api-gateways.md)
+
+---
+
+[← Password Hashing](password-hashing.md) · [All concepts](../../README.md) · [JWT Rotation →](jwt-rotation.md)

@@ -43,3 +43,7 @@ Both BFFs call the same services underneath. What differs is the shape of the an
 ## Related
 
 [API Gateways](../03-traffic/api-gateways.md) · [GraphQL](../05-apis/graphql.md) · [Monolith vs Microservices](monolith-vs-microservices.md) · [Domain Driven Design](domain-driven-design.md) · [DRY](../24-principles/dry.md)
+
+---
+
+[← Service Mesh](service-mesh.md) · [All concepts](../../README.md) · [Strangler Fig →](strangler-fig.md)

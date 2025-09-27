@@ -39,3 +39,7 @@ Every instance tells the registry it exists and keeps proving it is alive. The t
 ## Related
 
 [Load Balancing](../03-traffic/load-balancing.md) · [DNS](../04-networking/dns.md) · [Health Checks](../14-reliability/health-checks.md) · [Heartbeats](../10-distributed-systems/heartbeats.md) · [Service Mesh](service-mesh.md)
+
+---
+
+[← Domain Driven Design](domain-driven-design.md) · [All concepts](../../README.md) · [Service Mesh →](service-mesh.md)

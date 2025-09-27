@@ -48,3 +48,7 @@ Follow the attacker from top to bottom. Each layer stops some attacks and lets a
 ## Related
 
 [WAF](../17-web-security/waf.md) · [SQL Injection](../17-web-security/sql-injection.md) · [Principle of Least Privilege](principle-of-least-privilege.md) · [Encryption at Rest](../16-identity-and-encryption/encryption-at-rest.md) · [Zero Trust](../16-identity-and-encryption/zero-trust.md)
+
+---
+
+[← Principle of Least Privilege](principle-of-least-privilege.md) · [All concepts](../../README.md) · [Kerckhoffs's Principle →](kerckhoffs-principle.md)

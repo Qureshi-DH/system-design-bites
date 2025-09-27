@@ -43,3 +43,7 @@ Recommendations is down, so the home page swaps in the cached trending list. The
 ## Related
 
 [Circuit Breakers](circuit-breakers.md) · [Feature Flags](../20-releases/feature-flags.md) · [Caching](../06-caching/caching.md) · [Load Shedding](load-shedding.md) · [Chaos Engineering](chaos-engineering.md)
+
+---
+
+[← Load Shedding](load-shedding.md) · [All concepts](../../README.md) · [Health Checks →](health-checks.md)

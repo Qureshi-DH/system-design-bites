@@ -50,3 +50,7 @@ Both checkouts are already deployed. The flag service decides who sees which one
 ## Related
 
 [Canary Releases](canary-releases.md) · [Rollbacks](rollbacks.md) · [Graceful Degradation](../14-reliability/graceful-degradation.md) · [CI/CD](../19-build-and-infra/ci-cd.md) · [Blue Green Deployment](blue-green-deployment.md)
+
+---
+
+[← GitOps](../19-build-and-infra/gitops.md) · [All concepts](../../README.md) · [Rolling Deployments →](rolling-deployments.md)

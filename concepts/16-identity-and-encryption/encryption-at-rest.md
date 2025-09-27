@@ -44,3 +44,7 @@ The app encrypts with a data key and stores only the wrapped copy beside the dat
 ## Related
 
 [Encryption in Transit](encryption-in-transit.md) · [Secrets Management](secrets-management.md) · [Backups](../21-disaster-recovery/backups.md) · [SQL Injection](../17-web-security/sql-injection.md) · [IAM](iam.md)
+
+---
+
+[← Encryption in Transit](encryption-in-transit.md) · [All concepts](../../README.md) · [Zero Trust →](zero-trust.md)

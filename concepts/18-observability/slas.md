@@ -45,3 +45,7 @@ The same uptime number is checked against two lines. The internal SLO trips firs
 ## Related
 
 [SLOs](slos.md) · [SLIs](slis.md) · [Error Budgets](error-budgets.md) · [High Availability](../02-scaling/high-availability.md) · [Postmortems](../22-operations/postmortems.md)
+
+---
+
+[← SLOs](slos.md) · [All concepts](../../README.md) · [Error Budgets →](error-budgets.md)

@@ -55,3 +55,7 @@ Slow uploads and fast feed views no longer share servers, so a pile of uploads c
 ## Related
 
 [Reverse Proxies](reverse-proxies.md) · [Sticky Sessions](../02-scaling/sticky-sessions.md) · [Consistent Hashing](../09-data-at-scale/consistent-hashing.md) · [Health Checks](../14-reliability/health-checks.md) · [gRPC](../05-apis/grpc.md)
+
+---
+
+[← High Availability](../02-scaling/high-availability.md) · [All concepts](../../README.md) · [Reverse Proxies →](reverse-proxies.md)

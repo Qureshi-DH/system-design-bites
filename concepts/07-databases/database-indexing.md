@@ -54,3 +54,7 @@ With the index, the query touches four small pages on the way down and lands on 
 ## Related
 
 [Query Optimization](query-optimization.md) · [Database Migrations](database-migrations.md) · [Storage Engines](../08-storage/storage-engines.md) · [Full Text Search](../08-storage/full-text-search.md) · [Geospatial Indexing](../08-storage/geospatial-indexing.md)
+
+---
+
+[← MVCC](mvcc.md) · [All concepts](../../README.md) · [Query Optimization →](query-optimization.md)

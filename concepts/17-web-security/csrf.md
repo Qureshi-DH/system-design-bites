@@ -48,3 +48,7 @@ Both requests leave the same browser. Only the one started by the wallet's own p
 ## Related
 
 [CORS](cors.md) · [XSS](xss.md) · [Authentication vs Authorization](../16-identity-and-encryption/authentication-vs-authorization.md) · [OAuth](../16-identity-and-encryption/oauth.md)
+
+---
+
+[← CORS](cors.md) · [All concepts](../../README.md) · [XSS →](xss.md)

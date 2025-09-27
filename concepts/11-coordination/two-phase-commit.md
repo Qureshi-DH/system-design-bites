@@ -54,3 +54,7 @@ Both shards promised to commit, then lost the one server that knows the decision
 ## Related
 
 [Distributed Transactions](distributed-transactions.md) · [Saga Pattern](saga-pattern.md) · [Consensus](consensus.md) · [ACID Transactions](../07-databases/acid-transactions.md) · [Single Point of Failure](../02-scaling/single-point-of-failure.md)
+
+---
+
+[← Distributed Transactions](distributed-transactions.md) · [All concepts](../../README.md) · [Saga Pattern →](saga-pattern.md)

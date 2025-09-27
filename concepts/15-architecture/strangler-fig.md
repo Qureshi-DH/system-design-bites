@@ -44,3 +44,7 @@ Clients only ever talk to the routing layer, so they never notice the migration.
 ## Related
 
 [Monolith vs Microservices](monolith-vs-microservices.md) · [API Gateways](../03-traffic/api-gateways.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md) · [Feature Flags](../20-releases/feature-flags.md) · [Gall's Law](../23-laws/galls-law.md)
+
+---
+
+[← Backend for Frontend](backend-for-frontend.md) · [All concepts](../../README.md) · [Multitenancy →](multitenancy.md)

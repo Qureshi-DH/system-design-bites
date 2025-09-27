@@ -48,3 +48,7 @@ The link between the regions is cut, so Node B never heard about the cashout. Th
 ## Related
 
 [Network Partitions](network-partitions.md) · [Strong Consistency](strong-consistency.md) · [Eventual Consistency](eventual-consistency.md) · [Quorum](quorum.md) · [PACELC](../23-laws/pacelc.md)
+
+---
+
+[← Network Partitions](network-partitions.md) · [All concepts](../../README.md) · [Strong Consistency →](strong-consistency.md)

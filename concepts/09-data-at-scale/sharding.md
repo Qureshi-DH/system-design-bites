@@ -42,3 +42,7 @@ Normal reads carry a conversation ID, so the router sends each one to exactly on
 ## Related
 
 [Partitioning](partitioning.md) · [Consistent Hashing](consistent-hashing.md) · [Hot Spots](hot-spots.md) · [Distributed Transactions](../11-coordination/distributed-transactions.md) · [YAGNI](../24-principles/yagni.md)
+
+---
+
+[← Partitioning](partitioning.md) · [All concepts](../../README.md) · [Consistent Hashing →](consistent-hashing.md)

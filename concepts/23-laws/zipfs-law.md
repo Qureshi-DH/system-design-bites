@@ -39,3 +39,7 @@ Read it left to right as the Zipf curve. A tiny head of 100 articles absorbs 43%
 ## Related
 
 [Caching](../06-caching/caching.md) · [Hot Spots](../09-data-at-scale/hot-spots.md) · [Cache Eviction](../06-caching/cache-eviction.md) · [Pareto Principle](pareto-principle.md) · [CDN](../03-traffic/cdn.md)
+
+---
+
+[← Kingman's Formula](kingmans-formula.md) · [All concepts](../../README.md) · [Pareto Principle →](pareto-principle.md)

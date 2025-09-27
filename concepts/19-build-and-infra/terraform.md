@@ -53,3 +53,7 @@ Terraform reads your code and the state file, then shows a diff before touching 
 ## Related
 
 [Infrastructure as Code](infrastructure-as-code.md) · [GitOps](gitops.md) · [Secrets Management](../16-identity-and-encryption/secrets-management.md) · [Distributed Locks](../11-coordination/distributed-locks.md)
+
+---
+
+[← Infrastructure as Code](infrastructure-as-code.md) · [All concepts](../../README.md) · [GitOps →](gitops.md)

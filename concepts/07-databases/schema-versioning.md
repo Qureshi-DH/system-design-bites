@@ -42,3 +42,7 @@ The registry checks every new version before any event uses it. Each event carri
 ## Related
 
 [Database Migrations](database-migrations.md) · [API Versioning](../05-apis/api-versioning.md) · [Serialization Formats](../05-apis/serialization-formats.md) · [Event Streaming](../13-messaging/event-streaming.md)
+
+---
+
+[← Database Migrations](database-migrations.md) · [All concepts](../../README.md) · [Storage Engines →](../08-storage/storage-engines.md)

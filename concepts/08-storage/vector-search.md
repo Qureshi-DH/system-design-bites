@@ -55,3 +55,7 @@ The query becomes a vector first. A broad search goes through the approximate in
 ## Related
 
 [Full Text Search](full-text-search.md) · [Database Indexing](../07-databases/database-indexing.md) · [Geospatial Indexing](geospatial-indexing.md) · [Query Optimization](../07-databases/query-optimization.md)
+
+---
+
+[← Full Text Search](full-text-search.md) · [All concepts](../../README.md) · [Bloom Filters →](bloom-filters.md)

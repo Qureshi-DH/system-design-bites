@@ -47,3 +47,7 @@ Each reader holds one open response from an SSE server. A new count fans out thr
 ## Related
 
 [WebSockets](websockets.md) · [Long Polling](long-polling.md) · [HTTP/2 and HTTP/3](http2-and-http3.md) · [Pub/Sub](../13-messaging/pub-sub.md) · [Fan Out](../13-messaging/fan-out.md)
+
+---
+
+[← Long Polling](long-polling.md) · [All concepts](../../README.md) · [WebSockets →](websockets.md)

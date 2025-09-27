@@ -46,3 +46,7 @@ Producers register each schema version before using it, and the registry blocks 
 ## Related
 
 [gRPC](grpc.md) · [API Versioning](api-versioning.md) · [Schema Versioning](../07-databases/schema-versioning.md) · [Event Streaming](../13-messaging/event-streaming.md) · [Postel's Law](../23-laws/postels-law.md)
+
+---
+
+[← API Versioning](api-versioning.md) · [All concepts](../../README.md) · [Caching →](../06-caching/caching.md)

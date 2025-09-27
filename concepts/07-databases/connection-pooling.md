@@ -51,3 +51,7 @@ Hundreds of functions each think they have their own connection, but PgBouncer h
 ## Related
 
 [Serverless Limits](../15-architecture/serverless-limits.md) · [Autoscaling](../02-scaling/autoscaling.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Query Optimization](query-optimization.md) · [Backpressure](../13-messaging/backpressure.md)
+
+---
+
+[← N+1 Queries](n-plus-one-queries.md) · [All concepts](../../README.md) · [Normalization vs Denormalization →](normalization-vs-denormalization.md)

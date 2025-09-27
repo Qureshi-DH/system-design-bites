@@ -52,3 +52,7 @@ Both versions end up at the same order service. The v1 path just passes through 
 ## Related
 
 [Semantic Versioning](../19-build-and-infra/semantic-versioning.md) · [REST](rest.md) · [Schema Versioning](../07-databases/schema-versioning.md) · [Serialization Formats](serialization-formats.md) · [Hyrum's Law](../23-laws/hyrums-law.md)
+
+---
+
+[← Pagination](pagination.md) · [All concepts](../../README.md) · [Serialization Formats →](serialization-formats.md)

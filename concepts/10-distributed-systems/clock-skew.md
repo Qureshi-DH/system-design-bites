@@ -48,3 +48,7 @@ Bob's reply really came 2 seconds after Alice's question. But server B's clock i
 ## Related
 
 [Logical Clocks](logical-clocks.md) · [Eventual Consistency](eventual-consistency.md) · [Unique ID Generation](../09-data-at-scale/unique-id-generation.md) · [Distributed Locks](../11-coordination/distributed-locks.md) · [Distributed Tracing](../18-observability/distributed-tracing.md)
+
+---
+
+[← Quorum](quorum.md) · [All concepts](../../README.md) · [Logical Clocks →](logical-clocks.md)

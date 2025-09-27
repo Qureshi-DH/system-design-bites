@@ -46,3 +46,7 @@ Product data is the same for everyone, so the edge answers most requests itself 
 ## Related
 
 [CDN](cdn.md) · [Cache Invalidation](../06-caching/cache-invalidation.md) · [Caching Strategies](../06-caching/caching-strategies.md) · [Cache Stampede](../06-caching/cache-stampede.md) · [Reverse Proxies](reverse-proxies.md)
+
+---
+
+[← CDN](cdn.md) · [All concepts](../../README.md) · [DNS →](../04-networking/dns.md)

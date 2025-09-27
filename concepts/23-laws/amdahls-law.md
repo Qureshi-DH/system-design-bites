@@ -47,3 +47,7 @@ Only the middle fans out. Add as many workers as you like and every video still 
 ## Related
 
 [Universal Scalability Law](universal-scalability-law.md) · [Horizontal Scaling](../02-scaling/horizontal-scaling.md) · [Throughput](../01-performance/throughput.md) · [Capacity Planning](../22-operations/capacity-planning.md) · [Pareto Principle](pareto-principle.md)
+
+---
+
+[← FLP Impossibility](flp-impossibility.md) · [All concepts](../../README.md) · [Universal Scalability Law →](universal-scalability-law.md)

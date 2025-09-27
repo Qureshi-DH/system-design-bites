@@ -57,3 +57,7 @@ When the schedule lives inside the app, every replica fires at 08:00 and one ema
 ## Related
 
 [Distributed Locks](../11-coordination/distributed-locks.md) · [Leader Election](../11-coordination/leader-election.md) · [Idempotency](../14-reliability/idempotency.md) · [Batch vs Stream Processing](batch-vs-stream-processing.md) · [Kubernetes](../19-build-and-infra/kubernetes.md)
+
+---
+
+[← Batch vs Stream Processing](batch-vs-stream-processing.md) · [All concepts](../../README.md) · [Timeouts →](../14-reliability/timeouts.md)

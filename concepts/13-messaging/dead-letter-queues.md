@@ -51,3 +51,7 @@ A failing message loops between the queue and the workers until it hits the rece
 ## Related
 
 [Message Queues](message-queues.md) · [Retries](../14-reliability/retries.md) · [Delivery Guarantees](delivery-guarantees.md) · [Alerts](../18-observability/alerts.md) · [Exponential Backoff](../14-reliability/exponential-backoff.md)
+
+---
+
+[← Delivery Guarantees](delivery-guarantees.md) · [All concepts](../../README.md) · [Backpressure →](backpressure.md)

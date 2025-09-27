@@ -60,3 +60,7 @@ Both editors start from version 7. Maya's save matches and bumps it to 8. Leo's 
 ## Related
 
 [Pessimistic Locking](pessimistic-locking.md) · [Race Conditions](race-conditions.md) · [Isolation Levels](../07-databases/isolation-levels.md) · [Retries](../14-reliability/retries.md)
+
+---
+
+[← Deadlocks](deadlocks.md) · [All concepts](../../README.md) · [Pessimistic Locking →](pessimistic-locking.md)

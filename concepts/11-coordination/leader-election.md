@@ -42,3 +42,7 @@ Only scheduler 1 holds the lease, so only it talks to the billing service. The o
 ## Related
 
 [Consensus](consensus.md) · [Split Brain](split-brain.md) · [Distributed Locks](distributed-locks.md) · [Heartbeats](../10-distributed-systems/heartbeats.md) · [Cron Jobs](../13-messaging/cron-jobs.md)
+
+---
+
+[← Gossip Protocol](../10-distributed-systems/gossip-protocol.md) · [All concepts](../../README.md) · [Consensus →](consensus.md)

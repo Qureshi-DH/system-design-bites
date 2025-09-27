@@ -46,3 +46,7 @@ Start from the bill, not a hunch. Each of the three biggest lines gets a differe
 ## Related
 
 [Autoscaling](../02-scaling/autoscaling.md) · [Object Storage](../08-storage/object-storage.md) · [Vertical Scaling](../02-scaling/vertical-scaling.md) · [Back of the Envelope Math](../01-performance/back-of-the-envelope-math.md)
+
+---
+
+[← Postmortems](postmortems.md) · [All concepts](../../README.md) · [Fallacies of Distributed Computing →](../23-laws/fallacies-of-distributed-computing.md)

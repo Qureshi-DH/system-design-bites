@@ -55,3 +55,7 @@ Before, the app pays a full phone round trip just to learn the seller ID, then a
 ## Related
 
 [GraphQL](graphql.md) · [gRPC](grpc.md) · [Pagination](pagination.md) · [API Versioning](api-versioning.md) · [Idempotency](../14-reliability/idempotency.md)
+
+---
+
+[← WebSockets](../04-networking/websockets.md) · [All concepts](../../README.md) · [GraphQL →](graphql.md)

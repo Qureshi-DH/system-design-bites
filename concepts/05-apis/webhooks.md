@@ -55,3 +55,7 @@ The handler checks the signature, records the event ID, queues the real work, an
 ## Related
 
 [Idempotency](../14-reliability/idempotency.md) · [Retries](../14-reliability/retries.md) · [Exponential Backoff](../14-reliability/exponential-backoff.md) · [Message Queues](../13-messaging/message-queues.md) · [Delivery Guarantees](../13-messaging/delivery-guarantees.md)
+
+---
+
+[← gRPC](grpc.md) · [All concepts](../../README.md) · [Pagination →](pagination.md)

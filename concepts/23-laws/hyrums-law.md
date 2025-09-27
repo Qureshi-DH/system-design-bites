@@ -48,3 +48,7 @@ The docs did not change between the two calls. Only an accident of the old query
 ## Related
 
 [API Versioning](../05-apis/api-versioning.md) · [Semantic Versioning](../19-build-and-infra/semantic-versioning.md) · [Postel's Law](postels-law.md) · [Pagination](../05-apis/pagination.md) · [Law of Leaky Abstractions](law-of-leaky-abstractions.md)
+
+---
+
+[← Conway's Law](conways-law.md) · [All concepts](../../README.md) · [Gall's Law →](galls-law.md)

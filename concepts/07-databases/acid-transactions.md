@@ -57,3 +57,7 @@ There is a moment where Alice has lost $100 and Bob hasn't gained it yet. Atomic
 ## Related
 
 [Isolation Levels](isolation-levels.md) · [Write Ahead Log](../08-storage/write-ahead-log.md) · [Distributed Transactions](../11-coordination/distributed-transactions.md) · [Outbox Pattern](../13-messaging/outbox-pattern.md) · [Race Conditions](../12-concurrency/race-conditions.md)
+
+---
+
+[← SQL vs NoSQL](sql-vs-nosql.md) · [All concepts](../../README.md) · [Isolation Levels →](isolation-levels.md)

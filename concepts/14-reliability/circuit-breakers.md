@@ -41,3 +41,7 @@ Start at Closed and follow the failures. Open is where the breaker protects you 
 ## Related
 
 [Timeouts](timeouts.md) · [Retries](retries.md) · [Graceful Degradation](graceful-degradation.md) · [Bulkheads](bulkheads.md) · [Fail Fast](../24-principles/fail-fast.md)
+
+---
+
+[← Idempotency](idempotency.md) · [All concepts](../../README.md) · [Bulkheads →](bulkheads.md)

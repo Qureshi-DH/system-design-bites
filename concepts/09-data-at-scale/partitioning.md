@@ -61,3 +61,7 @@ The query asks for the last 30 days, so the planner only opens the two newest pa
 ## Related
 
 [Sharding](sharding.md) · [Database Indexing](../07-databases/database-indexing.md) · [Query Optimization](../07-databases/query-optimization.md) · [Hot Spots](hot-spots.md) · [OLTP vs OLAP](../08-storage/oltp-vs-olap.md)
+
+---
+
+[← Merkle Trees](merkle-trees.md) · [All concepts](../../README.md) · [Sharding →](sharding.md)

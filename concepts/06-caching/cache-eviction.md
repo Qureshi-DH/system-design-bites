@@ -45,3 +45,7 @@ Eviction only kicks in when a new key arrives and memory is full. The policy pic
 ## Related
 
 [Caching](caching.md) · [Caching Strategies](caching-strategies.md) · [Cache Invalidation](cache-invalidation.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Memory Leaks](../12-concurrency/memory-leaks.md)
+
+---
+
+[← Caching Strategies](caching-strategies.md) · [All concepts](../../README.md) · [Cache Invalidation →](cache-invalidation.md)

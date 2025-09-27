@@ -53,3 +53,7 @@ Only the first lookup walks the whole chain. After that, the resolver answers fr
 ## Related
 
 [CDN](../03-traffic/cdn.md) · [Load Balancing](../03-traffic/load-balancing.md) · [Caching](../06-caching/caching.md) · [Failover](../21-disaster-recovery/failover.md) · [Multi Region Deployment](../21-disaster-recovery/multi-region-deployment.md)
+
+---
+
+[← Edge Caching](../03-traffic/edge-caching.md) · [All concepts](../../README.md) · [Anycast →](anycast.md)

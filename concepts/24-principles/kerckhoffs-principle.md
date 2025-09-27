@@ -49,3 +49,7 @@ The attacker knows the algorithm completely and still can't produce a valid sign
 ## Related
 
 [Secrets Management](../16-identity-and-encryption/secrets-management.md) · [Encryption at Rest](../16-identity-and-encryption/encryption-at-rest.md) · [TLS](../16-identity-and-encryption/tls.md) · [Webhooks](../05-apis/webhooks.md) · [Defense in Depth](defense-in-depth.md)
+
+---
+
+[← Defense in Depth](defense-in-depth.md) · [All concepts](../../README.md) · [KISS →](kiss.md)

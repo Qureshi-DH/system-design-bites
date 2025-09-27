@@ -47,3 +47,7 @@ Attempt 1 asks 14 untested parts to work together on their first night. Attempt 
 ## Related
 
 [Strangler Fig](../15-architecture/strangler-fig.md) · [KISS](../24-principles/kiss.md) · [YAGNI](../24-principles/yagni.md) · [Canary Releases](../20-releases/canary-releases.md) · [Chesterton's Fence](chestertons-fence.md)
+
+---
+
+[← Hyrum's Law](hyrums-law.md) · [All concepts](../../README.md) · [Postel's Law →](postels-law.md)

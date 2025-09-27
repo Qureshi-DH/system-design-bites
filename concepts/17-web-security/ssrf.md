@@ -40,3 +40,7 @@ The import service sits inside your network, so it can reach things the attacker
 ## Related
 
 [IAM](../16-identity-and-encryption/iam.md) · [Webhooks](../05-apis/webhooks.md) · [Zero Trust](../16-identity-and-encryption/zero-trust.md) · [WAF](waf.md)
+
+---
+
+[← SQL Injection](sql-injection.md) · [All concepts](../../README.md) · [WAF →](waf.md)

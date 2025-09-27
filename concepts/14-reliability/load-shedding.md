@@ -44,3 +44,7 @@ All traffic hits the shedder first. Checkout takes the thick path and always get
 ## Related
 
 [Rate Limiting](../03-traffic/rate-limiting.md) · [Backpressure](../13-messaging/backpressure.md) · [Graceful Degradation](graceful-degradation.md) · [Autoscaling](../02-scaling/autoscaling.md) · [Circuit Breakers](circuit-breakers.md)
+
+---
+
+[← Bulkheads](bulkheads.md) · [All concepts](../../README.md) · [Graceful Degradation →](graceful-degradation.md)

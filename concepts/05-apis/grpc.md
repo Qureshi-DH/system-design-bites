@@ -55,3 +55,7 @@ Outside clients speak JSON to the gateway. Behind it, services call each other w
 ## Related
 
 [Serialization Formats](serialization-formats.md) · [REST](rest.md) · [HTTP/2 and HTTP/3](../04-networking/http2-and-http3.md) · [API Gateways](../03-traffic/api-gateways.md) · [Service Mesh](../15-architecture/service-mesh.md)
+
+---
+
+[← GraphQL](graphql.md) · [All concepts](../../README.md) · [Webhooks →](webhooks.md)

@@ -42,3 +42,7 @@ RED numbers come from the service, USE numbers come from the resources under it,
 ## Related
 
 [Observability](observability.md) · [Metrics](metrics.md) · [Alerts](alerts.md) · [Health Checks](../14-reliability/health-checks.md) · [SLIs](slis.md)
+
+---
+
+[← Distributed Tracing](distributed-tracing.md) · [All concepts](../../README.md) · [Alerts →](alerts.md)

@@ -46,3 +46,7 @@ Products and searches go through the same analyzer, so they meet as identical te
 ## Related
 
 [Database Indexing](../07-databases/database-indexing.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Storage Engines](storage-engines.md) · [Vector Search](vector-search.md)
+
+---
+
+[← Object Storage](object-storage.md) · [All concepts](../../README.md) · [Vector Search →](vector-search.md)

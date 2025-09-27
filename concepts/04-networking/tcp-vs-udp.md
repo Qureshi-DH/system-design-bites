@@ -47,3 +47,7 @@ Purchases and chat must arrive, so they go over TCP. Position updates are stale 
 ## Related
 
 [HTTP/2 and HTTP/3](http2-and-http3.md) · [Head of Line Blocking](head-of-line-blocking.md) · [WebSockets](websockets.md) · [Latency](../01-performance/latency.md) · [TLS](../16-identity-and-encryption/tls.md)
+
+---
+
+[← Anycast](anycast.md) · [All concepts](../../README.md) · [HTTP/2 and HTTP/3 →](http2-and-http3.md)

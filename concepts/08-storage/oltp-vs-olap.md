@@ -43,3 +43,7 @@ Live traffic and analytics never hit the same database. Postgres handles orders 
 ## Related
 
 [Storage Engines](storage-engines.md) · [Materialized Views](../07-databases/materialized-views.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md) · [Batch vs Stream Processing](../13-messaging/batch-vs-stream-processing.md) · [Read Replicas](../09-data-at-scale/read-replicas.md)
+
+---
+
+[← Geospatial Indexing](geospatial-indexing.md) · [All concepts](../../README.md) · [Replication →](../09-data-at-scale/replication.md)

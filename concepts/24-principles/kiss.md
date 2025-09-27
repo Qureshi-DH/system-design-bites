@@ -51,3 +51,7 @@ Both designs get a new order onto the restaurant's tablet within seconds. The si
 ## Related
 
 [Gall's Law](../23-laws/galls-law.md) · [YAGNI](yagni.md) · [Premature Optimization](premature-optimization.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md) · [Long Polling](../04-networking/long-polling.md)
+
+---
+
+[← Kerckhoffs's Principle](kerckhoffs-principle.md) · [All concepts](../../README.md) · [YAGNI →](yagni.md)

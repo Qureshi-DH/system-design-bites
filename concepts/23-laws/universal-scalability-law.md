@@ -43,3 +43,7 @@ The solid arrows are contention: every node lines up for the same database row. 
 ## Related
 
 [Amdahl's Law](amdahls-law.md) · [Horizontal Scaling](../02-scaling/horizontal-scaling.md) · [Load Testing](../22-operations/load-testing.md) · [Capacity Planning](../22-operations/capacity-planning.md) · [Throughput](../01-performance/throughput.md)
+
+---
+
+[← Amdahl's Law](amdahls-law.md) · [All concepts](../../README.md) · [Kingman's Formula →](kingmans-formula.md)

@@ -47,3 +47,7 @@ The trace makes the answer obvious. Almost all the time sits in 51 small trips t
 ## Related
 
 [N+1 Queries](../07-databases/n-plus-one-queries.md) · [Distributed Tracing](../18-observability/distributed-tracing.md) · [Load Testing](../22-operations/load-testing.md) · [Amdahl's Law](../23-laws/amdahls-law.md) · [Pareto Principle](../23-laws/pareto-principle.md)
+
+---
+
+[← Coupling and Cohesion](coupling-and-cohesion.md) · [All concepts](../../README.md) · [Fail Fast →](fail-fast.md)

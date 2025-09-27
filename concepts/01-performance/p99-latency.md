@@ -44,3 +44,7 @@ Sort the requests and the percentiles fall out. The average sits next to p50 and
 ## Related
 
 [Latency](latency.md) · [Tail Latency](tail-latency.md) · [Metrics](../18-observability/metrics.md) · [SLOs](../18-observability/slos.md) · [Garbage Collection](../12-concurrency/garbage-collection.md)
+
+---
+
+[← Throughput](throughput.md) · [All concepts](../../README.md) · [Tail Latency →](tail-latency.md)

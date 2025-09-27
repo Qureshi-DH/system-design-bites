@@ -46,3 +46,7 @@ The first request pays for the whole boot sequence in the note. The second lands
 ## Related
 
 [Serverless Limits](serverless-limits.md) · [Autoscaling](../02-scaling/autoscaling.md) · [Tail Latency](../01-performance/tail-latency.md) · [Latency](../01-performance/latency.md)
+
+---
+
+[← Serverless Limits](serverless-limits.md) · [All concepts](../../README.md) · [Authentication vs Authorization →](../16-identity-and-encryption/authentication-vs-authorization.md)

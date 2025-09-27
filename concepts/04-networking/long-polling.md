@@ -48,3 +48,7 @@ The server sits on each request until there is news. When the courier picks up t
 ## Related
 
 [Server Sent Events](server-sent-events.md) · [WebSockets](websockets.md) · [Timeouts](../14-reliability/timeouts.md) · [Load Balancing](../03-traffic/load-balancing.md)
+
+---
+
+[← Head of Line Blocking](head-of-line-blocking.md) · [All concepts](../../README.md) · [Server Sent Events →](server-sent-events.md)

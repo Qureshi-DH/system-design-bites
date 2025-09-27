@@ -40,3 +40,7 @@ Each round, every node that has the news passes it to one random peer. One node 
 ## Related
 
 [Heartbeats](heartbeats.md) · [Eventual Consistency](eventual-consistency.md) · [Service Discovery](../15-architecture/service-discovery.md) · [Consistent Hashing](../09-data-at-scale/consistent-hashing.md) · [Leader Election](../11-coordination/leader-election.md)
+
+---
+
+[← Heartbeats](heartbeats.md) · [All concepts](../../README.md) · [Leader Election →](../11-coordination/leader-election.md)

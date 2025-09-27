@@ -56,3 +56,7 @@ The first worker did the work but never acked, so the queue delivers the same ev
 ## Related
 
 [Idempotency](../14-reliability/idempotency.md) · [Message Queues](message-queues.md) · [Retries](../14-reliability/retries.md) · [Outbox Pattern](outbox-pattern.md) · [Two Generals Problem](../23-laws/two-generals-problem.md)
+
+---
+
+[← Event Driven Architecture](event-driven-architecture.md) · [All concepts](../../README.md) · [Dead Letter Queues →](dead-letter-queues.md)

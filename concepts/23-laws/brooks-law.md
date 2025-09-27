@@ -48,3 +48,7 @@ Every newcomer pulls time from the same 4 people who know the booking service. T
 ## Related
 
 [Conway's Law](conways-law.md) · [Amdahl's Law](amdahls-law.md) · [Universal Scalability Law](universal-scalability-law.md) · [Gall's Law](galls-law.md) · [Coupling and Cohesion](../24-principles/coupling-and-cohesion.md)
+
+---
+
+[← Goodhart's Law](goodharts-law.md) · [All concepts](../../README.md) · [Law of Leaky Abstractions →](law-of-leaky-abstractions.md)

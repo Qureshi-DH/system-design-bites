@@ -49,3 +49,7 @@ No service calls another. Each one hears an event and publishes the next. The ch
 ## Related
 
 [Pub/Sub](pub-sub.md) · [Saga Pattern](../11-coordination/saga-pattern.md) · [Distributed Tracing](../18-observability/distributed-tracing.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md)
+
+---
+
+[← Event Streaming](event-streaming.md) · [All concepts](../../README.md) · [Delivery Guarantees →](delivery-guarantees.md)

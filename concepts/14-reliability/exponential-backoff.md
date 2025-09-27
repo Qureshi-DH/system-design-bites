@@ -63,3 +63,7 @@ Each failure doubles the window the client picks its wait from. Because every cl
 ## Related
 
 [Retries](retries.md) · [Rate Limiting](../03-traffic/rate-limiting.md) · [Circuit Breakers](circuit-breakers.md) · [Cache Stampede](../06-caching/cache-stampede.md) · [Load Shedding](load-shedding.md)
+
+---
+
+[← Retries](retries.md) · [All concepts](../../README.md) · [Idempotency →](idempotency.md)

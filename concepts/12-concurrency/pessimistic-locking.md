@@ -62,3 +62,7 @@ Buyer B's request doesn't fail or overwrite anything. It waits a few millisecond
 ## Related
 
 [Optimistic Locking](optimistic-locking.md) · [Deadlocks](deadlocks.md) · [Race Conditions](race-conditions.md) · [Connection Pooling](../07-databases/connection-pooling.md) · [Isolation Levels](../07-databases/isolation-levels.md)
+
+---
+
+[← Optimistic Locking](optimistic-locking.md) · [All concepts](../../README.md) · [Memory Leaks →](memory-leaks.md)

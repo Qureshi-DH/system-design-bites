@@ -49,3 +49,7 @@ Both servers read before either one writes. The second write is based on a stale
 ## Related
 
 [Thread Safety](thread-safety.md) · [Optimistic Locking](optimistic-locking.md) · [Pessimistic Locking](pessimistic-locking.md) · [Isolation Levels](../07-databases/isolation-levels.md) · [Distributed Locks](../11-coordination/distributed-locks.md)
+
+---
+
+[← Saga Pattern](../11-coordination/saga-pattern.md) · [All concepts](../../README.md) · [Thread Safety →](thread-safety.md)

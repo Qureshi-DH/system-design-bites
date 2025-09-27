@@ -59,3 +59,7 @@ The CRM is slow, so all 20 of its threads are stuck waiting. The damage stops at
 ## Related
 
 [Circuit Breakers](circuit-breakers.md) · [Timeouts](timeouts.md) · [Connection Pooling](../07-databases/connection-pooling.md) · [Multitenancy](../15-architecture/multitenancy.md) · [Graceful Degradation](graceful-degradation.md)
+
+---
+
+[← Circuit Breakers](circuit-breakers.md) · [All concepts](../../README.md) · [Load Shedding →](load-shedding.md)

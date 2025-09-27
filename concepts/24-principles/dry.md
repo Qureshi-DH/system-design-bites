@@ -42,3 +42,7 @@ The surge rule lives in exactly one box, and everything else asks that box or re
 ## Related
 
 [Coupling and Cohesion](coupling-and-cohesion.md) · [Single Responsibility Principle](single-responsibility-principle.md) · [Dependency Hell](../19-build-and-infra/dependency-hell.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md) · [Schema Versioning](../07-databases/schema-versioning.md)
+
+---
+
+[← YAGNI](yagni.md) · [All concepts](../../README.md) · [Separation of Concerns →](separation-of-concerns.md)

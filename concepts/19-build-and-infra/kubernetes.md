@@ -44,3 +44,7 @@ Node 3 died and took 2 pods with it. The controller spots the gap between 6 want
 ## Related
 
 [Docker](docker.md) · [Helm Charts](helm-charts.md) · [GitOps](gitops.md) · [Liveness and Readiness Probes](../14-reliability/liveness-and-readiness-probes.md) · [Autoscaling](../02-scaling/autoscaling.md)
+
+---
+
+[← Docker](docker.md) · [All concepts](../../README.md) · [Helm Charts →](helm-charts.md)

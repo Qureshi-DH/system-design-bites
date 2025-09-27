@@ -44,3 +44,7 @@ The event loop only ever runs one callback at a time. Everything slow, from file
 ## Related
 
 [Thread Safety](thread-safety.md) · [WebSockets](../04-networking/websockets.md) · [Message Queues](../13-messaging/message-queues.md) · [Tail Latency](../01-performance/tail-latency.md) · [Backpressure](../13-messaging/backpressure.md)
+
+---
+
+[← Thread Safety](thread-safety.md) · [All concepts](../../README.md) · [Deadlocks →](deadlocks.md)

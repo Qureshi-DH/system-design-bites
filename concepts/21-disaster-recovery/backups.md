@@ -42,3 +42,7 @@ Three copies, two kinds of storage, one off site. The snapshot plus the stream o
 ## Related
 
 [Disaster Recovery](disaster-recovery.md) · [RTO and RPO](rto-and-rpo.md) · [Write Ahead Log](../08-storage/write-ahead-log.md) · [Replication](../09-data-at-scale/replication.md) · [Object Storage](../08-storage/object-storage.md)
+
+---
+
+[← Rollbacks](../20-releases/rollbacks.md) · [All concepts](../../README.md) · [Disaster Recovery →](disaster-recovery.md)

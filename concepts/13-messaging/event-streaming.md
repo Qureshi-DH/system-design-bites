@@ -53,3 +53,7 @@ The topic keeps every event. Each consumer group holds its own bookmark into the
 ## Related
 
 [Message Queues](message-queues.md) · [Pub/Sub](pub-sub.md) · [Partitioning](../09-data-at-scale/partitioning.md) · [Event Sourcing](event-sourcing.md) · [Batch vs Stream Processing](batch-vs-stream-processing.md)
+
+---
+
+[← Pub/Sub](pub-sub.md) · [All concepts](../../README.md) · [Event Driven Architecture →](event-driven-architecture.md)

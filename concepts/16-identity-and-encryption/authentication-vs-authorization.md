@@ -45,3 +45,7 @@ Two gates, in order. The first asks who you are and fails with 401. The second a
 ## Related
 
 [OAuth](oauth.md) · [Role Based Access Control](role-based-access-control.md) · [Password Hashing](password-hashing.md) · [JWT Rotation](jwt-rotation.md) · [CSRF](../17-web-security/csrf.md)
+
+---
+
+[← Cold Starts](../15-architecture/cold-starts.md) · [All concepts](../../README.md) · [Password Hashing →](password-hashing.md)

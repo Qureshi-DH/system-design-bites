@@ -38,3 +38,7 @@ Every request passes the rules before it reaches the app. Matches bounce with a 
 ## Related
 
 [DDoS Protection](ddos-protection.md) · [SQL Injection](sql-injection.md) · [XSS](xss.md) · [CDN](../03-traffic/cdn.md) · [Defense in Depth](../24-principles/defense-in-depth.md)
+
+---
+
+[← SSRF](ssrf.md) · [All concepts](../../README.md) · [DDoS Protection →](ddos-protection.md)

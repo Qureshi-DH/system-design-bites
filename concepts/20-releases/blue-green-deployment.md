@@ -48,3 +48,7 @@ All traffic goes to green, while blue waits one switch away. Both environments t
 ## Related
 
 [Rolling Deployments](rolling-deployments.md) · [Canary Releases](canary-releases.md) · [Rollbacks](rollbacks.md) · [Database Migrations](../07-databases/database-migrations.md) · [Load Balancing](../03-traffic/load-balancing.md)
+
+---
+
+[← Rolling Deployments](rolling-deployments.md) · [All concepts](../../README.md) · [Canary Releases →](canary-releases.md)

@@ -56,3 +56,7 @@ One chart holds the templates. Each environment brings its own small values file
 ## Related
 
 [Kubernetes](kubernetes.md) · [GitOps](gitops.md) · [Semantic Versioning](semantic-versioning.md) · [Infrastructure as Code](infrastructure-as-code.md) · [Rollbacks](../20-releases/rollbacks.md)
+
+---
+
+[← Kubernetes](kubernetes.md) · [All concepts](../../README.md) · [Infrastructure as Code →](infrastructure-as-code.md)

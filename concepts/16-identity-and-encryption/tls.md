@@ -44,3 +44,7 @@ One round trip sets everything up. The certificate check in the first note is wh
 ## Related
 
 [Encryption in Transit](encryption-in-transit.md) · [HTTP/2 and HTTP/3](../04-networking/http2-and-http3.md) · [Zero Trust](zero-trust.md) · [CDN](../03-traffic/cdn.md) · [Service Mesh](../15-architecture/service-mesh.md)
+
+---
+
+[← Secrets Management](secrets-management.md) · [All concepts](../../README.md) · [Encryption in Transit →](encryption-in-transit.md)

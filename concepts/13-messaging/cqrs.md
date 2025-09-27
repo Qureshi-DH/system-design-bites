@@ -46,3 +46,7 @@ Writes go through the command API into Postgres. Page views go through the query
 ## Related
 
 [Event Sourcing](event-sourcing.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Materialized Views](../07-databases/materialized-views.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md)
+
+---
+
+[← Event Sourcing](event-sourcing.md) · [All concepts](../../README.md) · [Batch vs Stream Processing →](batch-vs-stream-processing.md)

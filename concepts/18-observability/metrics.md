@@ -40,3 +40,7 @@ The same measurement goes to two places. Small, fixed labels go to the metrics d
 ## Related
 
 [Monitoring](monitoring.md) · [P99 Latency](../01-performance/p99-latency.md) · [Logging](logging.md) · [Distributed Tracing](distributed-tracing.md)
+
+---
+
+[← Logging](logging.md) · [All concepts](../../README.md) · [Distributed Tracing →](distributed-tracing.md)

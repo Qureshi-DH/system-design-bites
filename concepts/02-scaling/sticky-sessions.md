@@ -51,3 +51,7 @@ The cookie keeps the client on server 1 for as long as server 1 exists. When it 
 ## Related
 
 [Stateless Services](stateless-services.md) · [Load Balancing](../03-traffic/load-balancing.md) · [WebSockets](../04-networking/websockets.md) · [Long Polling](../04-networking/long-polling.md) · [Pub/Sub](../13-messaging/pub-sub.md)
+
+---
+
+[← Stateless Services](stateless-services.md) · [All concepts](../../README.md) · [Autoscaling →](autoscaling.md)

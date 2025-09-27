@@ -40,3 +40,7 @@ Follow the arrows around the loop. Order 1 waits for the socks, locked by order 
 ## Related
 
 [Pessimistic Locking](pessimistic-locking.md) · [Thread Safety](thread-safety.md) · [Timeouts](../14-reliability/timeouts.md) · [Retries](../14-reliability/retries.md) · [ACID Transactions](../07-databases/acid-transactions.md)
+
+---
+
+[← Event Loop](event-loop.md) · [All concepts](../../README.md) · [Optimistic Locking →](optimistic-locking.md)

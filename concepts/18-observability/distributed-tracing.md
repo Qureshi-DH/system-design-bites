@@ -45,3 +45,7 @@ Every message carries the same trace ID, so the backend can line up the spans in
 ## Related
 
 [Observability](observability.md) · [Logging](logging.md) · [Latency](../01-performance/latency.md) · [Service Mesh](../15-architecture/service-mesh.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md)
+
+---
+
+[← Metrics](metrics.md) · [All concepts](../../README.md) · [Monitoring →](monitoring.md)

@@ -53,3 +53,7 @@ The shipping database never answers, but checkout only waits 400 ms. The thread 
 ## Related
 
 [Retries](retries.md) · [Circuit Breakers](circuit-breakers.md) · [P99 Latency](../01-performance/p99-latency.md) · [Bulkheads](bulkheads.md) · [Graceful Degradation](graceful-degradation.md)
+
+---
+
+[← Cron Jobs](../13-messaging/cron-jobs.md) · [All concepts](../../README.md) · [Retries →](retries.md)

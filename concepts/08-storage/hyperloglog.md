@@ -50,3 +50,7 @@ Every visit only touches one small bucket, and a repeat visit hashes to the same
 ## Related
 
 [Bloom Filters](bloom-filters.md) · [Back of the Envelope Math](../01-performance/back-of-the-envelope-math.md) · [Metrics](../18-observability/metrics.md) · [OLTP vs OLAP](oltp-vs-olap.md)
+
+---
+
+[← Bloom Filters](bloom-filters.md) · [All concepts](../../README.md) · [Geospatial Indexing →](geospatial-indexing.md)

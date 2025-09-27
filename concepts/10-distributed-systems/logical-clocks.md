@@ -44,3 +44,7 @@ The cart splits into two versions from the same starting point. Each one is ahea
 ## Related
 
 [Clock Skew](clock-skew.md) · [Eventual Consistency](eventual-consistency.md) · [Quorum](quorum.md) · [Replication](../09-data-at-scale/replication.md) · [Race Conditions](../12-concurrency/race-conditions.md)
+
+---
+
+[← Clock Skew](clock-skew.md) · [All concepts](../../README.md) · [Heartbeats →](heartbeats.md)

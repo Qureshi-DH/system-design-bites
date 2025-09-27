@@ -52,3 +52,7 @@ Pod 2 is alive but not ready, so it gets no traffic and no restart. Pod 3 is stu
 ## Related
 
 [Health Checks](health-checks.md) · [Kubernetes](../19-build-and-infra/kubernetes.md) · [Graceful Shutdown](graceful-shutdown.md) · [Cold Starts](../15-architecture/cold-starts.md) · [Rolling Deployments](../20-releases/rolling-deployments.md)
+
+---
+
+[← Health Checks](health-checks.md) · [All concepts](../../README.md) · [Graceful Shutdown →](graceful-shutdown.md)

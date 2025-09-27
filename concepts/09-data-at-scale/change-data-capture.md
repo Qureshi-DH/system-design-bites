@@ -48,3 +48,7 @@ The editor app only ever writes to Postgres. Debezium reads the database log as 
 ## Related
 
 [Write Ahead Log](../08-storage/write-ahead-log.md) · [Outbox Pattern](../13-messaging/outbox-pattern.md) · [Event Streaming](../13-messaging/event-streaming.md) · [Cache Invalidation](../06-caching/cache-invalidation.md) · [Replication](replication.md)
+
+---
+
+[← Hot Spots](hot-spots.md) · [All concepts](../../README.md) · [Unique ID Generation →](unique-id-generation.md)

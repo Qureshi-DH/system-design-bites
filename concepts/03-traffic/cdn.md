@@ -42,3 +42,7 @@ Solid arrows are the short trips every viewer makes to a nearby edge. The dotted
 ## Related
 
 [Edge Caching](edge-caching.md) · [Caching](../06-caching/caching.md) · [Latency](../01-performance/latency.md) · [Object Storage](../08-storage/object-storage.md) · [Anycast](../04-networking/anycast.md)
+
+---
+
+[← Rate Limiting](rate-limiting.md) · [All concepts](../../README.md) · [Edge Caching →](edge-caching.md)

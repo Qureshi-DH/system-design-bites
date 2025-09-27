@@ -51,3 +51,7 @@ The gateway stamps each request with an ID, and every service copies it into its
 ## Related
 
 [Observability](observability.md) · [Distributed Tracing](distributed-tracing.md) · [Metrics](metrics.md) · [Secrets Management](../16-identity-and-encryption/secrets-management.md) · [Cost Optimization](../22-operations/cost-optimization.md)
+
+---
+
+[← Observability](observability.md) · [All concepts](../../README.md) · [Metrics →](metrics.md)

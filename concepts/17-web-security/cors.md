@@ -53,3 +53,7 @@ The browser runs the preflight and checks the allow header before the page sees 
 ## Related
 
 [CSRF](csrf.md) · [XSS](xss.md) · [API Gateways](../03-traffic/api-gateways.md) · [Authentication vs Authorization](../16-identity-and-encryption/authentication-vs-authorization.md)
+
+---
+
+[← Zero Trust](../16-identity-and-encryption/zero-trust.md) · [All concepts](../../README.md) · [CSRF →](csrf.md)

@@ -40,3 +40,7 @@ Same database, same code, same data. The thick arrow is the only change: a bigge
 ## Related
 
 [Horizontal Scaling](horizontal-scaling.md) · [Single Point of Failure](single-point-of-failure.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Sharding](../09-data-at-scale/sharding.md)
+
+---
+
+[← Back of the Envelope Math](../01-performance/back-of-the-envelope-math.md) · [All concepts](../../README.md) · [Horizontal Scaling →](horizontal-scaling.md)

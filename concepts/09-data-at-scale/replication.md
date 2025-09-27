@@ -46,3 +46,7 @@ The leader only tells the checkout service "saved" after the zone B follower has
 ## Related
 
 [Read Replicas](read-replicas.md) · [Failover](../21-disaster-recovery/failover.md) · [Write Ahead Log](../08-storage/write-ahead-log.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Backups](../21-disaster-recovery/backups.md)
+
+---
+
+[← OLTP vs OLAP](../08-storage/oltp-vs-olap.md) · [All concepts](../../README.md) · [Read Replicas →](read-replicas.md)

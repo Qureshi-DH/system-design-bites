@@ -58,3 +58,7 @@ The loop is the bug. Each trip to the database is quick, but 50 of them in a row
 ## Related
 
 [Query Optimization](query-optimization.md) · [Database Indexing](database-indexing.md) · [Connection Pooling](connection-pooling.md) · [GraphQL](../05-apis/graphql.md) · [Law of Leaky Abstractions](../23-laws/law-of-leaky-abstractions.md)
+
+---
+
+[← Query Optimization](query-optimization.md) · [All concepts](../../README.md) · [Connection Pooling →](connection-pooling.md)

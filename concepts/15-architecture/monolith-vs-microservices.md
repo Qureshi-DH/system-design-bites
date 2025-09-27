@@ -46,3 +46,7 @@ In the monolith, every module talks in memory and shares one database. In the mi
 ## Related
 
 [Service Discovery](service-discovery.md) · [Strangler Fig](strangler-fig.md) · [Saga Pattern](../11-coordination/saga-pattern.md) · [Distributed Tracing](../18-observability/distributed-tracing.md) · [Conway's Law](../23-laws/conways-law.md)
+
+---
+
+[← Chaos Engineering](../14-reliability/chaos-engineering.md) · [All concepts](../../README.md) · [Domain Driven Design →](domain-driven-design.md)

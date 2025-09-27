@@ -49,3 +49,7 @@ The same page views feed two paths. The batch path waits for a full day of files
 ## Related
 
 [Event Streaming](event-streaming.md) · [Cron Jobs](cron-jobs.md) · [OLTP vs OLAP](../08-storage/oltp-vs-olap.md) · [Latency](../01-performance/latency.md) · [Cost Optimization](../22-operations/cost-optimization.md)
+
+---
+
+[← CQRS](cqrs.md) · [All concepts](../../README.md) · [Cron Jobs →](cron-jobs.md)

@@ -43,3 +43,7 @@ The chaos tool kills exactly one cache node, which keeps the blast radius small.
 ## Related
 
 [Production Incidents](../22-operations/production-incidents.md) · [Circuit Breakers](circuit-breakers.md) · [Graceful Degradation](graceful-degradation.md) · [Runbooks](../22-operations/runbooks.md) · [Load Testing](../22-operations/load-testing.md)
+
+---
+
+[← Graceful Shutdown](graceful-shutdown.md) · [All concepts](../../README.md) · [Monolith vs Microservices →](../15-architecture/monolith-vs-microservices.md)

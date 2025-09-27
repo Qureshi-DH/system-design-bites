@@ -44,3 +44,7 @@ The repo ships code with no secrets in it. The app proves its identity to the se
 ## Related
 
 [IAM](iam.md) · [Encryption at Rest](encryption-at-rest.md) · [JWT Rotation](jwt-rotation.md) · [CI/CD](../19-build-and-infra/ci-cd.md) · [Password Hashing](password-hashing.md)
+
+---
+
+[← IAM](iam.md) · [All concepts](../../README.md) · [TLS →](tls.md)

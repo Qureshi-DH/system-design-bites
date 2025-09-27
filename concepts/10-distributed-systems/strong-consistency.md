@@ -45,3 +45,7 @@ The laptop's payment only counts once a majority of replicas store it. The phone
 ## Related
 
 [CAP Theorem](cap-theorem.md) · [Eventual Consistency](eventual-consistency.md) · [Quorum](quorum.md) · [Consensus](../11-coordination/consensus.md) · [Isolation Levels](../07-databases/isolation-levels.md)
+
+---
+
+[← CAP Theorem](cap-theorem.md) · [All concepts](../../README.md) · [Eventual Consistency →](eventual-consistency.md)

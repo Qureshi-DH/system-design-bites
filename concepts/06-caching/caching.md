@@ -44,3 +44,7 @@ Each layer answers what it can and passes only its misses down the line. The fur
 ## Related
 
 [Caching Strategies](caching-strategies.md) · [Cache Eviction](cache-eviction.md) · [Cache Invalidation](cache-invalidation.md) · [CDN](../03-traffic/cdn.md) · [Zipf's Law](../23-laws/zipfs-law.md)
+
+---
+
+[← Serialization Formats](../05-apis/serialization-formats.md) · [All concepts](../../README.md) · [Caching Strategies →](caching-strategies.md)

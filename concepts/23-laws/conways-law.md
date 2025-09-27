@@ -49,3 +49,7 @@ Compare the two boxes. The ordering team talks to the other two teams, and the o
 ## Related
 
 [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md) · [Domain Driven Design](../15-architecture/domain-driven-design.md) · [Coupling and Cohesion](../24-principles/coupling-and-cohesion.md) · [Brooks's Law](brooks-law.md) · [Strangler Fig](../15-architecture/strangler-fig.md)
+
+---
+
+[← Pareto Principle](pareto-principle.md) · [All concepts](../../README.md) · [Hyrum's Law →](hyrums-law.md)

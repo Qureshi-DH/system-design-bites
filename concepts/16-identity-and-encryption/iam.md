@@ -51,3 +51,7 @@ Every caller, human or machine, passes the same policy check with a short lived 
 ## Related
 
 [Secrets Management](secrets-management.md) · [Role Based Access Control](role-based-access-control.md) · [Zero Trust](zero-trust.md) · [Infrastructure as Code](../19-build-and-infra/infrastructure-as-code.md) · [Principle of Least Privilege](../24-principles/principle-of-least-privilege.md)
+
+---
+
+[← Role Based Access Control](role-based-access-control.md) · [All concepts](../../README.md) · [Secrets Management →](secrets-management.md)

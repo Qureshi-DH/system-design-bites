@@ -41,3 +41,7 @@ The filter lives in memory and costs nothing to ask. Only a "maybe" touches the 
 ## Related
 
 [Storage Engines](storage-engines.md) · [Database Indexing](../07-databases/database-indexing.md) · [Caching](../06-caching/caching.md) · [Back of the Envelope Math](../01-performance/back-of-the-envelope-math.md) · [HyperLogLog](hyperloglog.md)
+
+---
+
+[← Vector Search](vector-search.md) · [All concepts](../../README.md) · [HyperLogLog →](hyperloglog.md)

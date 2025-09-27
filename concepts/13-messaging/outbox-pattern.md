@@ -57,3 +57,7 @@ The API never talks to Kafka. It writes the ticket and the event together, so th
 ## Related
 
 [Delivery Guarantees](delivery-guarantees.md) · [Change Data Capture](../09-data-at-scale/change-data-capture.md) · [ACID Transactions](../07-databases/acid-transactions.md) · [Idempotency](../14-reliability/idempotency.md) · [Distributed Transactions](../11-coordination/distributed-transactions.md)
+
+---
+
+[← Fan Out](fan-out.md) · [All concepts](../../README.md) · [Event Sourcing →](event-sourcing.md)

@@ -47,3 +47,7 @@ The question that decides everything is whether the old code can still read the 
 ## Related
 
 [Database Migrations](../07-databases/database-migrations.md) · [Blue Green Deployment](blue-green-deployment.md) · [Feature Flags](feature-flags.md) · [Schema Versioning](../07-databases/schema-versioning.md) · [Production Incidents](../22-operations/production-incidents.md)
+
+---
+
+[← Canary Releases](canary-releases.md) · [All concepts](../../README.md) · [Backups →](../21-disaster-recovery/backups.md)

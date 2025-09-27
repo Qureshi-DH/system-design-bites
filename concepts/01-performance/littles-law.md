@@ -37,3 +37,7 @@ Each box applies the same formula: arrival rate times time spent. The dotted pat
 ## Related
 
 [Throughput](throughput.md) · [Latency](latency.md) · [Connection Pooling](../07-databases/connection-pooling.md) · [Message Queues](../13-messaging/message-queues.md) · [Kingman's Formula](../23-laws/kingmans-formula.md)
+
+---
+
+[← Tail Latency](tail-latency.md) · [All concepts](../../README.md) · [Back of the Envelope Math →](back-of-the-envelope-math.md)

@@ -47,3 +47,7 @@ On the left, Site B gets no traffic until Site A fails and someone flips the swi
 ## Related
 
 [Failover](failover.md) · [Multi Region Deployment](multi-region-deployment.md) · [Replication](../09-data-at-scale/replication.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [High Availability](../02-scaling/high-availability.md)
+
+---
+
+[← Failover](failover.md) · [All concepts](../../README.md) · [Multi Region Deployment →](multi-region-deployment.md)

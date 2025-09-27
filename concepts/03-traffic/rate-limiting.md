@@ -44,3 +44,7 @@ Both clients hit the same limiter. The normal user always has tokens left, so th
 ## Related
 
 [API Gateways](api-gateways.md) · [Load Shedding](../14-reliability/load-shedding.md) · [Backpressure](../13-messaging/backpressure.md) · [DDoS Protection](../17-web-security/ddos-protection.md) · [Exponential Backoff](../14-reliability/exponential-backoff.md)
+
+---
+
+[← API Gateways](api-gateways.md) · [All concepts](../../README.md) · [CDN →](cdn.md)

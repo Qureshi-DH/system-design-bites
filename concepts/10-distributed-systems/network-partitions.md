@@ -43,3 +43,7 @@ The health check sits next to the database, so it sees nothing wrong. The order 
 ## Related
 
 [CAP Theorem](cap-theorem.md) · [Timeouts](../14-reliability/timeouts.md) · [Heartbeats](heartbeats.md) · [Split Brain](../11-coordination/split-brain.md) · [Fallacies of Distributed Computing](../23-laws/fallacies-of-distributed-computing.md)
+
+---
+
+[← Unique ID Generation](../09-data-at-scale/unique-id-generation.md) · [All concepts](../../README.md) · [CAP Theorem →](cap-theorem.md)

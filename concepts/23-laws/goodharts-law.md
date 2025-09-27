@@ -46,3 +46,7 @@ The old number is taken at the load balancer, which only ever sees the quick 202
 ## Related
 
 [SLOs](../18-observability/slos.md) · [SLIs](../18-observability/slis.md) · [Metrics](../18-observability/metrics.md) · [Error Budgets](../18-observability/error-budgets.md) · [Alerts](../18-observability/alerts.md)
+
+---
+
+[← Postel's Law](postels-law.md) · [All concepts](../../README.md) · [Brooks's Law →](brooks-law.md)

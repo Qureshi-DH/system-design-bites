@@ -50,3 +50,7 @@ Over TCP, the orders widget's packet arrives fine but sits in the phone's buffer
 ## Related
 
 [HTTP/2 and HTTP/3](http2-and-http3.md) · [TCP vs UDP](tcp-vs-udp.md) · [Latency](../01-performance/latency.md) · [Tail Latency](../01-performance/tail-latency.md) · [Message Queues](../13-messaging/message-queues.md)
+
+---
+
+[← HTTP/2 and HTTP/3](http2-and-http3.md) · [All concepts](../../README.md) · [Long Polling →](long-polling.md)

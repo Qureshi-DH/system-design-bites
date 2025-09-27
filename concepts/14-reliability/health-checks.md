@@ -44,3 +44,7 @@ All three health checks lean on the same database. When it slows down, all three
 ## Related
 
 [Load Balancing](../03-traffic/load-balancing.md) · [Liveness and Readiness Probes](liveness-and-readiness-probes.md) · [Heartbeats](../10-distributed-systems/heartbeats.md) · [Monitoring](../18-observability/monitoring.md) · [Failover](../21-disaster-recovery/failover.md)
+
+---
+
+[← Graceful Degradation](graceful-degradation.md) · [All concepts](../../README.md) · [Liveness and Readiness Probes →](liveness-and-readiness-probes.md)

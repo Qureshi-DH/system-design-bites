@@ -46,3 +46,7 @@ Every service sends all three signals through one collector. Because they share 
 ## Related
 
 [Logging](logging.md) · [Metrics](metrics.md) · [Distributed Tracing](distributed-tracing.md) · [Monitoring](monitoring.md) · [Production Incidents](../22-operations/production-incidents.md)
+
+---
+
+[← DDoS Protection](../17-web-security/ddos-protection.md) · [All concepts](../../README.md) · [Logging →](logging.md)

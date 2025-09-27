@@ -51,3 +51,7 @@ Writes always go to the leader, and the replicas trail it by a moment. Reads go 
 ## Related
 
 [Replication](replication.md) · [Sharding](sharding.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Caching](../06-caching/caching.md) · [Connection Pooling](../07-databases/connection-pooling.md)
+
+---
+
+[← Replication](replication.md) · [All concepts](../../README.md) · [Merkle Trees →](merkle-trees.md)

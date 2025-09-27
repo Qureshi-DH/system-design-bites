@@ -44,3 +44,7 @@ Both requests want the same 20 rows. The offset query walks past 180,000 rows to
 ## Related
 
 [Database Indexing](../07-databases/database-indexing.md) · [Query Optimization](../07-databases/query-optimization.md) · [REST](rest.md) · [GraphQL](graphql.md)
+
+---
+
+[← Webhooks](webhooks.md) · [All concepts](../../README.md) · [API Versioning →](api-versioning.md)

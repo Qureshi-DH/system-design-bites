@@ -46,3 +46,7 @@ Writes only ever append to the event store. The current balance comes from loadi
 ## Related
 
 [CQRS](cqrs.md) · [Event Streaming](event-streaming.md) · [Write Ahead Log](../08-storage/write-ahead-log.md) · [Materialized Views](../07-databases/materialized-views.md) · [Schema Versioning](../07-databases/schema-versioning.md)
+
+---
+
+[← Outbox Pattern](outbox-pattern.md) · [All concepts](../../README.md) · [CQRS →](cqrs.md)

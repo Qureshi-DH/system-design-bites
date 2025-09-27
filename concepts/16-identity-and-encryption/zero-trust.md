@@ -39,3 +39,7 @@ No request is trusted for coming from the right network. The proxy checks the pe
 ## Related
 
 [Authentication vs Authorization](authentication-vs-authorization.md) · [IAM](iam.md) · [Encryption in Transit](encryption-in-transit.md) · [Service Mesh](../15-architecture/service-mesh.md) · [Role Based Access Control](role-based-access-control.md)
+
+---
+
+[← Encryption at Rest](encryption-at-rest.md) · [All concepts](../../README.md) · [CORS →](../17-web-security/cors.md)

@@ -43,3 +43,7 @@ Small tenants share one database and are kept apart by a tenant ID on every row.
 ## Related
 
 [Sharding](../09-data-at-scale/sharding.md) · [Rate Limiting](../03-traffic/rate-limiting.md) · [Bulkheads](../14-reliability/bulkheads.md) · [Authentication vs Authorization](../16-identity-and-encryption/authentication-vs-authorization.md) · [Hot Spots](../09-data-at-scale/hot-spots.md)
+
+---
+
+[← Strangler Fig](strangler-fig.md) · [All concepts](../../README.md) · [Serverless Limits →](serverless-limits.md)

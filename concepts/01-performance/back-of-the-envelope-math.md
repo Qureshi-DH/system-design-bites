@@ -49,3 +49,7 @@ Every number on the diagram came from one multiplication and one division. The l
 ## Related
 
 [Throughput](throughput.md) · [Latency](latency.md) · [Object Storage](../08-storage/object-storage.md) · [CDN](../03-traffic/cdn.md) · [Capacity Planning](../22-operations/capacity-planning.md)
+
+---
+
+[← Little's Law](littles-law.md) · [All concepts](../../README.md) · [Vertical Scaling →](../02-scaling/vertical-scaling.md)

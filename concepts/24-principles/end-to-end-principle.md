@@ -41,3 +41,7 @@ Each hop has its own check, but none of them sees the bit flip inside the upload
 ## Related
 
 [TCP vs UDP](../04-networking/tcp-vs-udp.md) · [Object Storage](../08-storage/object-storage.md) · [Encryption in Transit](../16-identity-and-encryption/encryption-in-transit.md) · [Idempotency](../14-reliability/idempotency.md) · [Retries](../14-reliability/retries.md)
+
+---
+
+[← Chesterton's Fence](../23-laws/chestertons-fence.md) · [All concepts](../../README.md) · [Principle of Least Privilege →](principle-of-least-privilege.md)

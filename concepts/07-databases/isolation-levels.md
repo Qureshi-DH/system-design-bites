@@ -51,3 +51,7 @@ Both fans read the same 1 before either one writes. At read committed nothing st
 ## Related
 
 [ACID Transactions](acid-transactions.md) · [Race Conditions](../12-concurrency/race-conditions.md) · [Optimistic Locking](../12-concurrency/optimistic-locking.md) · [Pessimistic Locking](../12-concurrency/pessimistic-locking.md) · [MVCC](mvcc.md)
+
+---
+
+[← ACID Transactions](acid-transactions.md) · [All concepts](../../README.md) · [MVCC →](mvcc.md)

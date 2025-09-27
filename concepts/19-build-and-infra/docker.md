@@ -50,3 +50,7 @@ One Dockerfile builds one image. Every machine pulls those same bytes from the r
 ## Related
 
 [Kubernetes](kubernetes.md) · [Build Caching](build-caching.md) · [CI/CD](ci-cd.md) · [Stateless Services](../02-scaling/stateless-services.md) · [Twelve Factor App](../24-principles/twelve-factor-app.md)
+
+---
+
+[← Semantic Versioning](semantic-versioning.md) · [All concepts](../../README.md) · [Kubernetes →](kubernetes.md)

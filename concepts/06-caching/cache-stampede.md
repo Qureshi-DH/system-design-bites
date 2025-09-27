@@ -41,3 +41,7 @@ Thousands of requests miss at once, but only the one holding the lock goes to th
 ## Related
 
 [Cache Invalidation](cache-invalidation.md) · [Caching](caching.md) · [Distributed Locks](../11-coordination/distributed-locks.md) · [Hot Spots](../09-data-at-scale/hot-spots.md) · [Load Shedding](../14-reliability/load-shedding.md)
+
+---
+
+[← Cache Invalidation](cache-invalidation.md) · [All concepts](../../README.md) · [SQL vs NoSQL →](../07-databases/sql-vs-nosql.md)

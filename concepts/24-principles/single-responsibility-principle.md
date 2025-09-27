@@ -45,3 +45,7 @@ The arrows are change requests. In the before picture, three teams push changes 
 ## Related
 
 [Separation of Concerns](separation-of-concerns.md) · [Coupling and Cohesion](coupling-and-cohesion.md) · [Conway's Law](../23-laws/conways-law.md) · [Domain Driven Design](../15-architecture/domain-driven-design.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md)
+
+---
+
+[← Separation of Concerns](separation-of-concerns.md) · [All concepts](../../README.md) · [Coupling and Cohesion →](coupling-and-cohesion.md)

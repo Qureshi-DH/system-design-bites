@@ -41,3 +41,7 @@ Every change should travel the solid path: a file, a review, a merge, and a tool
 ## Related
 
 [Terraform](terraform.md) · [GitOps](gitops.md) · [Disaster Recovery](../21-disaster-recovery/disaster-recovery.md) · [CI/CD](ci-cd.md)
+
+---
+
+[← Helm Charts](helm-charts.md) · [All concepts](../../README.md) · [Terraform →](terraform.md)

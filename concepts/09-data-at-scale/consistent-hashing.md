@@ -44,3 +44,7 @@ Each key belongs to the first server clockwise from it. New server E lands betwe
 ## Related
 
 [Sharding](sharding.md) · [Hot Spots](hot-spots.md) · [Caching](../06-caching/caching.md) · [Cache Stampede](../06-caching/cache-stampede.md) · [Load Balancing](../03-traffic/load-balancing.md)
+
+---
+
+[← Sharding](sharding.md) · [All concepts](../../README.md) · [Hot Spots →](hot-spots.md)

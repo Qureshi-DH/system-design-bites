@@ -49,3 +49,7 @@ This is a pilot light. The data already flows to the DR region, but the servers 
 ## Related
 
 [Backups](backups.md) · [RTO and RPO](rto-and-rpo.md) · [Failover](failover.md) · [Multi Region Deployment](multi-region-deployment.md) · [Runbooks](../22-operations/runbooks.md)
+
+---
+
+[← Backups](backups.md) · [All concepts](../../README.md) · [RTO and RPO →](rto-and-rpo.md)

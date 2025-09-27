@@ -42,3 +42,7 @@ Stand at the moment of the disaster. Looking back, the gap to your last safe cop
 ## Related
 
 [Disaster Recovery](disaster-recovery.md) · [Backups](backups.md) · [Failover](failover.md) · [Replication](../09-data-at-scale/replication.md) · [SLAs](../18-observability/slas.md)
+
+---
+
+[← Disaster Recovery](disaster-recovery.md) · [All concepts](../../README.md) · [Failover →](failover.md)

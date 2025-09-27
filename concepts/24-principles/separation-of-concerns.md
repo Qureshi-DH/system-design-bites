@@ -45,3 +45,7 @@ Each box owns one job: taking uploads, encoding, describing videos, or serving b
 ## Related
 
 [Single Responsibility Principle](single-responsibility-principle.md) · [Coupling and Cohesion](coupling-and-cohesion.md) · [Message Queues](../13-messaging/message-queues.md) · [Service Mesh](../15-architecture/service-mesh.md) · [CQRS](../13-messaging/cqrs.md)
+
+---
+
+[← DRY](dry.md) · [All concepts](../../README.md) · [Single Responsibility Principle →](single-responsibility-principle.md)

@@ -45,3 +45,7 @@ Same input, two ways to send it. Glued into the SQL text, the quote breaks out a
 ## Related
 
 [XSS](xss.md) · [WAF](waf.md) · [SSRF](ssrf.md) · [Role Based Access Control](../16-identity-and-encryption/role-based-access-control.md)
+
+---
+
+[← XSS](xss.md) · [All concepts](../../README.md) · [SSRF →](ssrf.md)

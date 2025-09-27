@@ -46,3 +46,7 @@ The write counts once A and B have it. The read asks B and C. C is behind, but B
 ## Related
 
 [Replication](../09-data-at-scale/replication.md) · [Strong Consistency](strong-consistency.md) · [Eventual Consistency](eventual-consistency.md) · [Consensus](../11-coordination/consensus.md) · [CAP Theorem](cap-theorem.md)
+
+---
+
+[← Eventual Consistency](eventual-consistency.md) · [All concepts](../../README.md) · [Clock Skew →](clock-skew.md)

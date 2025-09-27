@@ -47,3 +47,7 @@ Worker 7 is alive but frozen, so the coordinator wrongly declares it dead and gi
 ## Related
 
 [Health Checks](../14-reliability/health-checks.md) · [Gossip Protocol](gossip-protocol.md) · [Network Partitions](network-partitions.md) · [Leader Election](../11-coordination/leader-election.md) · [Distributed Locks](../11-coordination/distributed-locks.md)
+
+---
+
+[← Logical Clocks](logical-clocks.md) · [All concepts](../../README.md) · [Gossip Protocol →](gossip-protocol.md)

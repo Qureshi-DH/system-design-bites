@@ -45,3 +45,7 @@ Most traffic stays on the stable version. Both versions feed the same metrics, a
 ## Related
 
 [Feature Flags](feature-flags.md) · [Rolling Deployments](rolling-deployments.md) · [Rollbacks](rollbacks.md) · [Metrics](../18-observability/metrics.md) · [SLOs](../18-observability/slos.md)
+
+---
+
+[← Blue Green Deployment](blue-green-deployment.md) · [All concepts](../../README.md) · [Rollbacks →](rollbacks.md)

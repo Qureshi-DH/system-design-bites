@@ -56,3 +56,7 @@ In the distributed monolith, one slow service stalls the whole chain, and every 
 ## Related
 
 [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md) · [Single Responsibility Principle](single-responsibility-principle.md) · [Event Driven Architecture](../13-messaging/event-driven-architecture.md) · [Domain Driven Design](../15-architecture/domain-driven-design.md) · [Conway's Law](../23-laws/conways-law.md)
+
+---
+
+[← Single Responsibility Principle](single-responsibility-principle.md) · [All concepts](../../README.md) · [Premature Optimization →](premature-optimization.md)

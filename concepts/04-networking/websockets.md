@@ -39,3 +39,7 @@ Each phone holds an open socket to one server. Maya's message reaches Sam only b
 ## Related
 
 [Server Sent Events](server-sent-events.md) · [Long Polling](long-polling.md) · [Pub/Sub](../13-messaging/pub-sub.md) · [Sticky Sessions](../02-scaling/sticky-sessions.md) · [Heartbeats](../10-distributed-systems/heartbeats.md)
+
+---
+
+[← Server Sent Events](server-sent-events.md) · [All concepts](../../README.md) · [REST →](../05-apis/rest.md)

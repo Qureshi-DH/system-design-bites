@@ -49,3 +49,7 @@ Entries go in on every play but only come out when a stop event arrives. Swiped 
 ## Related
 
 [Garbage Collection](garbage-collection.md) · [Cache Eviction](../06-caching/cache-eviction.md) · [Metrics](../18-observability/metrics.md) · [Kubernetes](../19-build-and-infra/kubernetes.md) · [Liveness and Readiness Probes](../14-reliability/liveness-and-readiness-probes.md)
+
+---
+
+[← Pessimistic Locking](pessimistic-locking.md) · [All concepts](../../README.md) · [Garbage Collection →](garbage-collection.md)

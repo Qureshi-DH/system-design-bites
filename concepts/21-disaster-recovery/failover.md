@@ -46,3 +46,7 @@ The checker waits for three misses, not one, so a single blip does nothing. Then
 ## Related
 
 [Health Checks](../14-reliability/health-checks.md) · [Split Brain](../11-coordination/split-brain.md) · [DNS](../04-networking/dns.md) · [Active/Active vs Active/Passive](active-active-vs-active-passive.md) · [RTO and RPO](rto-and-rpo.md)
+
+---
+
+[← RTO and RPO](rto-and-rpo.md) · [All concepts](../../README.md) · [Active/Active vs Active/Passive →](active-active-vs-active-passive.md)

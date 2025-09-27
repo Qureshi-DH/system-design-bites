@@ -56,3 +56,7 @@ The app sends one query. The server checks its cost first, then each resolver fe
 ## Related
 
 [REST](rest.md) · [gRPC](grpc.md) · [N+1 Queries](../07-databases/n-plus-one-queries.md) · [Rate Limiting](../03-traffic/rate-limiting.md) · [Caching](../06-caching/caching.md)
+
+---
+
+[← REST](rest.md) · [All concepts](../../README.md) · [gRPC →](grpc.md)

@@ -53,3 +53,7 @@ Every file travels as its own stream inside a single connection, so the thumbnai
 ## Related
 
 [Head of Line Blocking](head-of-line-blocking.md) · [TCP vs UDP](tcp-vs-udp.md) · [TLS](../16-identity-and-encryption/tls.md) · [gRPC](../05-apis/grpc.md) · [Latency](../01-performance/latency.md)
+
+---
+
+[← TCP vs UDP](tcp-vs-udp.md) · [All concepts](../../README.md) · [Head of Line Blocking →](head-of-line-blocking.md)

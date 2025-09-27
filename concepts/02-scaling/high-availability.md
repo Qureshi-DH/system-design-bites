@@ -52,3 +52,7 @@ Every box on the request path has a twin in the other zone. Zone A can go dark a
 ## Related
 
 [Single Point of Failure](single-point-of-failure.md) · [Failover](../21-disaster-recovery/failover.md) · [SLOs](../18-observability/slos.md) · [Active/Active vs Active/Passive](../21-disaster-recovery/active-active-vs-active-passive.md) · [Multi Region Deployment](../21-disaster-recovery/multi-region-deployment.md)
+
+---
+
+[← Single Point of Failure](single-point-of-failure.md) · [All concepts](../../README.md) · [Load Balancing →](../03-traffic/load-balancing.md)

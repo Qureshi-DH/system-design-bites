@@ -48,3 +48,7 @@ The password itself is never stored anywhere. The login service hashes the typed
 ## Related
 
 [Authentication vs Authorization](authentication-vs-authorization.md) · [Secrets Management](secrets-management.md) · [Encryption at Rest](encryption-at-rest.md) · [Rate Limiting](../03-traffic/rate-limiting.md) · [Kerckhoffs's Principle](../24-principles/kerckhoffs-principle.md)
+
+---
+
+[← Authentication vs Authorization](authentication-vs-authorization.md) · [All concepts](../../README.md) · [OAuth →](oauth.md)

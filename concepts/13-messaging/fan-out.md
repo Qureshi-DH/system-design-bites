@@ -48,3 +48,7 @@ Normal posts get pushed into each follower's feed ahead of time. Celebrity posts
 ## Related
 
 [Pub/Sub](pub-sub.md) · [Hot Spots](../09-data-at-scale/hot-spots.md) · [Caching](../06-caching/caching.md) · [Message Queues](message-queues.md) · [Normalization vs Denormalization](../07-databases/normalization-vs-denormalization.md)
+
+---
+
+[← Backpressure](backpressure.md) · [All concepts](../../README.md) · [Outbox Pattern →](outbox-pattern.md)

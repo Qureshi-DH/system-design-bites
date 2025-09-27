@@ -54,3 +54,7 @@ Mid rollout, the load balancer sends traffic to old and new servers at once. Bot
 ## Related
 
 [Blue Green Deployment](blue-green-deployment.md) · [Canary Releases](canary-releases.md) · [Database Migrations](../07-databases/database-migrations.md) · [API Versioning](../05-apis/api-versioning.md) · [Graceful Shutdown](../14-reliability/graceful-shutdown.md)
+
+---
+
+[← Feature Flags](feature-flags.md) · [All concepts](../../README.md) · [Blue Green Deployment →](blue-green-deployment.md)

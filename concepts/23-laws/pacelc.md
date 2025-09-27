@@ -49,3 +49,7 @@ The like count takes one short hop to a nearby replica: fast, maybe stale. The p
 ## Related
 
 [CAP Theorem](../10-distributed-systems/cap-theorem.md) · [Quorum](../10-distributed-systems/quorum.md) · [Eventual Consistency](../10-distributed-systems/eventual-consistency.md) · [Strong Consistency](../10-distributed-systems/strong-consistency.md) · [Replication](../09-data-at-scale/replication.md)
+
+---
+
+[← Fallacies of Distributed Computing](fallacies-of-distributed-computing.md) · [All concepts](../../README.md) · [Two Generals Problem →](two-generals-problem.md)

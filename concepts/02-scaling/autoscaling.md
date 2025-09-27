@@ -43,3 +43,7 @@ The loop on the right runs all day: measure, compare to the target, resize. The 
 ## Related
 
 [Horizontal Scaling](horizontal-scaling.md) · [Stateless Services](stateless-services.md) · [Health Checks](../14-reliability/health-checks.md) · [Cold Starts](../15-architecture/cold-starts.md) · [Cost Optimization](../22-operations/cost-optimization.md)
+
+---
+
+[← Sticky Sessions](sticky-sessions.md) · [All concepts](../../README.md) · [Single Point of Failure →](single-point-of-failure.md)

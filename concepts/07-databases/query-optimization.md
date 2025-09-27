@@ -58,3 +58,7 @@ The loop is the whole job: let the database tell you which queries are slow, ask
 ## Related
 
 [Database Indexing](database-indexing.md) · [N+1 Queries](n-plus-one-queries.md) · [P99 Latency](../01-performance/p99-latency.md) · [Read Replicas](../09-data-at-scale/read-replicas.md) · [Premature Optimization](../24-principles/premature-optimization.md)
+
+---
+
+[← Database Indexing](database-indexing.md) · [All concepts](../../README.md) · [N+1 Queries →](n-plus-one-queries.md)

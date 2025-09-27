@@ -42,3 +42,7 @@ One request comes in and four go out, all on the internal network. The dotted li
 ## Related
 
 [Rate Limiting](rate-limiting.md) · [Reverse Proxies](reverse-proxies.md) · [Monolith vs Microservices](../15-architecture/monolith-vs-microservices.md) · [Authentication vs Authorization](../16-identity-and-encryption/authentication-vs-authorization.md) · [Backend for Frontend](../15-architecture/backend-for-frontend.md)
+
+---
+
+[← Reverse Proxies](reverse-proxies.md) · [All concepts](../../README.md) · [Rate Limiting →](rate-limiting.md)

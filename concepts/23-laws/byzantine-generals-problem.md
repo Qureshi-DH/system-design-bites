@@ -46,3 +46,7 @@ D tells A a different story than it tells B and C. The Carol batch collects 3 of
 ## Related
 
 [Consensus](../11-coordination/consensus.md) · [Quorum](../10-distributed-systems/quorum.md) · [Two Generals Problem](two-generals-problem.md) · [FLP Impossibility](flp-impossibility.md) · [Zero Trust](../16-identity-and-encryption/zero-trust.md)
+
+---
+
+[← Two Generals Problem](two-generals-problem.md) · [All concepts](../../README.md) · [FLP Impossibility →](flp-impossibility.md)

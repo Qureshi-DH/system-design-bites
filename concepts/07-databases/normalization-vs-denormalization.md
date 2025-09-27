@@ -47,3 +47,7 @@ In the normalized version, every page view pays for the join and the count. In t
 ## Related
 
 [SQL vs NoSQL](sql-vs-nosql.md) · [Materialized Views](materialized-views.md) · [CQRS](../13-messaging/cqrs.md) · [Caching](../06-caching/caching.md)
+
+---
+
+[← Connection Pooling](connection-pooling.md) · [All concepts](../../README.md) · [Materialized Views →](materialized-views.md)

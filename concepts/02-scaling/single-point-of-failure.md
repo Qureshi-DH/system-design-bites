@@ -41,3 +41,7 @@ The game servers are redundant across two zones, but every match starts at one m
 ## Related
 
 [High Availability](high-availability.md) · [Failover](../21-disaster-recovery/failover.md) · [Replication](../09-data-at-scale/replication.md) · [Chaos Engineering](../14-reliability/chaos-engineering.md) · [Health Checks](../14-reliability/health-checks.md)
+
+---
+
+[← Autoscaling](autoscaling.md) · [All concepts](../../README.md) · [High Availability →](high-availability.md)

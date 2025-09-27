@@ -47,3 +47,7 @@ Drivers keep the index fresh with a steady stream of updates. A rider's request 
 ## Related
 
 [Database Indexing](../07-databases/database-indexing.md) · [Hot Spots](../09-data-at-scale/hot-spots.md) · [Sharding](../09-data-at-scale/sharding.md) · [Caching](../06-caching/caching.md)
+
+---
+
+[← HyperLogLog](hyperloglog.md) · [All concepts](../../README.md) · [OLTP vs OLAP →](oltp-vs-olap.md)

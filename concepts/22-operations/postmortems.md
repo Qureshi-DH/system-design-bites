@@ -41,3 +41,7 @@ The work flows from facts to causes to fixes. The fork at the end is the whole g
 ## Related
 
 [Production Incidents](production-incidents.md) · [Runbooks](runbooks.md) · [On Call](on-call.md) · [Error Budgets](../18-observability/error-budgets.md) · [Connection Pooling](../07-databases/connection-pooling.md)
+
+---
+
+[← Capacity Planning](capacity-planning.md) · [All concepts](../../README.md) · [Cost Optimization →](cost-optimization.md)

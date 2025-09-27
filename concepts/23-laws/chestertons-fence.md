@@ -42,3 +42,7 @@ The cron job looked like noise, but it was the only thing keeping memory under t
 ## Related
 
 [Cron Jobs](../13-messaging/cron-jobs.md) · [Memory Leaks](../12-concurrency/memory-leaks.md) · [Postmortems](../22-operations/postmortems.md) · [Runbooks](../22-operations/runbooks.md) · [Gall's Law](galls-law.md)
+
+---
+
+[← Law of Leaky Abstractions](law-of-leaky-abstractions.md) · [All concepts](../../README.md) · [End to End Principle →](../24-principles/end-to-end-principle.md)

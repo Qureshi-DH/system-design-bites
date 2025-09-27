@@ -44,3 +44,7 @@ Both setups serve the same 40 customers. What they built adds a router, eight da
 ## Related
 
 [KISS](kiss.md) · [Sharding](../09-data-at-scale/sharding.md) · [Premature Optimization](premature-optimization.md) · [Back of the Envelope Math](../01-performance/back-of-the-envelope-math.md) · [Capacity Planning](../22-operations/capacity-planning.md)
+
+---
+
+[← KISS](kiss.md) · [All concepts](../../README.md) · [DRY →](dry.md)

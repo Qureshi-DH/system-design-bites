@@ -53,3 +53,7 @@ Before the pause, a request takes 25 ms. During the pause the service is alive b
 ## Related
 
 [Memory Leaks](memory-leaks.md) · [P99 Latency](../01-performance/p99-latency.md) · [Tail Latency](../01-performance/tail-latency.md) · [Heartbeats](../10-distributed-systems/heartbeats.md) · [Distributed Locks](../11-coordination/distributed-locks.md)
+
+---
+
+[← Memory Leaks](memory-leaks.md) · [All concepts](../../README.md) · [Message Queues →](../13-messaging/message-queues.md)
