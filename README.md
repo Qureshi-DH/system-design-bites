@@ -1,8 +1,19 @@
 # System Design Bites
 
-System design concepts explained simply. One page per concept: the idea in one line, how it works, a real example, and a diagram.
+**214 system design ideas. One page each. Plain English.**
 
-Pages so far: 214
+Everyone has heard the words. Load balancer. Sharding. Idempotency. CAP theorem. Most people nod along, read a few chapters of a 600 page book, and still could not explain any of them to a friend.
+
+This repo is the short version. Each page takes about two minutes and has the same four parts:
+
+| Part | What you get |
+| --- | --- |
+| **One line** | The whole idea in a sentence or two. Read only this and you still get it. |
+| **How it works** | The mechanism, the tradeoffs, and the classic mistake. |
+| **Example** | A real looking system with real numbers. |
+| **Picture it** | A diagram of where the idea lives in an architecture. |
+
+No fluff, and no jargon without an explanation right next to it.
 
 ## Start here
 
@@ -23,6 +34,8 @@ New to all of this? Read these in order. Together they tell the story of how mos
 After that, jump to any section below. Every page links to its neighbors, so it is easy to wander.
 
 ## All concepts
+
+[Performance](#1-performance) (6) · [Scaling](#2-scaling) (7) · [Traffic and Edge](#3-traffic-and-edge) (6) · [Networking and Real Time](#4-networking-and-real-time) (8) · [APIs](#5-apis) (7) · [Caching](#6-caching) (5) · [Databases](#7-databases) (12) · [Storage and Search](#8-storage-and-search) (9) · [Data at Scale](#9-data-at-scale) (9) · [Distributed Systems](#10-distributed-systems) (9) · [Coordination](#11-coordination) (7) · [Concurrency and Runtime](#12-concurrency-and-runtime) (8) · [Messaging and Events](#13-messaging-and-events) (13) · [Reliability](#14-reliability) (12) · [Architecture](#15-architecture) (9) · [Identity and Encryption](#16-identity-and-encryption) (11) · [Web Security](#17-web-security) (7) · [Observability](#18-observability) (10) · [Build and Infrastructure](#19-build-and-infrastructure) (10) · [Releases](#20-releases) (5) · [Disaster Recovery](#21-disaster-recovery) (6) · [Operations](#22-operations) (7) · [Laws](#23-laws) (18) · [Principles](#24-principles) (13)
 
 ### 1. Performance
 
