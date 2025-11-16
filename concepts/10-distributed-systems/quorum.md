@@ -27,7 +27,7 @@ A multiplayer game stores player inventories in Cassandra, 3 replicas per player
 
 A player spends 500 gems on a sword. The write lands on replica A and is still on its way to the others. The player opens their inventory, the read hits replica C, and the sword isn't there. So they buy it again. Support gets the ticket.
 
-Switching both reads and writes to `QUORUM` closes the gap: every read now includes a replica that has the sword. Requests wait for the second fastest replica instead of the fastest, wich adds a couple of milliseconds. And when one replica restarts during a patch, both reads and writes keep working.
+Switching both reads and writes to `QUORUM` closes the gap: every read now includes a replica that has the sword. Requests wait for the second fastest replica instead of the fastest, which adds a couple of milliseconds. And when one replica restarts during a patch, both reads and writes keep working.
 
 ## Picture it
 
