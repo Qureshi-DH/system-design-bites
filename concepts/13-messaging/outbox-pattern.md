@@ -11,7 +11,7 @@ A service often has to do two things together: save a row in its database and pu
 
 The outbox fixes this with one table. In the same transaction that inserts the order, you insert a row into an `outbox` table describing the event. The database commits both or neither, so the promise to publish is exactly as durable as the order.
 
-A relay process then reads unsent outbox rows, publishes each one, and marks it sent. It can poll the table every second, or use change data capture, wich reads new rows straight from the database's change log, like the Postgres write ahead log. Debezium is a common tool for that.
+A relay process then reads unsent outbox rows, publishes each one, and marks it sent. It can poll the table every second, or use change data capture, which reads new rows straight from the database's change log, like the Postgres write ahead log. Debezium is a common tool for that.
 
 The relay can crash after publishing but before marking the row, so the same event may go out twice. That's at least once delivery, and consumers should dedupe by event ID.
 

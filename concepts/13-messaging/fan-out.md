@@ -4,7 +4,7 @@
 
 ## How it works
 
-Take a social feed. You follow 300 people and want thier latest posts, newest first. There are two ways to build that screen.
+Take a social feed. You follow 300 people and want their latest posts, newest first. There are two ways to build that screen.
 
 | | Fan out on write | Fan out on read |
 |---|---|---|
