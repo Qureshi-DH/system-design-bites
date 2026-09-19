@@ -49,6 +49,15 @@ One or two sentences on what to look at in the diagram.
 - No custom colors. The diagram has to look right in light and dark mode.
 - Show the idea inside a system: clients, services, caches, queues, databases.
 
+## Animations
+
+Every page opens with a small looping animation from `assets/animations/`. They are plain SVG files animated with SMIL, so GitHub plays them right on the page with no scripts.
+
+- One idea per animation, on a loop of 6 to 10 seconds that resets cleanly.
+- Same dark card, same layout, and colors that always mean the same thing: cyan for requests and data, green for success, red for failure, yellow for the focus of the page, orange for warnings.
+- Short labels, text no smaller than 11 px, and a one line caption at the bottom.
+- No scripts, no external fonts or images.
+
 ## Fixing something
 
 Small fixes are welcome as they are. For a new concept, open an issue first so we can agree on where it fits.

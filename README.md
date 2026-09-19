@@ -13,6 +13,8 @@ This repo is the short version. Each page takes about two minutes and has the sa
 | **Example** | A real looking system with real numbers. |
 | **Picture it** | A diagram of where the idea lives in an architecture. |
 
+Every page also opens with a small looping animation, so you can watch the idea move before you read about it.
+
 No fluff, and no jargon without an explanation right next to it.
 
 ## Start here

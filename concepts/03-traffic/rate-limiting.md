@@ -2,6 +2,8 @@
 
 > Rate limiting caps how many requests a client can send in a window of time. One noisy client gets slowed down, and everyone else keeps a fast service.
 
+![Rate Limiting, animated](../../assets/animations/rate-limiting.svg)
+
 ## How it works
 
 Every request carries an identity: an API key, a user ID, or an IP address. The rate limiter keeps a counter for each identity and checks it before the request reaches your code. Under the limit, the request goes through. Over it, the client gets `429 Too Many Requests`, often with a `Retry-After` header that says when to come back.
