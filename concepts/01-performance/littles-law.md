@@ -2,6 +2,8 @@
 
 > Little's Law says the number of requests in flight equals the arrival rate times how long each one stays. Know any two and you get the third, which is how you size thread pools, connection pools, and queues.
 
+![Little's Law, animated](../../assets/animations/littles-law.svg)
+
 ## How it works
 
 A coffee shop gets 2 customers a minute, and each stays 5 minutes. On average, 10 people are inside. That's the whole law: `L = λ × W`. L is how many are in the system, λ (lambda) is the arrival rate, and W is the time each one spends inside, waiting included. It holds for any system that's keeping up, no matter how the arrivals are spread out.

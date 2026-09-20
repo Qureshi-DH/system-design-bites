@@ -2,6 +2,8 @@
 
 > P99 latency is the response time that 99 percent of requests beat. It shows how slow things get for the unlucky 1 in 100, which an average hides completely.
 
+![P99 Latency, animated](../../assets/animations/p99-latency.svg)
+
 ## How it works
 
 Take every request from the last minute and sort them by how long they took. Percentiles are just spots along that line.

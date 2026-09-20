@@ -2,6 +2,8 @@
 
 > A stateless service keeps nothing about users in its own memory between requests. Any server can handle any request, so you can add, remove, or restart servers and nobody notices.
 
+![Stateless Services, animated](../../assets/animations/stateless-services.svg)
+
 ## How it works
 
 Each request carries what the server needs, like a session token or a cart ID. Anything that has to outlast the request lives somewhere shared: sessions in Redis, files in object storage, records in the database. The server reads what it needs, does the work, writes the result, and forgets.

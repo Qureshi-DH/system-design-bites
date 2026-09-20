@@ -2,6 +2,8 @@
 
 > Autoscaling adds servers when load rises and removes them when it falls, based on a metric you pick. You pay for the traffic you have, not the traffic you're afraid of.
 
+![Autoscaling, animated](../../assets/animations/autoscaling.svg)
+
 ## How it works
 
 A controller watches a metric across a group of servers and resizes the group to keep that metric near a target. The Kubernetes Horizontal Pod Autoscaler checks every 15 seconds by default. The common styles:

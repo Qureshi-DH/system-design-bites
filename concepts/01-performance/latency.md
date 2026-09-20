@@ -2,6 +2,8 @@
 
 > Latency is how long one request takes, from the moment it leaves the client to the moment the answer lands. Users feel every millisecond of it, so it's the number they actually judge you on.
 
+![Latency, animated](../../assets/animations/latency.svg)
+
 ## How it works
 
 A request's time is a sum of small waits. Most of them have nothing to do with how fast your code runs.

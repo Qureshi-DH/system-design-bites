@@ -2,6 +2,8 @@
 
 > Throughput is how much work a system finishes per second, counted in requests, messages, or bytes. Latency is how long one job takes, and throughput is how many jobs get done.
 
+![Throughput, animated](../../assets/animations/throughput.svg)
+
 ## How it works
 
 Picture a highway. Latency is how long your drive takes. Throughput is how many cars pass a point each hour. Adding lanes raises throughput without making any single car faster.

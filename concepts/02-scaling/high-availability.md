@@ -2,6 +2,8 @@
 
 > High availability means a system keeps serving through the failures that will happen anyway: dead servers, bad disks, a lost data center. It's measured in nines, and each extra nine costs far more than the last.
 
+![High Availability, animated](../../assets/animations/high-availability.svg)
+
 ## How it works
 
 Availability is the share of time the system works. The nines turn into a downtime budget:

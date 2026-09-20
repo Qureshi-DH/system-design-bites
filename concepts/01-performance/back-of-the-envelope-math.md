@@ -2,6 +2,8 @@
 
 > Back of the envelope math is estimating traffic, storage, and bandwidth in a few minutes with round numbers. Landing within a factor of 10 of the truth is enough to pick the right design.
 
+![Back of the Envelope Math, animated](../../assets/animations/back-of-the-envelope-math.svg)
+
 ## How it works
 
 Round hard and keep your units straight. A few facts carry most estimates:

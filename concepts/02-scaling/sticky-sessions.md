@@ -2,6 +2,8 @@
 
 > Sticky sessions make a load balancer send every request from the same user to the same server. They're a quick fix for servers that keep state in memory, and they quietly undo much of what the load balancer was for.
 
+![Sticky Sessions, animated](../../assets/animations/sticky-sessions.svg)
+
 ## How it works
 
 On the first request, the load balancer picks a server and remembers the choice, usually in a cookie it adds to the response. Every later request carries that cookie, so the load balancer routes it back to the same server. The AWS Application Load Balancer names its cookie `AWSALB`. The other common way is hashing the client's IP address, so the same IP always maps to the same server.

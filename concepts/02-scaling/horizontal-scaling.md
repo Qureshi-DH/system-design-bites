@@ -2,6 +2,8 @@
 
 > Horizontal scaling means adding more machines instead of bigger ones. Ten small servers behind a load balancer can take ten times the traffic, and losing one of them is a shrug, not an outage.
 
+![Horizontal Scaling, animated](../../assets/animations/horizontal-scaling.svg)
+
 ## How it works
 
 Run several identical copies of your app and put a load balancer in front to spread requests across them. Need more capacity? Add copies. Traffic drops at night? Remove some. There's no hard ceiling, and when one server dies, you lose a slice of capacity instead of the whole site.

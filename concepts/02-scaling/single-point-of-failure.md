@@ -2,6 +2,8 @@
 
 > A single point of failure is one part whose failure takes the whole system down with it. Every system starts with a few, so the job is to find them before they find you.
 
+![Single Point of Failure, animated](../../assets/animations/single-point-of-failure.svg)
+
 ## How it works
 
 To spot one, draw the path a request takes from the user to the data, every box and every arrow. Point at each one and ask: if this vanished right now, what breaks? If the answer is "everything", you found one.

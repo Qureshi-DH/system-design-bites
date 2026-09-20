@@ -2,6 +2,8 @@
 
 > Vertical scaling means making one machine bigger: more CPU, more memory, faster disks. It's the simplest way to handle more load, right up until you hit the biggest machine you can buy.
 
+![Vertical Scaling, animated](../../assets/animations/vertical-scaling.svg)
+
 ## How it works
 
 You move your app or database from a machine with 4 cores and 16 GB of memory to one with 32 cores and 256 GB. No code changes, no new architecture. Everything that was cramped gets room: more queries in parallel, more data cached in memory, fewer trips to disk.

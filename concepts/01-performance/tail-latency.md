@@ -2,6 +2,8 @@
 
 > Tail latency is the slow end of your response times, the p99 and beyond. When one request fans out to many services, it waits for the slowest one, so rare slowness in each service becomes common slowness for users.
 
+![Tail Latency, animated](../../assets/animations/tail-latency.svg)
+
 ## How it works
 
 A modern page rarely comes from one service. Loading a feed might call 50 services in parallel: profile, ads, notifications, like counts, and so on. The page can't finish until the last answer arrives.
