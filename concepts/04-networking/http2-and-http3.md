@@ -2,6 +2,8 @@
 
 > HTTP/2 and HTTP/3 let one connection carry many requests at the same time, instead of one after another. Pages with dozens of files load faster, and HTTP/3 also copes better with flaky mobile networks.
 
+![HTTP/2 and HTTP/3, animated](../../assets/animations/http2-and-http3.svg)
+
 ## How it works
 
 HTTP/1.1 handles one request per connection at a time. Browsers work around that by opening up to 6 connections per hostname, and requests still queue.

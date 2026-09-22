@@ -2,6 +2,8 @@
 
 > A load balancer sits in front of a group of servers and spreads incoming requests across them. Users see one address, and no server gets buried while its neighbors sit idle.
 
+![Load Balancing, animated](../../assets/animations/load-balancing.svg)
+
 ## How it works
 
 The load balancer runs health checks, pinging each server every few seconds and pulling dead ones out of rotation. Then, for each request, it picks a server:

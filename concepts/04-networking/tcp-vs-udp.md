@@ -2,6 +2,8 @@
 
 > TCP and UDP are the two main ways to move data across the internet. TCP guarantees every byte arrives, in order, while UDP fires packets and hopes, which makes it faster when late data is useless anyway.
 
+![TCP vs UDP, animated](../../assets/animations/tcp-vs-udp.svg)
+
 ## How it works
 
 TCP starts with a handshake, three messages back and forth before any data moves. After that, every byte gets a sequence number. The receiver confirms what it got, the sender resends what went missing, and your app reads the bytes in exactly the order they were sent. TCP also slows down when the network looks congested. Most web pages, APIs, and database connections ride on TCP.

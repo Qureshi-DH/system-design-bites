@@ -2,6 +2,8 @@
 
 > DNS is the internet's phone book. It turns a name like `shop.example.com` into an IP address your computer can connect to, and its caching is why a DNS change can take hours to reach everyone.
 
+![DNS, animated](../../assets/animations/dns.svg)
+
 ## How it works
 
 Your browser wants `shop.example.com`. It checks its own cache, then the operating system's. On a miss, it asks a recursive resolver, usually run by your ISP or a public service like `1.1.1.1` or `8.8.8.8`. The resolver does the legwork:

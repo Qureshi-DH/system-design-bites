@@ -2,6 +2,8 @@
 
 > Long polling fakes server push with plain HTTP. The client asks "anything new?" and the server holds the request open until it has news or a timeout hits, then the client asks again.
 
+![Long Polling, animated](../../assets/animations/long-polling.svg)
+
 ## How it works
 
 Regular polling asks every few seconds. Most answers are "no", so you burn requests and still see updates up to one interval late.

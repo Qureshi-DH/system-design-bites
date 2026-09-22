@@ -2,6 +2,8 @@
 
 > Anycast puts the same IP address in many places at once, and internet routing sends each user to the closest one by network path. It powers DNS root servers, CDNs, and DDoS defense.
 
+![Anycast, animated](../../assets/animations/anycast.svg)
+
 ## How it works
 
 Normally one IP address means one machine in one place. With anycast, servers in many cities share the same address, and every site announces it to the internet through BGP, the protocol networks use to tell each other which addresses they can reach.

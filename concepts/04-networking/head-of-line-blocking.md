@@ -2,6 +2,8 @@
 
 > Head of line blocking is when one slow or lost item at the front of a line holds up everything behind it. On the web it shows up twice: once in HTTP/1.1, and again inside TCP.
 
+![Head of Line Blocking, animated](../../assets/animations/head-of-line-blocking.svg)
+
 ## How it works
 
 Think of one checkout lane where the first customer pays in coins. Everyone behind waits, even the person buying one banana. On the web, that happens at two layers:

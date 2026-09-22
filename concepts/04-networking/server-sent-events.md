@@ -2,6 +2,8 @@
 
 > Server Sent Events keep one HTTP response open so the server can push a stream of text updates to the browser. It is the simplest way to send live updates one way, from server to client.
 
+![Server Sent Events, animated](../../assets/animations/server-sent-events.svg)
+
 ## How it works
 
 The browser makes a normal HTTP request. The server answers with `Content-Type: text/event-stream` and never finishes the response. Whenever there is news, it writes a few lines of text, and the browser fires an event in your code. On the client, that is `new EventSource("/live")` plus a message handler.

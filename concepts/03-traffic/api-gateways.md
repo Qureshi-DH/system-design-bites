@@ -2,6 +2,8 @@
 
 > An API gateway is one front door for many backend services. Clients call one address, and the gateway handles routing, login checks, rate limits, and request shaping so each service doesn't have to.
 
+![API Gateways, animated](../../assets/animations/api-gateways.svg)
+
 ## How it works
 
 Once an app is split into many services, a mobile app might need users, trips, payments, and pricing. Without a gateway, the client has to know every address, and every service has to check logins, count requests, and log traffic on its own. Some team will forget.

@@ -2,6 +2,8 @@
 
 > A WebSocket is one long lived connection where the client and the server can both send messages at any moment. It is the standard choice for chat, multiplayer games, and live collaboration.
 
+![WebSockets, animated](../../assets/animations/websockets.svg)
+
 ## How it works
 
 It starts as a normal HTTP/1.1 request with an `Upgrade: websocket` header. The server replies `101 Switching Protocols`, and from then on the same TCP connection stops speaking HTTP. Both sides send small framed messages, text or binary, whenever they like, with only a few bytes of overhead each. Unlike long polling or Server Sent Events, traffic flows both ways with no headers per message.

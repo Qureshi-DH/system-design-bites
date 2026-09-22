@@ -2,6 +2,8 @@
 
 > A CDN, or content delivery network, keeps copies of your static files on servers spread around the world. Users download from a server a few miles away instead of one across an ocean.
 
+![CDN, animated](../../assets/animations/cdn.svg)
+
 ## How it works
 
 The origin is where the real files live: your server or a storage bucket. A CDN like Cloudflare, Akamai, Fastly, or Amazon CloudFront runs edge locations, groups of cache servers in dozens to hundreds of cities. When a user asks for a file, the CDN's routing sends them to an edge nearby.

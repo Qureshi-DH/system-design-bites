@@ -2,6 +2,8 @@
 
 > A reverse proxy is a server that sits in front of your app servers and takes every request first. It handles chores like TLS, compression, and caching, and the outside world never talks to your app directly.
 
+![Reverse Proxies, animated](../../assets/animations/reverse-proxies.svg)
+
 ## How it works
 
 Clients connect to the proxy, such as nginx, HAProxy, Envoy, or Caddy. It forwards each request to your app over a private network and passes the reply back. Your app only ever talks to the proxy.

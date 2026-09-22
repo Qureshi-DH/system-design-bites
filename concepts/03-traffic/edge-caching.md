@@ -2,6 +2,8 @@
 
 > Edge caching is the rulebook a CDN follows: what to cache, for how long, and how to tell two requests apart. Get the rules right and even API responses can be served from the edge.
 
+![Edge Caching, animated](../../assets/animations/edge-caching.svg)
+
 ## How it works
 
 Four knobs decide what the edge does:
