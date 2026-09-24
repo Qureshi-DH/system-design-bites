@@ -2,6 +2,8 @@
 
 > gRPC lets one service call a function on another service as if it were local, sending compact binary messages over HTTP/2. It is fast, strictly typed, and a favorite for traffic between your own backend services.
 
+![gRPC, animated](../../assets/animations/grpc.svg)
+
 ## How it works
 
 You describe your API in a `.proto` file: the services, their methods, and the exact shape of every message. A code generator turns that file into client and server code for Go, Java, Python, C++, and more. Calling another service then looks like calling a function, `pricing.GetQuote(request)`, and the generated code handles the network.

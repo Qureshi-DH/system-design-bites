@@ -2,6 +2,8 @@
 
 > REST is the most common way to design a web API. Everything is a resource with its own URL, and you act on it with standard HTTP methods like GET, POST, and DELETE.
 
+![REST, animated](../../assets/animations/rest.svg)
+
 ## How it works
 
 A REST API is organized around nouns. `/users/42` is a user, and `/users/42/orders` is that user's orders. HTTP methods are the verbs:

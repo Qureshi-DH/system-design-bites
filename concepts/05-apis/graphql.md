@@ -2,6 +2,8 @@
 
 > GraphQL lets the client ask for exactly the fields it needs, across related data, in one request. You trade simple URLs and easy caching for flexibility, plus a server that has to defend itself from expensive queries.
 
+![GraphQL, animated](../../assets/animations/graphql.svg)
+
 ## How it works
 
 A GraphQL API has one endpoint, usually `POST /graphql`, and a schema: a typed list of everything clients can ask for. A `User` has a `name` and `posts`, a `Post` has an `author` and `comments`, and so on. The client sends a query shaped like the answer it wants and gets JSON back in exactly that shape. No extra fields, no chain of round trips.

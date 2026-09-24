@@ -2,6 +2,8 @@
 
 > A cache has limited memory, so when it fills up, something has to go. The eviction policy decides what gets thrown out, and a good one keeps the data people actually ask for.
 
+![Cache Eviction, animated](../../assets/animations/cache-eviction.svg)
+
 ## How it works
 
 The common policies:

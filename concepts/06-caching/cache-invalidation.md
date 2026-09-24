@@ -2,6 +2,8 @@
 
 > Cache invalidation means removing a cached copy when the real data changes. Get it wrong and users keep seeing old prices, old names, or the plan they already paid to upgrade from.
 
+![Cache Invalidation, animated](../../assets/animations/cache-invalidation.svg)
+
 ## How it works
 
 There are three main ways to do it:

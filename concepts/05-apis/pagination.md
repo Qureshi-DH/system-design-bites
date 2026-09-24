@@ -2,6 +2,8 @@
 
 > Pagination splits a big list into pages so an API never returns a million rows at once. Offset pagination is simple but slows down and skips rows on big, changing tables, while cursor pagination stays fast and stable.
 
+![Pagination, animated](../../assets/animations/pagination.svg)
+
 ## How it works
 
 **Offset pagination** says "give me 20 rows, skipping the first 40": `?limit=20&offset=40`. Easy to build, and users can jump straight to page 50.

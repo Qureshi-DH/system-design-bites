@@ -2,6 +2,8 @@
 
 > A cache keeps a copy of data somewhere faster and closer than where it really lives. Reads that hit the copy skip the slow trip, which makes apps quicker and keeps databases from melting.
 
+![Caching, animated](../../assets/animations/caching.svg)
+
 ## How it works
 
 A database query might take 20 to 100 ms. Reading the same answer from memory takes well under a millisecond. A cache saves the answer the first time someone asks, so the next thousand people asking get it fast.

@@ -2,6 +2,8 @@
 
 > A cache stampede happens when a popular cached value expires and thousands of requests miss at the same moment, all rushing the database to rebuild it. The database falls over right when traffic is highest.
 
+![Cache Stampede, animated](../../assets/animations/cache-stampede.svg)
+
 ## How it works
 
 Picture a key read 10,000 times a second with a 60 second TTL. While it is cached, the database sees nothing. The instant it expires, every request misses until someone puts it back. If the rebuild takes 300 ms, that is about 3,000 identical queries landing on the database at once, all computing the same value. The database slows down, rebuilds take longer, more requests miss, and it spirals. This is also called a thundering herd.

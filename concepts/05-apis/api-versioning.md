@@ -2,6 +2,8 @@
 
 > API versioning lets you change an API without breaking the apps already using it. Old clients keep the old behavior, new clients opt into the new one, and the old version retires on a schedule.
 
+![API Versioning, animated](../../assets/animations/api-versioning.svg)
+
 ## How it works
 
 First, sort every change into breaking or not.

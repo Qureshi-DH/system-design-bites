@@ -2,6 +2,8 @@
 
 > A webhook is an HTTP request another service sends to your server when something happens, like "payment succeeded". Instead of you asking over and over, they call you, so you have to verify, dedupe, and answer fast.
 
+![Webhooks, animated](../../assets/animations/webhooks.svg)
+
 ## How it works
 
 You give the provider a URL, say `https://shop.example.com/hooks/payments`, and pick the events you care about. When one happens, the provider sends a `POST` with a JSON body describing it. You reply with a `2xx` status to say "got it".

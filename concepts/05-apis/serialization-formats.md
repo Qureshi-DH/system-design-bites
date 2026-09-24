@@ -2,6 +2,8 @@
 
 > Serialization turns the objects in your program into bytes you can send or store. JSON is readable and works everywhere, while binary formats like Protobuf and Avro are smaller, faster, and come with schemas that make change safer.
 
+![Serialization Formats, animated](../../assets/animations/serialization-formats.svg)
+
 ## How it works
 
 Every time a service sends a message or writes a record, it turns its data into bytes, and the reader turns them back. The format decides how big those bytes are, how fast they parse, and what happens when the shape of the data changes.

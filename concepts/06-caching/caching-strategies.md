@@ -2,6 +2,8 @@
 
 > A caching strategy is the rule for how reads and writes move between your cache and your database. Pick the wrong one and you serve stale data, lose writes, or fill the cache with junk.
 
+![Caching Strategies, animated](../../assets/animations/caching-strategies.svg)
+
 ## How it works
 
 - **Cache aside.** The app checks the cache. On a miss, it reads the database and puts the result in the cache. On a write, it updates the database and deletes the cached key so the next read loads fresh data. The most common pattern, and if the cache goes down, the app still works, just slower.
