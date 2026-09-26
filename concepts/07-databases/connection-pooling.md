@@ -2,6 +2,8 @@
 
 > A connection pool keeps a few database connections open and lends them to requests, instead of opening a fresh one each time. It saves time on every query and keeps the database from drowning in connections.
 
+![Connection Pooling, animated](../../assets/animations/connection-pooling.svg)
+
 ## How it works
 
 Opening a database connection is slow work. There's a TCP handshake, a TLS handshake, and a login. Postgres then starts a whole new server process for the connection, which costs several megabytes of memory. All of that can take tens of milliseconds, often longer than the query you wanted to run.

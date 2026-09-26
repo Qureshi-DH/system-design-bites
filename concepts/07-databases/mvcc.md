@@ -2,6 +2,8 @@
 
 > MVCC lets a database keep several versions of each row, so readers see a consistent snapshot while writers keep working. Nobody waits on anybody, but old versions pile up and have to be cleaned away.
 
+![MVCC, animated](../../assets/animations/mvcc.svg)
+
 ## How it works
 
 With only one copy of each row, a reader has to wait while a writer changes it, or the writer waits for the reader. MVCC, multiversion concurrency control, keeps several copies instead.

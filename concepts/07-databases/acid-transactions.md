@@ -2,6 +2,8 @@
 
 > A transaction groups several database changes so they all happen or none do. ACID is the four promises that make that true, even when users collide or the server loses power.
 
+![ACID Transactions, animated](../../assets/animations/acid-transactions.svg)
+
 ## How it works
 
 You open a transaction with `BEGIN`, make your changes, and finish with `COMMIT`. Until the commit, nothing is final. ACID names the four guarantees you get:

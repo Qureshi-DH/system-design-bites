@@ -2,6 +2,8 @@
 
 > Schema versioning tracks which shape of data each database holds and each piece of code expects. It lets you change tables and event formats without old readers choking on new data.
 
+![Schema Versioning, animated](../../assets/animations/schema-versioning.svg)
+
 ## How it works
 
 For databases, every change is a numbered migration file in the repo: `0041_add_phone.sql`, then `0042_index_orders_by_user.sql`. A migration tool such as Flyway, Alembic, or the one built into Rails keeps a small table in each database, like Rails' `schema_migrations`, that records which files have already run. On deploy it runs only the missing ones, in order. Laptop, staging, and production reach the same version by the same path.

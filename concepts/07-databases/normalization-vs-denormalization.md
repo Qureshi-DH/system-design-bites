@@ -2,6 +2,8 @@
 
 > Normalization stores each fact in exactly one place and joins tables when you read. Denormalization copies facts to where they're read, trading extra writes and the risk of drift for faster queries.
 
+![Normalization vs Denormalization, animated](../../assets/animations/normalization-vs-denormalization.svg)
+
 ## How it works
 
 In a normalized schema, an author's name lives in the `authors` table and nowhere else. Articles store only `author_id`, and you join to show a byline. Change the name once and every article shows the new one, because there's only one copy to change. Textbooks formalize this as "normal forms", but "store each fact once" covers most of it.

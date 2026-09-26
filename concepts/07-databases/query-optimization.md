@@ -2,6 +2,8 @@
 
 > Query optimization is finding out why a query is slow and fixing it, usually by reading the plan the database made for it. Most slow queries read far more rows than they return.
 
+![Query Optimization, animated](../../assets/animations/query-optimization.svg)
+
 ## How it works
 
 Before running a query, the database's planner picks a strategy: which index to use, which table to read first, how to join. `EXPLAIN` shows you that plan. In Postgres, `EXPLAIN ANALYZE` actually runs the query and adds real timings and row counts.

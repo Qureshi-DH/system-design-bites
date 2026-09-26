@@ -2,6 +2,8 @@
 
 > Isolation levels decide how much transactions running at the same time can see of each other's work. Stricter levels prevent more strange bugs and cost you more waiting, retries, or both.
 
+![Isolation Levels, animated](../../assets/animations/isolation-levels.svg)
+
 ## How it works
 
 Running transactions one at a time would be perfectly safe and painfully slow. So databases let them overlap, and the isolation level says which side effects of that overlap you accept.

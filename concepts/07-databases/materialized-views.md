@@ -2,6 +2,8 @@
 
 > A materialized view saves the result of an expensive query as a real table. Reads become nearly instant, and the price is that the data is only as fresh as the last refresh.
 
+![Materialized Views, animated](../../assets/animations/materialized-views.svg)
+
 ## How it works
 
 A normal view is a saved query with a name. Every time you select from it, the database runs the full query again. A materialized view runs the query once and stores the rows on disk. Reading it costs the same as reading any small table, and you can index it.

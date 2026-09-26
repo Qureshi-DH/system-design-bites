@@ -2,6 +2,8 @@
 
 > SQL databases store data in tables you can join and change together safely. NoSQL is a family of other shapes, each built to answer a few known questions fast at huge scale.
 
+![SQL vs NoSQL, animated](../../assets/animations/sql-vs-nosql.svg)
+
 ## How it works
 
 A relational database, like Postgres or MySQL, keeps data in tables with fixed columns. Rows point at each other by ID, and a join stitches them back together at query time. You can ask questions nobody planned for, and transactions keep related changes all or nothing.

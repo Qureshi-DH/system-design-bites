@@ -2,6 +2,8 @@
 
 > An index is a sorted copy of one or more columns that points back to the full rows. It turns "read every row" into "jump straight there", and every index you add slows down writes.
 
+![Database Indexing, animated](../../assets/animations/database-indexing.svg)
+
 ## How it works
 
 Without an index, `WHERE email = 'sam@example.com'` means a full table scan: the database reads every row and checks each one. Fine for 1,000 rows. A disaster for 50 million.

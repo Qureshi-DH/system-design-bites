@@ -2,6 +2,8 @@
 
 > A database migration changes the schema of a live database: adding columns, renaming them, building indexes. Done carelessly, it locks a busy table or breaks the servers still running old code.
 
+![Database Migrations, animated](../../assets/animations/database-migrations.svg)
+
 ## How it works
 
 Two things make migrations on a running system tricky. First, some schema changes lock the table. In Postgres, many `ALTER TABLE` commands take an `ACCESS EXCLUSIVE` lock that blocks even reads, and a plain `CREATE INDEX` blocks writes until it finishes, which can take an hour on a big table. Second, deploys aren't instant. For a few minutes, old and new versions of your app run side by side against the same schema, so the schema has to work for both.

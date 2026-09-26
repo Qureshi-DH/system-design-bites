@@ -2,6 +2,8 @@
 
 > An N+1 query happens when code fetches a list with one query, then runs one more query for every item in it. It looks harmless with 3 rows and buries your database with 3,000.
 
+![N+1 Queries, animated](../../assets/animations/n-plus-one-queries.svg)
+
 ## How it works
 
 ORMs, the libraries that turn database rows into objects, make this easy to write by accident. You load 50 posts. Then your template loops over them and prints `post.author.name`. The ORM hasn't loaded authors yet, so each access quietly fires its own query. That's 1 query for the list plus 50 for the authors: N+1.
