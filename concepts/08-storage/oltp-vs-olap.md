@@ -2,6 +2,8 @@
 
 > OLTP is the day job of your database, millions of tiny reads and writes for live users. OLAP is analytics, a few huge queries over years of history, and it wants a different kind of database.
 
+![OLTP vs OLAP, animated](../../assets/animations/oltp-vs-olap.svg)
+
 ## How it works
 
 OLTP stands for online transaction processing: place an order, update a status, fetch one user. Each query touches a handful of rows by key and has to finish in milliseconds. OLAP, online analytical processing, asks things like "revenue per city per week for two years". One query reads millions of rows but only a few columns, and nobody minds if it takes 5 seconds.

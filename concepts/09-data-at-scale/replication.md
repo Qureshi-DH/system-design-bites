@@ -2,6 +2,8 @@
 
 > Replication keeps copies of the same data on several machines. If one dies, another already has everything, and you can spread reads across the copies.
 
+![Replication, animated](../../assets/animations/replication.svg)
+
 ## How it works
 
 In most setups, every write lands on one node first. That node records it in its log of changes and streams the log to the other copies, called replicas. Two choices shape everything after that.

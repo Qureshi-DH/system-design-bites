@@ -2,6 +2,8 @@
 
 > A geospatial index splits the map into cells, so a database can answer "what's near this point?" by checking a few nearby cells instead of measuring the distance to everything.
 
+![Geospatial Indexing, animated](../../assets/animations/geospatial-indexing.svg)
+
 ## How it works
 
 A location is two numbers, latitude and longitude. A normal index sorts by one of them. Ask for drivers within 1 km, and it can narrow things down by latitude, but that still leaves a thin band that wraps around the whole planet.

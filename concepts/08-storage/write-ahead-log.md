@@ -2,6 +2,8 @@
 
 > A write ahead log is an append only file where a database records every change before applying it. If the server crashes, the database replays the log and every committed change comes back.
 
+![Write Ahead Log, animated](../../assets/animations/write-ahead-log.svg)
+
 ## How it works
 
 Changing data in place is slow and fragile. One transaction might touch 12 pages scattered across the disk, and a power cut halfway through leaves some of them written and some not.

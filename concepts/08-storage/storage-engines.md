@@ -2,6 +2,8 @@
 
 > A storage engine is the part of a database that decides how bytes sit on disk. B trees favor fast reads, LSM trees favor fast writes, and that one choice shapes everything above it.
 
+![Storage Engines, animated](../../assets/animations/storage-engines.svg)
+
 ## How it works
 
 Two designs cover most databases.

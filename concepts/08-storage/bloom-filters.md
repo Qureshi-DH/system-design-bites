@@ -2,6 +2,8 @@
 
 > A Bloom filter is a tiny bit array that answers "is this item in the set?" with either "definitely not" or "maybe yes". Systems use it to skip expensive lookups for things that aren't there.
 
+![Bloom Filters, animated](../../assets/animations/bloom-filters.svg)
+
 ## How it works
 
 Start with an array of bits, all set to 0, and a few hash functions. To add an item, hash it, say, 3 ways and set those 3 bits to 1. To check an item, hash it the same 3 ways and look at those bits.

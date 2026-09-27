@@ -2,6 +2,8 @@
 
 > A Merkle tree is a tree of hashes where each parent is the hash of its children, so one root hash stands for all the data. Two machines compare roots, then walk down only where they differ.
 
+![Merkle Trees, animated](../../assets/animations/merkle-trees.svg)
+
 ## How it works
 
 Two replicas each hold a million keys, and you suspect they disagree somewhere. Shipping every key across the network to compare is slow and expensive. A Merkle tree finds the difference by trading a few dozen hashes.

@@ -2,6 +2,8 @@
 
 > A hot spot is one key, shard, or server getting far more traffic than the rest. Spreading your data evenly doesn't help when everyone wants the same piece of it.
 
+![Hot Spots, animated](../../assets/animations/hot-spots.svg)
+
 ## How it works
 
 Hashing spreads keys evenly, not traffic. If 1 key out of 10 million gets 30% of all requests, the shard or cache node holding it does that 30% of the work alone, on top of its normal share. Adding servers changes nothing, because that key still lives in one place.

@@ -2,6 +2,8 @@
 
 > Sharding splits your data across several database servers, and each one holds a slice. It's how you grow past what one machine can store or write, and you pay for it in complexity forever.
 
+![Sharding, animated](../../assets/animations/sharding.svg)
+
 ## How it works
 
 Each server, called a shard, holds a subset of the rows. A shard key decides where each row lives: hash the key, or look up which range it falls in, and you get a shard number. Any query that includes the key goes straight to one shard. 4 shards means roughly 4 times the write capacity and storage.

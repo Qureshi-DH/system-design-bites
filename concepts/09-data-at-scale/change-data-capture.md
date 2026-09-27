@@ -2,6 +2,8 @@
 
 > Change data capture reads your database's own change log and turns every insert, update, and delete into an event. Search indexes, caches, and analytics stay in sync without your app writing to each one.
 
+![Change Data Capture, animated](../../assets/animations/change-data-capture.svg)
+
 ## How it works
 
 Every serious database keeps a log of changes for crash recovery and replication. Postgres has the write ahead log, MySQL has the binlog. A CDC tool connects like a replica would, reads that log, and publishes each change as an event, usually to Kafka. Debezium is the best known open source one.

@@ -2,6 +2,8 @@
 
 > Read replicas are copies of your database that only serve reads. Most apps read far more than they write, so moving reads to replicas takes most of the load off the main database.
 
+![Read Replicas, animated](../../assets/animations/read-replicas.svg)
+
 ## How it works
 
 The leader still takes every write. Each replica copies the leader's changes and answers `SELECT` queries. Your app, or a proxy in front of the database, sends writes to the leader and spreads reads across the replicas. If 90% of your queries are reads, 3 replicas can take nearly all of that 90% off the leader.

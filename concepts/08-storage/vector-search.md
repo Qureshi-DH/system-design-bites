@@ -2,6 +2,8 @@
 
 > Vector search finds things by meaning instead of keywords. It turns text or images into lists of numbers and looks for the closest ones, usually with an approximate index that trades a little accuracy for a lot of speed.
 
+![Vector Search, animated](../../assets/animations/vector-search.svg)
+
 ## How it works
 
 An embedding model turns a piece of text or an image into a vector, a list of numbers. OpenAI's `text-embedding-3-small` returns 1,536 of them. The model is trained so that similar meanings land close together: a photo of a puppy on sand sits near the words "dog on a beach", with no keyword in common.

@@ -2,6 +2,8 @@
 
 > Object storage, like Amazon S3, keeps files of any size under a key inside a bucket. It's cheap, practically bottomless, and very durable, but it is not a disk you can edit in place.
 
+![Object Storage, animated](../../assets/animations/object-storage.svg)
+
 ## How it works
 
 You create a bucket, `PUT` a file under a key like `photos/2025/cat.jpg`, and later `GET` it back by that key. That's most of the API. Amazon S3, Google Cloud Storage, Azure Blob Storage, and Cloudflare R2 all work this way.

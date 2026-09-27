@@ -2,6 +2,8 @@
 
 > Every order, message, and user needs an ID that never repeats. One database can just count, but once you have many servers, you need IDs that any machine can make without asking anyone else.
 
+![Unique ID Generation, animated](../../assets/animations/unique-id-generation.svg)
+
 ## How it works
 
 Auto increment is the default: the database hands out 1, 2, 3. It's small and sorted. It breaks when you shard, because two shards will both hand out 1001. It also leaks business data: place an order today and another next week, and the gap tells you how many orders the store took.

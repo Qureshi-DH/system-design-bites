@@ -2,6 +2,8 @@
 
 > Full text search finds documents by the words inside them and ranks the best matches first. It builds an inverted index ahead of time, so a search never has to scan every row.
 
+![Full Text Search, animated](../../assets/animations/full-text-search.svg)
+
 ## How it works
 
 The naive version is `WHERE name LIKE '%running shoes%'`. A normal index can't help with a wildcard at the start, so the database reads every row. It's also dumb: no ranking, and it misses a product called "Shoes for running".

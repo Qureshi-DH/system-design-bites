@@ -2,6 +2,8 @@
 
 > Partitioning splits one big table into smaller pieces by a rule, like one piece per month. Queries only touch the pieces they need, and old data goes away in one cheap step.
 
+![Partitioning, animated](../../assets/animations/partitioning.svg)
+
 ## How it works
 
 You pick a partition key and a rule that maps every row to exactly one piece. The three common rules:

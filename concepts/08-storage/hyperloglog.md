@@ -2,6 +2,8 @@
 
 > HyperLogLog estimates how many unique things you've seen, like daily visitors, in a few kilobytes of memory no matter how many there are. You give up an exact answer and get one that's typically off by less than 1 percent.
 
+![HyperLogLog, animated](../../assets/animations/hyperloglog.svg)
+
 ## How it works
 
 Counting unique things exactly means remembering everything you've seen. Ten million visitors means storing ten million IDs, just to answer "have I seen this one before?" HyperLogLog trades a little accuracy for a small, fixed amount of memory.

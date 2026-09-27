@@ -2,6 +2,8 @@
 
 > Consistent hashing puts servers and keys on the same circle, and each key belongs to the next server along it. Add or remove a server and only a small slice of keys moves, instead of nearly all of them.
 
+![Consistent Hashing, animated](../../assets/animations/consistent-hashing.svg)
+
 ## How it works
 
 The naive way to pick a server is `hash(key) % N`. It's even and simple, until N changes. Go from 4 cache servers to 5 and about 80% of keys map somewhere new. For a cache, that means 80% misses at once and a flood of traffic to the database behind it.
