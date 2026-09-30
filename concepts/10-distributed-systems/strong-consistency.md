@@ -2,6 +2,8 @@
 
 > Strong consistency means a system with many copies of the data behaves as if there's only one. Once a write succeeds, every later read, from any server, sees it.
 
+![Strong Consistency, animated](../../assets/animations/strong-consistency.svg)
+
 ## How it works
 
 The formal name is linearizability. In plain words: every read and write appears to happen at a single instant, in one order that everyone agrees on, and that order matches real time. If a write finished before a read started, the read sees the write. Once any client has seen a new value, no client ever sees the old one again.

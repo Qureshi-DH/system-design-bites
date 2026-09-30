@@ -2,6 +2,8 @@
 
 > Every server has its own clock, and no two of them agree exactly. That gap is clock skew, and it means timestamps from different machines can put events in the wrong order.
 
+![Clock Skew, animated](../../assets/animations/clock-skew.svg)
+
 ## How it works
 
 A server keeps time with a cheap quartz crystal, and left alone it can drift by a second or more a day. NTP, the network time protocol, corrects this: each server regularly asks a time server for the right time and nudges its own clock toward it. On a good network, that keeps servers within a few milliseconds of each other. If NTP quietly breaks on one machine, there's no limit at all.

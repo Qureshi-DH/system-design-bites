@@ -2,6 +2,8 @@
 
 > When the network splits a distributed database in two, each side has to choose: keep answering and risk stale data, or stop answering until it can be sure. You cannot have both.
 
+![CAP Theorem, animated](../../assets/animations/cap-theorem.svg)
+
 ## How it works
 
 CAP names three properties:

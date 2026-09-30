@@ -2,6 +2,8 @@
 
 > In a gossip protocol, every node regularly swaps news with a few random peers. Like a rumor at a party, an update reaches the whole cluster in a handful of rounds, with no central server in charge.
 
+![Gossip Protocol, animated](../../assets/animations/gossip-protocol.svg)
+
 ## How it works
 
 Every second or so, each node picks a random peer, or a few, and they compare notes: which nodes exist, which seem up, each node's latest heartbeat counter, maybe its load. For every entry, both sides keep whichever version is newer. Next round, they each pass that on to someone else.

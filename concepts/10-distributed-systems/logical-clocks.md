@@ -2,6 +2,8 @@
 
 > Logical clocks order events with counters instead of wall clock time. They tell you what happened before what, even when every server's clock is wrong.
 
+![Logical Clocks, animated](../../assets/animations/logical-clocks.svg)
+
 ## How it works
 
 You often don't need to know when something happened, only whether A happened before B. A happened before B if both ran on the same machine and A came first, or if A sent a message and B is that message arriving. Chain those links together and you get cause and effect, with no clocks involved.

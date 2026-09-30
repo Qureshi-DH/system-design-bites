@@ -2,6 +2,8 @@
 
 > Eventual consistency means replicas can disagree for a while, but if writes stop, they all end up with the same data. You get speed and availability, and you accept reads that are briefly stale.
 
+![Eventual Consistency, animated](../../assets/animations/eventual-consistency.svg)
+
 ## How it works
 
 A write goes to one replica and spreads to the others in the background. Until it arrives, different replicas give different answers. The only promise is convergence: stop writing, wait a bit, and every replica agrees.

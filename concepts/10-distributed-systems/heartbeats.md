@@ -2,6 +2,8 @@
 
 > A heartbeat is a tiny "I'm alive" message a server sends every few seconds. When the heartbeats stop, the rest of the system assumes it's dead and moves its work elsewhere.
 
+![Heartbeats, animated](../../assets/animations/heartbeats.svg)
+
 ## How it works
 
 A worker sends a small message to a coordinator on a fixed interval, say every 2 seconds. The coordinator remembers when it last heard from each worker. If a worker stays silent past the timeout, say 10 seconds, the coordinator marks it dead: it stops sending it traffic, hands its jobs to someone else, or promotes a replica in its place.

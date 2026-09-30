@@ -2,6 +2,8 @@
 
 > A quorum is the minimum number of replicas that must respond before a read or write counts. Pick the numbers right and every read is guaranteed to include at least one copy of the latest write.
 
+![Quorum, animated](../../assets/animations/quorum.svg)
+
 ## How it works
 
 Say each item is stored on N replicas, usually 3. On a write, the client sends it to all of them and waits for W to confirm. On a read, it asks the replicas, waits for R answers, and keeps the newest version among them.

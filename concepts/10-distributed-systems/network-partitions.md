@@ -2,6 +2,8 @@
 
 > A network partition is when some machines can't reach others, even though they're all still running. It happens far more often than people expect, and it's the root of most distributed systems headaches.
 
+![Network Partitions, animated](../../assets/animations/network-partitions.svg)
+
 ## How it works
 
 The first of the classic fallacies of distributed computing is "the network is reliable". It isn't. Switches die, cables get cut, someone pushes a bad firewall rule, a cloud zone loses its uplink. From the inside, all of these look the same: messages stop arriving.
