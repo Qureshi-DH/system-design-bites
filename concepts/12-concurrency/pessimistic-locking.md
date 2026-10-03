@@ -2,6 +2,8 @@
 
 > Pessimistic locking grabs a lock on the data before changing it, so anyone else who wants the same row waits their turn. It's the safe choice when many people fight over the same thing.
 
+![Pessimistic Locking, animated](../../assets/animations/pessimistic-locking.svg)
+
 ## How it works
 
 Inside a transaction, read the row with `SELECT ... FOR UPDATE`. The database locks that row until you commit or roll back. Anyone else who tries to lock or change it blocks and waits. Plain reads usually still go through. Once you commit, the next waiter gets the lock and sees your changes.

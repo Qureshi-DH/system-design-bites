@@ -2,6 +2,8 @@
 
 > A saga splits one big transaction across services into a chain of small local ones. If a step fails, it runs compensating actions to undo the steps that already happened.
 
+![Saga Pattern, animated](../../assets/animations/saga-pattern.svg)
+
 ## How it works
 
 Booking a trip touches three services: flights, hotels, payments. A saga runs them as separate steps, and each step commits in its own database right away. No global lock, no waiting on anyone.

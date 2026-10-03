@@ -2,6 +2,8 @@
 
 > A distributed lock makes sure only one process, across many machines, works on a thing at a time. The hard part isn't taking the lock, it's knowing you still hold it.
 
+![Distributed Locks, animated](../../assets/animations/distributed-locks.svg)
+
 ## How it works
 
 Inside one program you'd use a mutex. Across 10 servers you need a lock that lives somewhere they can all reach. With Redis, taking one is a single command: `SET lock:album:42 worker-a NX PX 10000`. `NX` means only set it if nobody holds it. `PX 10000` makes it expire after 10 seconds.

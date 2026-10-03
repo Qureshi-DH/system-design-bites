@@ -2,6 +2,8 @@
 
 > Optimistic locking lets everyone read and edit freely, then rejects a save if someone else changed the data first. Nobody waits, and conflicts get caught instead of silently overwritten.
 
+![Optimistic Locking, animated](../../assets/animations/optimistic-locking.svg)
+
 ## How it works
 
 Give each row a `version` number. When you read the row, remember its version, say 7. When you save, tell the database: update this row and set version to 8, but only if it's still 7. That's one statement, so nothing can sneak in between the check and the write.

@@ -2,6 +2,8 @@
 
 > Two phase commit makes several databases commit a change together or not at all. A coordinator asks everyone to promise first, then tells everyone to go.
 
+![Two Phase Commit, animated](../../assets/animations/two-phase-commit.svg)
+
 ## How it works
 
 One process acts as the coordinator. The databases taking part are the participants.

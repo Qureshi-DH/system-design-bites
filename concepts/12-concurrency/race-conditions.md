@@ -2,6 +2,8 @@
 
 > A race condition is a bug where the result depends on which of two operations gets there first. It hides in testing and shows up under real traffic, usually as lost money or a double booking.
 
+![Race Conditions, animated](../../assets/animations/race-conditions.svg)
+
 ## How it works
 
 Two shapes show up again and again:

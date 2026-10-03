@@ -2,6 +2,8 @@
 
 > Code is thread safe when it still works with many threads calling it at the same moment. The danger is always the same thing: data that is both shared and changing.
 
+![Thread Safety, animated](../../assets/animations/thread-safety.svg)
+
 ## How it works
 
 A thread is one line of execution inside your program. A web server runs dozens at once, often one per request. They share the same memory, so when two touch the same variable, their steps interleave in ways you never wrote.

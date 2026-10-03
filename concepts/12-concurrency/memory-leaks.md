@@ -2,6 +2,8 @@
 
 > A memory leak is memory your service keeps holding but will never use again. In a long running service it piles up for hours, until the process gets killed for running out of memory.
 
+![Memory Leaks, animated](../../assets/animations/memory-leaks.svg)
+
 ## How it works
 
 In languages with garbage collection, like Java, Go, or JavaScript, a leak isn't memory you forgot to free. It's memory you're still pointing at. The collector only frees what your code can no longer reach. If a global map still holds an object, that object stays, forever.

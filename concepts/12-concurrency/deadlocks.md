@@ -2,6 +2,8 @@
 
 > A deadlock is two workers each holding a lock the other one needs, so both wait forever. Nothing crashes, things just stop.
 
+![Deadlocks, animated](../../assets/animations/deadlocks.svg)
+
 ## How it works
 
 Transaction 1 locks row A and asks for row B. Transaction 2 already holds row B and asks for row A. Each waits for the other to let go, and neither will. Same story with threads and mutexes, or with services holding each other's resources.

@@ -2,6 +2,8 @@
 
 > An event loop is one thread that runs short callbacks, one after another, while the waiting on networks and disks happens in the background. It juggles thousands of connections cheaply, until one slow callback stalls them all.
 
+![Event Loop, animated](../../assets/animations/event-loop.svg)
+
 ## How it works
 
 Many servers used to give every connection its own thread. Threads cost memory, and most of them sit idle, waiting on the network. An event loop flips that around: one thread does all the work, and it never waits.

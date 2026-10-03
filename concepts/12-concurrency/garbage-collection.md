@@ -2,6 +2,8 @@
 
 > Garbage collection (GC) frees memory your program no longer uses, so you never have to free it by hand. The price is that the collector sometimes pauses your app, and those pauses land on your slowest requests.
 
+![Garbage Collection, animated](../../assets/animations/garbage-collection.svg)
+
 ## How it works
 
 Java, Go, C#, and JavaScript all collect garbage for you. The collector starts from the roots, meaning local variables and globals, and follows every reference to mark what's still reachable. Anything it didn't reach is garbage and gets freed.

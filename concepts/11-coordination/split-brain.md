@@ -2,6 +2,8 @@
 
 > Split brain is when two servers both believe they are the leader and both accept writes. Your data forks into two histories, and someone has to stitch them back together by hand.
 
+![Split Brain, animated](../../assets/animations/split-brain.svg)
+
 ## How it works
 
 It starts with a failover. The standby can't hear the leader, decides it's dead, and takes over. But the leader wasn't dead. The network between them dropped, or the leader froze for 20 seconds. Now both act as leader, and clients on each side happily write to their own.

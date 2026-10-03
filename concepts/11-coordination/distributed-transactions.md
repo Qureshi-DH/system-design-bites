@@ -2,6 +2,8 @@
 
 > A distributed transaction changes data in several services or databases as one unit: every change happens, or none does. One database gives you that for free, but across three you have to build it.
 
+![Distributed Transactions, animated](../../assets/animations/distributed-transactions.svg)
+
 ## How it works
 
 Inside one database, a transaction is easy. You `BEGIN`, make 5 changes, `COMMIT`, and the database makes sure all 5 land or none do. Split your app into an order service, a payment service, and an inventory service, each with its own database, and that guarantee is gone. No single `COMMIT` covers all three. If the card is charged and then the inventory call fails, the customer paid for nothing.

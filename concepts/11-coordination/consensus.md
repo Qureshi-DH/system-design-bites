@@ -2,6 +2,8 @@
 
 > Consensus lets a group of servers agree on the same ordered list of changes, even while some of them are down. A change counts once a majority has saved it.
 
+![Consensus, animated](../../assets/animations/consensus.svg)
+
 ## How it works
 
 Raft and Paxos are the famous algorithms. Raft is the one you'll meet in most newer tools, because it was designed to be easier to understand. Both run on one idea: majority rules.

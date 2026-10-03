@@ -2,6 +2,8 @@
 
 > Leader election picks exactly one server out of several to do a job that must not run twice, and picks a new one fast when that server dies.
 
+![Leader Election, animated](../../assets/animations/leader-election.svg)
+
 ## How it works
 
 Some work must happen exactly once: sending the monthly invoices, running the nightly cleanup, accepting writes for a database. You run 3 copies for safety, but only one may act. That one is the leader. The others wait on standby.
