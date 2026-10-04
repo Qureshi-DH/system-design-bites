@@ -2,6 +2,8 @@
 
 > In an event driven architecture, services announce what happened instead of telling each other what to do. Others react on their own, which keeps teams decoupled but makes the overall flow much harder to see.
 
+![Event Driven Architecture, animated](../../assets/animations/event-driven-architecture.svg)
+
 ## How it works
 
 In a request driven system, the order service calls payments, then the restaurant, then dispatch, and waits for each answer. It knows every step and every service. If one is down, the order fails.

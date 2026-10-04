@@ -2,6 +2,8 @@
 
 > A cron job is a task that runs on a schedule, like "every day at 2 AM". Easy to set up, and easy to get wrong once your app runs on more than one server.
 
+![Cron Jobs, animated](../../assets/animations/cron-jobs.svg)
+
 ## How it works
 
 Cron is the classic Unix scheduler. You give it a schedule like `0 2 * * *`, which means minute 0 of hour 2 every day, plus a command, and it runs the command on time. Apps do the same thing with a scheduler library inside the app, a Kubernetes CronJob, or a cloud scheduler.

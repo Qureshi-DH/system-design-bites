@@ -2,6 +2,8 @@
 
 > A delivery guarantee tells you how a messaging system fails: it may lose a message, or it may deliver one twice. Knowing which one you have decides whether you drop orders or charge people twice.
 
+![Delivery Guarantees, animated](../../assets/animations/delivery-guarantees.svg)
+
 ## How it works
 
 A broker hands a message to a consumer and waits for an ack, a short "done". Failures hit in the gap: the consumer crashes halfway, or finishes the work and dies before acking. When the consumer acks decides what you get.

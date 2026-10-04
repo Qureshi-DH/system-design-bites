@@ -2,6 +2,8 @@
 
 > Event streaming keeps every event in a durable, append only log that many readers move through at their own pace. Unlike a queue, reading doesn't delete anything, so you can replay last week whenever you need to.
 
+![Event Streaming, animated](../../assets/animations/event-streaming.svg)
+
 ## How it works
 
 Kafka is the classic example. Producers append events to a topic, and the topic keeps them for a set time, 7 days by default, or forever if you want. A normal queue deletes a message once a worker acks it. A log just grows at the end, and each reader remembers how far it got.

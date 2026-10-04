@@ -2,6 +2,8 @@
 
 > In pub/sub, a publisher sends a message to a topic, and every subscriber to that topic gets its own copy. The publisher has no idea who is listening, so you can add listeners without touching it.
 
+![Pub/Sub, animated](../../assets/animations/pub-sub.svg)
+
 ## How it works
 
 A queue hands each message to one worker. Pub/sub hands each message to everyone who asked for it. The publisher writes "order 5521 placed" to a topic called `orders`. The broker, the server in the middle, copies it to every subscription on that topic.

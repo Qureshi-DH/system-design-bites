@@ -2,6 +2,8 @@
 
 > The outbox pattern saves an event in the same database transaction as the change that caused it, and a separate relay publishes it later. They commit together, so you never lose an event or send one for a change that never happened.
 
+![Outbox Pattern, animated](../../assets/animations/outbox-pattern.svg)
+
 ## How it works
 
 A service often has to do two things together: save a row in its database and publish an event to a broker like Kafka. That's a dual write, and no transaction spans both systems. So one can succeed while the other fails:

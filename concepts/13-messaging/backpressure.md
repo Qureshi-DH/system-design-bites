@@ -2,6 +2,8 @@
 
 > Backpressure is how a slow consumer tells a fast producer to ease off. Without it, the gap piles up in memory somewhere until that process crashes and takes all the buffered work with it.
 
+![Backpressure, animated](../../assets/animations/backpressure.svg)
+
 ## How it works
 
 A pipeline runs at the speed of its slowest step. If a producer sends 15,000 events a second and the consumer handles 10,000, the extra 5,000 a second have to go somewhere. You get three options:

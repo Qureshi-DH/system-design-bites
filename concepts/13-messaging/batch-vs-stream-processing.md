@@ -2,6 +2,8 @@
 
 > Batch processing crunches a big pile of data on a schedule, while stream processing handles each event the moment it arrives. Batch is simpler and cheaper, stream gives answers in seconds instead of hours.
 
+![Batch vs Stream Processing, animated](../../assets/animations/batch-vs-stream-processing.svg)
+
 ## How it works
 
 A batch job runs over a fixed chunk of data, like yesterday's logs. A scheduler starts it at 2 AM, it reads every file, writes the result, and exits. Spark jobs and plain SQL on a data warehouse are the usual tools. If it has a bug, you fix it and run it again over the same files.

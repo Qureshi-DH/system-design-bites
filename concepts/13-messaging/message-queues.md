@@ -2,6 +2,8 @@
 
 > A message queue is a waiting line for jobs. Producers drop work in, workers take it out at their own pace, and a traffic spike becomes a longer line instead of an outage.
 
+![Message Queues, animated](../../assets/animations/message-queues.svg)
+
 ## How it works
 
 The web server that takes a request doesn't do the slow part. It writes a small message, like "resize photo 812", to a queue such as Amazon SQS or RabbitMQ, and replies right away. A pool of workers pulls messages off the queue and does the real work.

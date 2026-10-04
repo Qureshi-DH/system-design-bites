@@ -2,6 +2,8 @@
 
 > Event sourcing stores every change as an event in a log that never gets edited, instead of overwriting the current state. You get the current state by replaying the events, so the full history comes for free.
 
+![Event Sourcing, animated](../../assets/animations/event-sourcing.svg)
+
 ## How it works
 
 A normal database stores the answer: `balance = 70`. Each update overwrites the last one, and the history is gone. Event sourcing stores the steps instead:

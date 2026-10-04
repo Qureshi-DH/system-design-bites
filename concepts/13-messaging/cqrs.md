@@ -2,6 +2,8 @@
 
 > CQRS, short for Command Query Responsibility Segregation, splits your data model in two: one shaped for writes and one shaped for reads. Each side gets fast at its own job, and reads can lag a little behind.
 
+![CQRS, animated](../../assets/animations/cqrs.svg)
+
 ## How it works
 
 Writes and reads want different things. A write needs rules checked: is the item in stock, is the price valid, can this user edit this product. That fits a normalized database, where every fact lives in exactly one place. A read wants everything for one screen in one fetch, already joined and sorted.

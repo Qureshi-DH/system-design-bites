@@ -2,6 +2,8 @@
 
 > A dead letter queue is where messages go after failing too many times. It keeps one broken message from tying up your workers forever, and parks it somewhere a human can look at it.
 
+![Dead Letter Queues, animated](../../assets/animations/dead-letter-queues.svg)
+
 ## How it works
 
 Some messages will never succeed. A photo with a corrupt header, a field your code can't parse, an order for a product that was deleted. These are poison messages. With at least once delivery, a failing message goes back on the queue and gets retried, again and again. It eats worker time, floods logs with the same error, and in a strictly ordered queue it blocks everything behind it.

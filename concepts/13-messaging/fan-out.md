@@ -2,6 +2,8 @@
 
 > Fan out is what happens when one write has to reach many readers, like one post landing in a million feeds. You pay for it either when the post is written or every time a feed is read.
 
+![Fan Out, animated](../../assets/animations/fan-out.svg)
+
 ## How it works
 
 Take a social feed. You follow 300 people and want their latest posts, newest first. There are two ways to build that screen.
