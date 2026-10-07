@@ -2,6 +2,8 @@
 
 > Kubernetes asks every container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation.
 
+![Liveness and Readiness Probes, animated](../../assets/animations/liveness-and-readiness-probes.svg)
+
 ## How it works
 
 Kubernetes runs your app as pods, which are running copies of your container spread across many machines. On each machine, an agent called the kubelet calls your probes every few seconds, usually as plain HTTP requests.

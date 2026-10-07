@@ -2,6 +2,8 @@
 
 > Graceful shutdown means a server that's told to stop first finishes the requests it already started, then exits. Without it, every deploy cuts off whatever was in flight.
 
+![Graceful Shutdown, animated](../../assets/animations/graceful-shutdown.svg)
+
 ## How it works
 
 Servers get stopped all the time: deploys, autoscaling, a machine being drained for maintenance. The polite way to stop a process is the `SIGTERM` signal, which means "please wrap up". If the process is still running after a grace period, it gets `SIGKILL`, which can't be caught or ignored. In Kubernetes, that grace period defaults to 30 seconds.

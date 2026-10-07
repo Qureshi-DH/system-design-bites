@@ -2,6 +2,8 @@
 
 > Load shedding is a server dropping some requests on purpose when it gets more than it can handle. Rejecting a fifth of them fast beats serving all of them too slowly to matter.
 
+![Load Shedding, animated](../../assets/animations/load-shedding.svg)
+
 ## How it works
 
 Every server has a ceiling. Past it, requests queue up, each one waits longer, clients time out, and the server ends up doing work for people who already left. Push harder and useful throughput actually drops.

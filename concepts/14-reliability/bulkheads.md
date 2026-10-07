@@ -2,6 +2,8 @@
 
 > A bulkhead gives each dependency its own small pool of threads or connections. When one dependency gets slow, it can only drown its own pool, and everything else keeps working.
 
+![Bulkheads, animated](../../assets/animations/bulkheads.svg)
+
 ## How it works
 
 The name comes from ships. A hull is split into sealed compartments, so a leak floods one compartment instead of sinking the whole ship.

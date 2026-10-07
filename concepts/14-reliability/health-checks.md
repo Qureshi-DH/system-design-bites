@@ -2,6 +2,8 @@
 
 > A health check is a tiny endpoint, like `/health`, that the load balancer calls every few seconds. If a server stops passing it, the load balancer stops sending that server traffic.
 
+![Health Checks, animated](../../assets/animations/health-checks.svg)
+
 ## How it works
 
 The load balancer pings each server on a schedule, say every 5 seconds. A `200` counts as a pass. A timeout or a `500` counts as a failure. After a few failures in a row, like 3, the server is pulled out of rotation. After a few passes in a row, it goes back in. Requiring a streak keeps one slow reply from flipping a server in and out.

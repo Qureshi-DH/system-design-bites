@@ -2,6 +2,8 @@
 
 > Chaos engineering means breaking parts of your system on purpose, while you're watching, to find the weak spots before a real outage finds them for you.
 
+![Chaos Engineering, animated](../../assets/animations/chaos-engineering.svg)
+
 ## How it works
 
 Your system is full of failure handling you've never seen run: timeouts, retries, failovers, fallbacks. Chaos engineering tests it by causing real failures in a controlled way.

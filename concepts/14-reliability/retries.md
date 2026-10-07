@@ -2,6 +2,8 @@
 
 > A retry sends a failed call again, betting the failure was a blip. Done right, it hides a flaky network, and done wrong, it turns a small outage into a big one.
 
+![Retries, animated](../../assets/animations/retries.svg)
+
 ## How it works
 
 Lots of failures are temporary. A packet gets dropped, a server restarts, a connection resets. Trying again a moment later usually works, and the user never knows anything happened.

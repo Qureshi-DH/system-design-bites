@@ -2,6 +2,8 @@
 
 > Exponential backoff makes each retry wait twice as long as the last. Add a little randomness, and a crowd of failing clients spreads out instead of stampeding a server the moment it comes back.
 
+![Exponential Backoff, animated](../../assets/animations/exponential-backoff.svg)
+
 ## How it works
 
 When a call fails, retrying right away is usually pointless. The server that just failed is probably still sick. So you wait, and each time it fails again, you wait longer: 1 second, 2, 4, 8. A struggling server gets fewer and fewer calls from you, which gives it room to recover.

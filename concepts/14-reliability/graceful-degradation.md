@@ -2,6 +2,8 @@
 
 > Graceful degradation means that when one piece of your system breaks, users get a smaller version of the product instead of an error page. Lose the recommendations, keep the video playing.
 
+![Graceful Degradation, animated](../../assets/animations/graceful-degradation.svg)
+
 ## How it works
 
 Most pages are built from many parts, and only a few are truly required. A product page needs the product and the buy button. Reviews, recommendations, and "people also bought" are nice to have. If the reviews service is down, the page should load without reviews, not show a 500.

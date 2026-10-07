@@ -2,6 +2,8 @@
 
 > A circuit breaker stops calling a dependency that keeps failing and fails fast instead. Your service stays quick, and the broken one gets room to recover.
 
+![Circuit Breakers, animated](../../assets/animations/circuit-breakers.svg)
+
 ## How it works
 
 The name comes from the breaker in your home's electrical panel, which cuts the power before the wiring overheats. In software, a breaker wraps every call to one dependency and keeps score. It has three states:

@@ -2,6 +2,8 @@
 
 > A timeout is how long you are willing to wait for a reply before giving up. Without one, a single slow dependency can freeze every request that touches it.
 
+![Timeouts, animated](../../assets/animations/timeouts.svg)
+
 ## How it works
 
 Every network call can hang. The server on the other end might be overloaded, crashed, or stuck on a lock. If you never give up, your thread waits, and so does your user. A timeout says: wait this long, then fail and move on.

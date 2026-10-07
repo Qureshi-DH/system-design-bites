@@ -2,6 +2,8 @@
 
 > An idempotent operation gives the same result whether it runs once or ten times. It is what makes retries safe, so a flaky network never charges a customer twice.
 
+![Idempotency, animated](../../assets/animations/idempotency.svg)
+
 ## How it works
 
 Networks fail at the worst moment: after the server did the work, but before the reply got back. The client cannot tell "it failed" apart from "it worked and I never heard". So it retries. If the operation is not idempotent, you just did it twice.
