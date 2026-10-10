@@ -2,6 +2,8 @@
 
 > A backend for frontend gives each kind of client, like the mobile app and the web app, its own small backend that shapes data for its screens. The team that builds the client owns it.
 
+![Backend for Frontend, animated](../../assets/animations/backend-for-frontend.svg)
+
 ## How it works
 
 Picture one general purpose API serving every client. The phone wants 20 posts with small images. The web app wants 50 posts, big images, and a sidebar. The TV app wants something else again. Every screen either downloads too much or makes 6 calls over a slow mobile network, and every change to the shared API needs every client team to agree.

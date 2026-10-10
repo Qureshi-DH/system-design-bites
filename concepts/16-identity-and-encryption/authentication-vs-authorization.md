@@ -2,6 +2,8 @@
 
 > Authentication checks who you are, and authorization checks what you are allowed to do. Mixing them up is how a logged in user ends up reading someone else's data.
 
+![Authentication vs Authorization, animated](../../assets/animations/authentication-vs-authorization.svg)
+
 ## How it works
 
 Authentication, often shortened to authn, happens at the door. The user proves an identity with a password, a passkey, or "Sign in with Google", and gets back a session cookie or a token. Every later request carries it, so the server knows who is asking.

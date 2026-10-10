@@ -2,6 +2,8 @@
 
 > A service mesh puts a small proxy next to every service and sends all traffic through it. Retries, encryption, and traffic metrics happen in the proxy, so every team gets them without changing a line of code.
 
+![Service Mesh, animated](../../assets/animations/service-mesh.svg)
+
 ## How it works
 
 Once you have 40 services in 4 languages, every team writes its own retry logic, its own TLS setup, and its own metrics. Some get it right. A mesh moves that work out of the app and into infrastructure.

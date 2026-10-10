@@ -2,6 +2,8 @@
 
 > Encryption at rest scrambles data where it is stored: on disks, in databases, in backups. A stolen drive or leaked snapshot is useless without the key, but anyone who can query the live system still sees plain data.
 
+![Encryption at Rest, animated](../../assets/animations/encryption-at-rest.svg)
+
 ## How it works
 
 There are three layers, from broad to narrow:

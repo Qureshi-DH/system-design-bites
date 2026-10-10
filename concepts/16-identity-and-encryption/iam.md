@@ -2,6 +2,8 @@
 
 > IAM, short for identity and access management, is how a cloud decides who can do what. Every person and every program gets an identity, and policies spell out which actions each one may take on which resources.
 
+![IAM, animated](../../assets/animations/iam.svg)
+
 ## How it works
 
 Three nouns cover most of it:

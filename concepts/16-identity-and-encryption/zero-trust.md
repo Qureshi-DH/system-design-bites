@@ -2,6 +2,8 @@
 
 > Zero trust drops the idea of a safe internal network. Every request, from a person or a service, has to prove who it is and gets only the access it needs, no matter where it comes from.
 
+![Zero Trust, animated](../../assets/animations/zero-trust.svg)
+
 ## How it works
 
 The old model is a castle with a moat. The VPN is the drawbridge, and once you are inside, the wiki, the admin panel, and the database console all trust you because of your IP address. One phished password and the attacker is inside too, free to wander.

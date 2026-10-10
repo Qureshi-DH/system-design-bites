@@ -2,6 +2,8 @@
 
 > A cold start is the extra wait when a serverless platform has to boot a fresh copy of your function before it can answer. It adds anywhere from under 100 milliseconds to several seconds, usually right when traffic spikes.
 
+![Cold Starts, animated](../../assets/animations/cold-starts.svg)
+
 ## How it works
 
 When a request arrives and no warm copy of your function is free, the platform builds one. It finds a machine, starts a tiny isolated VM or container, downloads your code, boots the language runtime, and runs your startup code: imports, config loading, database clients. Only then does your handler run. The next request on that copy skips all of it. That is a warm start.

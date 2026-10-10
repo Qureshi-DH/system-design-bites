@@ -2,6 +2,8 @@
 
 > Serverless functions run your code on demand and bill by the millisecond, with no servers to manage. The trade is a set of hard limits on run time, memory, payload size, and concurrency that you have to design around.
 
+![Serverless Limits, animated](../../assets/animations/serverless-limits.svg)
+
 ## How it works
 
 You upload a function, say `resizePhoto`. The platform runs it when an event arrives, like an HTTP request or a file upload, and starts as many copies as traffic needs. No traffic, no bill. AWS Lambda, Azure Functions, and Cloudflare Workers all work roughly this way.

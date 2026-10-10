@@ -2,6 +2,8 @@
 
 > Encryption in transit means every network hop carries encrypted data, not just the one from the user's browser to your edge. Calls between services, database connections, and cache traffic all count.
 
+![Encryption in Transit, animated](../../assets/animations/encryption-in-transit.svg)
+
 ## How it works
 
 The common setup encrypts the public edge and nothing else. HTTPS ends at the load balancer, and from there requests travel in plain text to services, to Postgres, to Redis, to Kafka. The thinking is that the internal network is private.

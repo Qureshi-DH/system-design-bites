@@ -2,6 +2,8 @@
 
 > The strangler fig pattern replaces a legacy system one piece at a time. A routing layer sends each feature to the new code once it is ready, and the old system shrinks until you can switch it off.
 
+![Strangler Fig, animated](../../assets/animations/strangler-fig.svg)
+
 ## How it works
 
 Martin Fowler named it after a fig that grows around a host tree until it stands on its own, and the tree inside often dies. The alternative is the big bang rewrite: rebuild everything, then switch over on one scary weekend. Those projects tend to run years late, because the old system keeps changing and nobody remembers every rule buried in it.

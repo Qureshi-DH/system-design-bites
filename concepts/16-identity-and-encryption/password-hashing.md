@@ -2,6 +2,8 @@
 
 > Never store passwords. Store a slow, salted hash of each one, so that when your database leaks, attackers get a pile of values that are painfully expensive to turn back into passwords.
 
+![Password Hashing, animated](../../assets/animations/password-hashing.svg)
+
 ## How it works
 
 A hash is a one way function: easy to compute from the password, practically impossible to reverse. At signup you store the hash. At login you hash what the user typed and compare. You never need the original password again.

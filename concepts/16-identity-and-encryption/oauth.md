@@ -2,6 +2,8 @@
 
 > OAuth lets one app use your data in another app without ever seeing your password. You approve a limited scope once, and the app gets a token that can only do what you approved.
 
+![OAuth, animated](../../assets/animations/oauth.svg)
+
 ## How it works
 
 Say a printing site wants your albums from a photo sharing app. The bad old way: you type your photo app password into the printing site. Now it can do everything you can, forever, and you cannot cut off just that one app.

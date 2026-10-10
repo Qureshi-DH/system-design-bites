@@ -2,6 +2,8 @@
 
 > A JWT is a signed token any service can check without calling the auth server. Rotation means swapping the signing key on a schedule without logging everyone out, and keeping tokens short lived because a JWT is hard to take back.
 
+![JWT Rotation, animated](../../assets/animations/jwt-rotation.svg)
+
 ## How it works
 
 A JSON Web Token has three parts: a header, a JSON payload like `{"sub": "user_88", "exp": 1754000000}`, and a signature. The auth service signs with a private key. Any other service checks the signature with the matching public key. No database lookup, no call to the auth service.

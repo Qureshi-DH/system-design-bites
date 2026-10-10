@@ -2,6 +2,8 @@
 
 > Service discovery is how one service finds the current addresses of another. When instances start, die, and move every few minutes, hard coded IP addresses stop working on day one.
 
+![Service Discovery, animated](../../assets/animations/service-discovery.svg)
+
 ## How it works
 
 Your orders service needs to call payments. Payments runs on 5 instances today, 9 tomorrow, and any one of them can be replaced at 3 am with a new IP address. A config file full of addresses does not survive the first deploy.

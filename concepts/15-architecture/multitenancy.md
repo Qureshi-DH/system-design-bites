@@ -2,6 +2,8 @@
 
 > Multitenancy means many customers, called tenants, share the same app and infrastructure. It keeps costs low, and it makes two things your problem: one tenant slowing everyone down, and one tenant seeing another's data.
 
+![Multitenancy, animated](../../assets/animations/multitenancy.svg)
+
 ## How it works
 
 Every SaaS product has to decide how separate each customer's data is. There are three classic models:

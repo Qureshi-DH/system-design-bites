@@ -2,6 +2,8 @@
 
 > Role based access control gives users roles, and gives roles permissions. Instead of deciding access person by person, you decide it once per job, like admin, editor, or viewer.
 
+![Role Based Access Control, animated](../../assets/animations/role-based-access-control.svg)
+
 ## How it works
 
 Three lists do the work. Users get one or more roles. Roles get a set of permissions. A permission is an action on a kind of thing, like `invoices.read` or `users.invite`. When a request comes in, you gather the permissions from all of the user's roles and check for the one this action needs.

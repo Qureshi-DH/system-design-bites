@@ -2,6 +2,8 @@
 
 > A monolith is one app you build and deploy as a single unit. Microservices split it into many small services that ship on their own, which buys team independence and costs you network calls, operations work, and data headaches.
 
+![Monolith vs Microservices, animated](../../assets/animations/monolith-vs-microservices.svg)
+
 ## How it works
 
 In a monolith, the checkout code calls the inventory code with a plain function call. It takes nanoseconds and never gets lost. Everything shares one database, so a single transaction can update the order and the stock count together. One build, one deploy, one thing to watch.

@@ -2,6 +2,8 @@
 
 > TLS is the protocol that puts the S in HTTPS. It encrypts traffic, catches tampering, and proves you are talking to the real server, which is why cafe wifi does not hand your bank login to the person at the next table.
 
+![TLS, animated](../../assets/animations/tls.svg)
+
 ## How it works
 
 Before any app data flows, client and server run a handshake. In TLS 1.3 it takes one round trip:

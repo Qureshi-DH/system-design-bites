@@ -2,6 +2,8 @@
 
 > Secrets management keeps passwords, API keys, and signing keys out of your code and your git history. They live in one locked, audited place, get handed to apps at run time, and get rotated regularly.
 
+![Secrets Management, animated](../../assets/animations/secrets-management.svg)
+
 ## How it works
 
 A secret in source code is shared with everyone who can read the repo, every laptop with a clone, and every CI log that prints it. Git also never forgets. Deleting the line in a new commit leaves the key sitting in history, and bots scan public repositories for keys around the clock.

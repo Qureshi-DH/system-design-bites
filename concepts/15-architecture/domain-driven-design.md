@@ -2,6 +2,8 @@
 
 > Domain driven design builds software around how the business actually talks and works. Its big idea, bounded contexts, splits a large system into areas with their own language and model, and those areas make good service boundaries.
 
+![Domain Driven Design, animated](../../assets/animations/domain-driven-design.svg)
+
 ## How it works
 
 DDD starts from a plain observation: in most business software, the hard part is the business, not the code. So engineers work closely with domain experts, the people who actually run dispatch or billing, and shape the software around how those people think. Eric Evans laid it out in his 2003 book of the same name.
