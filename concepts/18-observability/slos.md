@@ -2,6 +2,8 @@
 
 > A service level objective is the target you set for an SLI over a time window, like 99.9 percent of checkouts succeeding over 30 days. It turns "are we reliable enough?" into a yes or no question.
 
+![SLOs, animated](../../assets/animations/slos.svg)
+
 ## How it works
 
 An SLO has three parts: an SLI, a target, and a window. "99.9 percent of feed loads succeed in under 500 ms, over a rolling 30 days." Rolling means the window always covers the last 30 days, so a bad day counts against you for a month and then drops off.

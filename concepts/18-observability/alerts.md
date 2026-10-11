@@ -2,6 +2,8 @@
 
 > An alert wakes a human when something needs fixing right now. Page on what users feel, make every page actionable, and keep the volume low enough that people still take each one seriously.
 
+![Alerts, animated](../../assets/animations/alerts.svg)
+
 ## How it works
 
 An alert is a rule over your metrics, like "checkout error rate above 2 percent for 5 minutes". When it fires, it either pages someone (their phone buzzes, day or night) or opens a ticket for working hours. Most of the skill is deciding which.

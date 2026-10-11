@@ -2,6 +2,8 @@
 
 > Observability is how well you can answer new questions about your system using only what it already emits. With good observability, the next weird outage takes ten minutes to explain, not three days and a new deploy.
 
+![Observability, animated](../../assets/animations/observability.svg)
+
 ## How it works
 
 Your system emits three main kinds of signals:

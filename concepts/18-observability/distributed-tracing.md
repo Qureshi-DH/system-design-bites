@@ -2,6 +2,8 @@
 
 > Distributed tracing follows one request as it hops across all your services and records how long each hop took. When a request is slow, it shows you exactly where the time went.
 
+![Distributed Tracing, animated](../../assets/animations/distributed-tracing.svg)
+
 ## How it works
 
 When a request enters your system, the first service gives it a trace ID. Every service it touches records one or more spans. A span is one unit of work, like "query the database" or "call pricing", with a start time, a duration, the trace ID, and the ID of the span that called it. The tracing backend gathers every span with the same trace ID and draws a waterfall: a timeline showing which calls ran in order, which ran in parallel, and which one ate the time.

@@ -2,6 +2,8 @@
 
 > Cross site scripting is when an attacker gets their JavaScript to run on your page, inside your users' browsers. That script can do anything the user can do, which makes it one of the nastiest web bugs there is.
 
+![XSS, animated](../../assets/animations/xss.svg)
+
 ## How it works
 
 It starts with a page that puts user input into HTML without escaping it. Someone sets their display name to `<script>alert(1)</script>`, and instead of showing that text, the browser runs it. Now the attacker's code runs on your site, with your user's session, and can read the page, send requests, and change what the user sees.

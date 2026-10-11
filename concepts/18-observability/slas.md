@@ -2,6 +2,8 @@
 
 > A service level agreement is a contract that promises customers a level of service and spells out what you owe them if you miss it. It should always be looser than the target you hold yourself to internally.
 
+![SLAs, animated](../../assets/animations/slas.svg)
+
 ## How it works
 
 An SLA is a promise in writing, usually something like "99.9 percent monthly uptime", with a penalty attached. The penalty is almost always service credits: a discount on next month's bill. A typical schedule looks like this:

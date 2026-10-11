@@ -2,6 +2,8 @@
 
 > CORS is the browser rule that decides which other websites may read responses from your API. It protects your users' browsers, not your server, and that second part is what almost everyone gets wrong.
 
+![CORS, animated](../../assets/animations/cors.svg)
+
 ## How it works
 
 Browsers follow the same origin policy. An origin is the scheme (http or https), host, and port, so `https://app.example.com` and `https://api.example.com` are different origins. A script on one origin can send a request to another, but the browser won't let the script read the response unless the server says it may.

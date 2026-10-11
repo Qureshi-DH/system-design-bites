@@ -2,6 +2,8 @@
 
 > An error budget is the amount of failure your SLO allows: 100 percent minus the target. While budget is left you ship fast, and when it runs out, risky changes stop until reliability recovers.
 
+![Error Budgets, animated](../../assets/animations/error-budgets.svg)
+
 ## How it works
 
 If your SLO is 99.9 percent over 30 days, your error budget is the other 0.1 percent. That's about 43 minutes of full downtime, or 1 failed request in every 1,000. With 10 million requests a month, you can afford 10,000 failures.

@@ -2,6 +2,8 @@
 
 > Metrics are numbers your system records over time, like requests per second or memory in use. They're cheap to store and fast to graph, as long as you don't tag them with the wrong labels.
 
+![Metrics, animated](../../assets/animations/metrics.svg)
+
 ## How it works
 
 A metric is a name, a number, and a timestamp, usually collected every 10 to 60 seconds. Each data point is tiny, so you can keep a year of them for little money and graph them instantly. Three types cover almost everything:

@@ -2,6 +2,8 @@
 
 > A web application firewall sits in front of your app and blocks requests that match known attack patterns. It buys you time and cuts the noise, but it never replaces fixing the actual bug.
 
+![WAF, animated](../../assets/animations/waf.svg)
+
 ## How it works
 
 A WAF reads every HTTP request before your app does: the path, headers, query string, and body. It checks them against rules. A rule might say "block bodies that look like SQL injection", "block this IP range", or "block the exploit string for that old plugin". A match gets a 403 or a challenge. Everything else passes through.

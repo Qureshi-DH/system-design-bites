@@ -2,6 +2,8 @@
 
 > Cross site request forgery tricks a logged in user's browser into sending a request they never meant to send. The browser attaches their cookies automatically, so your server sees a perfectly valid session.
 
+![CSRF, animated](../../assets/animations/csrf.svg)
+
 ## How it works
 
 Browsers attach your site's cookies to requests to your site, even when a different site started them, unless the cookie says otherwise. So if a user is logged in to `wallet.example` and visits a sketchy page, that page can hold a hidden form that posts to `wallet.example/transfer`. The browser sends it with the session cookie. Your server sees a real user asking to move money.

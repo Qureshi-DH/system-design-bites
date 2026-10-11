@@ -2,6 +2,8 @@
 
 > A service level indicator is a number that measures how your service feels to users, like the percent of requests answered successfully in under 300 ms. Every reliability target is built on one.
 
+![SLIs, animated](../../assets/animations/slis.svg)
+
 ## How it works
 
 An SLI is almost always a ratio: good events divided by valid events, shown as a percentage. You decide what "good" means, count, and divide. Common ones:

@@ -2,6 +2,8 @@
 
 > A distributed denial of service attack floods you from thousands of machines at once until real users can't get in. You can't outgrow one on your own servers, so you absorb it at the edge.
 
+![DDoS Protection, animated](../../assets/animations/ddos-protection.svg)
+
 ## How it works
 
 Floods come in two main shapes:

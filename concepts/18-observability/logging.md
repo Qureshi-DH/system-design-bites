@@ -2,6 +2,8 @@
 
 > Logs are the timestamped record of what your code did, one event per line. Done well, they let you rebuild exactly what happened to one request, at 3 AM, across ten services.
 
+![Logging, animated](../../assets/animations/logging.svg)
+
 ## How it works
 
 Write structured logs: JSON with named fields instead of free text. A line like "payment failed for user 42" is hard to search. `{"event":"payment_failed","user_id":42}` can be filtered, counted, and grouped by any field.

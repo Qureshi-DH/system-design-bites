@@ -2,6 +2,8 @@
 
 > SQL injection happens when user input gets pasted into a database query and the database runs it as code. Parameterized queries fix it, and they have been around for decades.
 
+![SQL Injection, animated](../../assets/animations/sql-injection.svg)
+
 ## How it works
 
 The bug is gluing user input into the SQL text. If your code builds `"... WHERE email = '" + email + "'"`, the database can't tell where your query ends and the user's input begins. A user who types `' OR '1'='1` closes your quote and adds a condition that is always true. The query now matches every row in the table. Nastier inputs can read other tables or delete data.

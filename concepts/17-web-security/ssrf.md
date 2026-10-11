@@ -2,6 +2,8 @@
 
 > Server side request forgery tricks your server into fetching a URL the attacker picked, usually an internal one they could never reach themselves. Any feature that fetches a URL a user typed is a candidate.
 
+![SSRF, animated](../../assets/animations/ssrf.svg)
+
 ## How it works
 
 Plenty of features fetch URLs for users: import a photo from a link, preview a pasted article, call a customer's webhook URL. Your server makes that request from inside your network, with access the attacker doesn't have. So the attacker hands it an internal address and reads what comes back.

@@ -2,6 +2,8 @@
 
 > Monitoring is watching your system for the failures you already know can happen, using dashboards and automatic checks. It tells you something broke, fast, so you aren't the last to find out.
 
+![Monitoring, animated](../../assets/animations/monitoring.svg)
+
 ## How it works
 
 You decide in advance what healthy looks like, collect the numbers, put them on dashboards, and set checks that fire when a number crosses a line. Monitoring answers known questions: is the site up, is the error rate normal, is the disk filling up.
