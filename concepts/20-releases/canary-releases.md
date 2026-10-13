@@ -2,6 +2,8 @@
 
 > A canary release sends a small slice of real traffic, like 5%, to the new version and compares its numbers with the old one. If the canary looks sick, you pull it before most users ever see it.
 
+![Canary Releases, animated](../../assets/animations/canary-releases.svg)
+
 ## How it works
 
 The name comes from coal mines, where miners carried a canary. If the bird got sick, the air was bad, and everyone got out.

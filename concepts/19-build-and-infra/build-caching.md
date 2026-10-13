@@ -2,6 +2,8 @@
 
 > Build caching skips every step whose inputs did not change and reuses the saved output. It turns a 10 minute build into a 90 second one, as long as you order the steps so the cache can actually hit.
 
+![Build Caching, animated](../../assets/animations/build-caching.svg)
+
 ## How it works
 
 Every build step takes inputs and produces outputs. If the inputs are byte for byte the same as last time, the output will be too, so you can skip the work and grab the saved result. The tool hashes the inputs, uses the hash as a cache key, and looks it up.

@@ -2,6 +2,8 @@
 
 > Dependency hell is when the libraries you use need different, incompatible versions of the same library underneath. Your own code is fine, but the app will not install, will not build, or breaks in places you never touched.
 
+![Dependency Hell, animated](../../assets/animations/dependency-hell.svg)
+
 ## How it works
 
 You install 10 packages. Each of those has its own dependencies, and those have theirs. These are transitive dependencies: the ones you never asked for but get anyway. A web app with 20 direct dependencies can easily end up with 800 packages installed.

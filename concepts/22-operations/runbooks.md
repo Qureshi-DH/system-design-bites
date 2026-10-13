@@ -2,6 +2,8 @@
 
 > A runbook is a step by step guide for handling one specific alert or task. It is written so a tired person at 3 AM, who has never seen this problem before, can follow it without thinking hard.
 
+![Runbooks, animated](../../assets/animations/runbooks.svg)
+
 ## How it works
 
 Every alert should link to a runbook. The person paged clicks the link and gets steps, not a blank terminal. A good runbook answers four questions, in order:

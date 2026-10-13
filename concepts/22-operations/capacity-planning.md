@@ -2,6 +2,8 @@
 
 > Capacity planning works out how much infrastructure you'll need for future peak traffic, and gets it in place before you need it. It turns a forecast and a load test into a server count with room to spare.
 
+![Capacity Planning, animated](../../assets/animations/capacity-planning.svg)
+
 ## How it works
 
 Get it wrong one way and the site falls over at peak. Get it wrong the other way and you pay for idle servers all year. The steps:

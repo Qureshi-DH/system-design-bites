@@ -2,6 +2,8 @@
 
 > Failover is switching traffic from a broken primary to a standby that can take over. The hard parts are being sure the primary is really dead, and not bouncing back and forth when it is only slow.
 
+![Failover, animated](../../assets/animations/failover.svg)
+
 ## How it works
 
 Every failover has three steps:

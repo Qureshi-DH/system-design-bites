@@ -2,6 +2,8 @@
 
 > Semantic versioning packs a promise into a version number: MAJOR.MINOR.PATCH. Which number moved tells everyone downstream whether upgrading is safe or will break their code.
 
+![Semantic Versioning, animated](../../assets/animations/semantic-versioning.svg)
+
 ## How it works
 
 A version like `4.2.7` has three parts, and each bump promises something different:

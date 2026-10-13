@@ -2,6 +2,8 @@
 
 > Disaster recovery is your plan for when something big is gone: a whole region, your main database, or your cloud account. It decides how fast you come back and how much data you lose on the way.
 
+![Disaster Recovery, animated](../../assets/animations/disaster-recovery.svg)
+
 ## How it works
 
 Everyday reliability work handles small failures: a server dies, a request times out. Disaster recovery, or DR, covers the big ones. A region goes dark. Ransomware encrypts your database. Someone deletes the production account. For each, the plan answers three questions: where do we run instead, where does the data come from, and who does what.

@@ -2,6 +2,8 @@
 
 > Infrastructure as code means your servers, networks, and databases are described in text files that live in git. You change infrastructure by changing code, and anyone can rebuild the whole setup from scratch.
 
+![Infrastructure as Code, animated](../../assets/animations/infrastructure-as-code.svg)
+
 ## How it works
 
 The old way is click ops: someone logs into the cloud console, clicks through 14 screens, and makes a database. It works. Six months later nobody knows which settings were picked, why, or how to make a second one that matches.

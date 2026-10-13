@@ -2,6 +2,8 @@
 
 > A rolling deployment swaps old servers for new ones a few at a time, so the service never goes down. The price is that both versions run side by side for a while.
 
+![Rolling Deployments, animated](../../assets/animations/rolling-deployments.svg)
+
 ## How it works
 
 Say you have 10 servers on version 1. A rolling deploy takes 2 of them out of rotation, upgrades them to version 2, waits for their health checks to pass, puts them back, and moves on to the next 2. Five rounds later, everything runs version 2, and you never had fewer than 8 servers serving.

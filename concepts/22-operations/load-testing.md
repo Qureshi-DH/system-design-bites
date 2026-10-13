@@ -2,6 +2,8 @@
 
 > Load testing sends realistic fake traffic at your system to find its limits before real users do. Done right, it tells you how much traffic you can take and which part breaks first.
 
+![Load Testing, animated](../../assets/animations/load-testing.svg)
+
 ## How it works
 
 A tool like k6, Gatling, JMeter, or Locust runs scripted user journeys from many machines at once. Meanwhile you watch latency percentiles, error rates, and the CPU, memory, and connection counts of everything behind the API.

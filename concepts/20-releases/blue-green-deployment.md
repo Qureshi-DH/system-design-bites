@@ -2,6 +2,8 @@
 
 > Blue green deployment runs two full copies of production. You deploy to the idle one, test it, then flip all traffic over at once, and flipping back is just as fast.
 
+![Blue Green Deployment, animated](../../assets/animations/blue-green-deployment.svg)
+
 ## How it works
 
 You keep two identical environments, called blue and green. Right now blue is live and green sits idle. You deploy the new version to green and run smoke tests against it, quick checks that the key pages and APIs work, while no real users are on it. Then you switch the load balancer to send all traffic to green. Blue keeps running the old version, untouched.

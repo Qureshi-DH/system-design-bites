@@ -2,6 +2,8 @@
 
 > A rollback puts the last good version back when a release goes wrong. Code is easy to roll back, but the data it already changed is not, and that's where rollbacks fail.
 
+![Rollbacks, animated](../../assets/animations/rollbacks.svg)
+
 ## How it works
 
 When a release breaks something, the fastest fix is usually to stop running that release. A rollback puts the previous version back: `kubectl rollout undo`, flipping a blue green switch back, or turning off a feature flag. The goal is minutes, not hours. Fix the bug later, calmly, with users on working code.

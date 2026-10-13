@@ -2,6 +2,8 @@
 
 > A backup is a copy of your data kept somewhere today's disaster cannot reach, so you can get it back after a bug, a breach, or a bad command. A backup you have never restored is a hope, not a backup.
 
+![Backups, animated](../../assets/animations/backups.svg)
+
 ## How it works
 
 Replication is not a backup. If someone runs `DELETE FROM orders` by mistake, every replica deletes those rows within milliseconds. A backup is a copy from the past that today's mistakes cannot touch.

@@ -2,6 +2,8 @@
 
 > A postmortem is a write up after an incident that explains what happened, why, and what will change so it does not happen again. It blames systems, not people, because blame teaches people to hide what they know.
 
+![Postmortems, animated](../../assets/animations/postmortems.svg)
+
 ## How it works
 
 Write one after every serious incident, within a few days, while memories are fresh. A good postmortem has four parts:

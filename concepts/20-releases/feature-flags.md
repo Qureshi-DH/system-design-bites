@@ -2,6 +2,8 @@
 
 > A feature flag is an if statement you can flip without deploying. Ship the code turned off, turn it on for 1% of users, then everyone, and switch it off in seconds if it misbehaves.
 
+![Feature Flags, animated](../../assets/animations/feature-flags.svg)
+
 ## How it works
 
 A flag is a named switch your code checks while it runs: "is `new_checkout` on for this user?" The answer lives in a flag service or a config table, not in the code, so changing it takes seconds and no deploy.

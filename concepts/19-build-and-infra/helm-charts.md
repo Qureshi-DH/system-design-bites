@@ -2,6 +2,8 @@
 
 > A Helm chart is a package of Kubernetes YAML with blanks to fill in. You write the manifests once, then install the same chart in dev, staging, and production with different values for each.
 
+![Helm Charts, animated](../../assets/animations/helm-charts.svg)
+
 ## How it works
 
 A real app on Kubernetes needs a pile of YAML: a deployment, a service, a config map, an ingress, an autoscaler. Copying that pile for each environment and editing it by hand goes wrong fast. Someone raises the memory limit in staging and forgets production.

@@ -2,6 +2,8 @@
 
 > Kubernetes runs your containers across a fleet of machines. You write down what you want, like "6 copies of this service, always", and it keeps working until reality matches, even when machines die.
 
+![Kubernetes, animated](../../assets/animations/kubernetes.svg)
+
 ## How it works
 
 You never tell Kubernetes "start this container on server 3". You hand it a description of the desired state, usually a YAML file, and it saves that in its own database. Small programs called controllers then loop forever: compare what you asked for with what is actually running, and fix the difference. A crashed container gets restarted. A dead machine's work gets moved to a healthy one.

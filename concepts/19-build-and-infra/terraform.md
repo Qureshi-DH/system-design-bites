@@ -2,6 +2,8 @@
 
 > Terraform is a widely used tool for infrastructure as code. You describe cloud resources in config files, it shows you a plan of exactly what will change, and only then does it make the change.
 
+![Terraform, animated](../../assets/animations/terraform.svg)
+
 ## How it works
 
 You write resources in HCL, Terraform's config language: a database here, a bucket there, a DNS record pointing at a load balancer. Providers are plugins that each know how to talk to one API. There are providers for AWS, Google Cloud, Azure, Cloudflare, GitHub, and thousands more. OpenTofu, an open source fork of Terraform, works the same way.

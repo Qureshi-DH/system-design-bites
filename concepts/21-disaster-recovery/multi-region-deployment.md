@@ -2,6 +2,8 @@
 
 > A multi region deployment runs your app in several parts of the world at once. Users get served from somewhere nearby, and losing one whole region does not take you offline.
 
+![Multi Region Deployment, animated](../../assets/animations/multi-region-deployment.svg)
+
 ## How it works
 
 A cloud region is a group of data centers in one area, like Frankfurt or Tokyo. Running in one region is simple, but users far away pay for the distance. Light in fiber is fast, not instant: a round trip from Sydney to Virginia takes about 200 ms before your server does any work. A page that makes 5 calls in a row feels slow no matter how fast your code is.

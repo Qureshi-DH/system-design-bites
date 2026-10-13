@@ -2,6 +2,8 @@
 
 > Cost optimization means paying for the cloud capacity you use, not the capacity you once guessed you might need. The usual waste is oversized servers, idle environments, and data nobody reads.
 
+![Cost Optimization, animated](../../assets/animations/cost-optimization.svg)
+
 ## How it works
 
 Cloud bills grow quietly. Nobody decides to waste money. They pick a big server to be safe, spin up a test environment and forget it, or keep every log forever. The main levers:

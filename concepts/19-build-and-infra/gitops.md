@@ -2,6 +2,8 @@
 
 > GitOps makes a git repo the single source of truth for what runs in production. An agent inside the cluster keeps pulling that repo and making the cluster match, so deploying is a merge and rolling back is a revert.
 
+![GitOps, animated](../../assets/animations/gitops.svg)
+
 ## How it works
 
 In a classic pipeline, CI pushes to production: it holds the cluster's credentials and runs `kubectl apply` at the end. GitOps flips the direction. A config repo holds the exact manifests for every environment, image tags included. An agent running inside the cluster, usually Argo CD or Flux, watches that repo and pulls.

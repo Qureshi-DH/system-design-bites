@@ -2,6 +2,8 @@
 
 > CI/CD is a pipeline that builds and tests every change the moment you push it, then ships the ones that pass. Small changes go out many times a day instead of one scary release a month.
 
+![CI/CD, animated](../../assets/animations/ci-cd.svg)
+
 ## How it works
 
 Continuous integration, or CI, means every push to the shared repo triggers a build and the full test suite on a clean machine. If anything fails, the author hears about it in minutes, while the change is still fresh in their head. The goal is a main branch that always works.

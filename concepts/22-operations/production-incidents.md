@@ -2,6 +2,8 @@
 
 > A production incident is anything that hurts users right now and needs a coordinated response. The playbook is short: name a leader, stop the bleeding first, and keep users informed while you fix it.
 
+![Production Incidents, animated](../../assets/animations/production-incidents.svg)
+
 ## How it works
 
 Not every bug is an incident. An incident is when users are hurting now: checkout fails, data looks wrong, the site is down. Teams sort incidents by severity, so everyone knows how loud to be:

@@ -2,6 +2,8 @@
 
 > On call means one engineer at a time answers when production breaks, day or night. Done well, it is a fair rotation with rare pages, and done badly, it burns out your best people.
 
+![On Call, animated](../../assets/animations/on-call.svg)
+
 ## How it works
 
 A team shares a rotation, often one week per person. During your week you keep a laptop nearby, and a paging tool like PagerDuty calls your phone when an alert fires. If you do not acknowledge within, say, 10 minutes, it escalates to a secondary, then to a manager. Your job is not to fix everything alone. It is to stop the damage, using the runbook, and pull in the right people.

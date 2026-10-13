@@ -2,6 +2,8 @@
 
 > Docker packs your app, its runtime, and every library it needs into one image that runs the same on your laptop, in CI, and in production. It is the fix for "works on my machine".
 
+![Docker, animated](../../assets/animations/docker.svg)
+
 ## How it works
 
 Your app works on your laptop because your laptop has Python 3.12, a certain version of some C library, and an environment variable you set two years ago and forgot about. The server has none of that. Docker fixes this by shipping the environment along with the code.

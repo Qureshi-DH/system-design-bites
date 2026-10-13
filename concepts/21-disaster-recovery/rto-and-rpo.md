@@ -2,6 +2,8 @@
 
 > RTO is how long you can afford to be down, and RPO is how much recent data you can afford to lose. Those two numbers decide your whole disaster recovery setup, and its bill.
 
+![RTO and RPO, animated](../../assets/animations/rto-and-rpo.svg)
+
 ## How it works
 
 Both are measured from the moment disaster strikes. One looks forward, one looks back:

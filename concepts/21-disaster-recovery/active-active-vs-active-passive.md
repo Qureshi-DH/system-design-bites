@@ -2,6 +2,8 @@
 
 > Active/passive keeps a standby site waiting until the main one fails, while active/active has every site serving real traffic all the time. Active/active recovers faster, but two sites taking writes can disagree about the data.
 
+![Active/Active vs Active/Passive, animated](../../assets/animations/active-active-vs-active-passive.svg)
+
 ## How it works
 
 In active/passive, one site takes all the traffic. The passive site keeps a copy of the data through replication and mostly sits idle. When the primary fails, you fail over to it. Writes only happen in one place, so data never conflicts. The downsides: you pay for a site that does nothing most days, failover takes minutes, and you never really know the standby works until you need it.
