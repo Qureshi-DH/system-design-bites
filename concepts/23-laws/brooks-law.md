@@ -2,6 +2,8 @@
 
 > Throw more engineers at a late software project and it usually ships even later. Newcomers need weeks to become useful, and every extra person adds conversations, so the team slows down before it speeds up.
 
+![Brooks's Law, animated](../../assets/animations/brooks-law.svg)
+
 ## How it works
 
 Fred Brooks wrote it in The Mythical Man Month (1975), drawing on his time managing IBM's OS/360 software project. His line: "Adding manpower to a late software project makes it later."

@@ -2,6 +2,8 @@
 
 > Separation of concerns means splitting a system so each part handles one kind of problem, like storage, business rules, or display. Then you can understand, change, and scale each part without dragging the others along.
 
+![Separation of Concerns, animated](../../assets/animations/separation-of-concerns.svg)
+
 ## How it works
 
 The name comes from a 1974 essay by Edsger Dijkstra. His point was about thinking clearly: study one aspect of a problem at a time, like whether a program is correct, and deliberately set the others aside for now, like whether it is fast.

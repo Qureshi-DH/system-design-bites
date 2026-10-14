@@ -2,6 +2,8 @@
 
 > A security system should stay safe even if attackers know everything about it except the key. Keep the secret small, so when it leaks you change a key instead of redesigning the whole system.
 
+![Kerckhoffs's Principle, animated](../../assets/animations/kerckhoffs-principle.svg)
+
 ## How it works
 
 Auguste Kerckhoffs set it down in 1883, in a two part article on military ciphers called La cryptographie militaire. Of his six rules, the second says the system must not depend on secrecy and must survive falling into enemy hands. Claude Shannon restated it in 1949, telling cryptographers to assume "the enemy knows the system being used."

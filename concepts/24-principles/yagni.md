@@ -2,6 +2,8 @@
 
 > YAGNI, short for "you aren't gonna need it", says don't build features or infrastructure for needs you only imagine. Build for the load and requirements you have today, and change the design when a real need shows up.
 
+![YAGNI, animated](../../assets/animations/yagni.svg)
+
 ## How it works
 
 It comes from Extreme Programming, a late 1990s way of working built on short cycles and constant refactoring. Ron Jeffries, one of its founders, wrote it up in 1998: implement things "when you actually need them, never when you just foresee that you need them".

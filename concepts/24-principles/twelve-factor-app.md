@@ -2,6 +2,8 @@
 
 > The Twelve Factor App is a checklist of 12 rules for building web services that deploy cleanly to any cloud and scale by running more copies. It reads like a description of how containers and Kubernetes expect your app to behave.
 
+![Twelve Factor App, animated](../../assets/animations/twelve-factor-app.svg)
+
 ## How it works
 
 Adam Wiggins, a Heroku cofounder, published it in 2011, drawing on what the Heroku team had seen across hundreds of thousands of apps on its platform. The twelve factors:

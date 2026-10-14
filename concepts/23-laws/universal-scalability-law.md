@@ -2,6 +2,8 @@
 
 > The Universal Scalability Law predicts what happens to throughput as you add servers. Waiting on shared things flattens the curve, servers syncing with each other bends it down, and past the peak more servers get less done.
 
+![Universal Scalability Law, animated](../../assets/animations/universal-scalability-law.svg)
+
 ## How it works
 
 Neil Gunther, a performance analyst, introduced the model in 1993. It starts from perfect scaling, where 10 servers do 10 times the work of one, and subtracts two costs:

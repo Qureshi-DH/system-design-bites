@@ -2,6 +2,8 @@
 
 > Premature optimization is tuning code for speed before you know it is slow, which costs time and clarity and usually speeds up the wrong thing. Measure first, then fix the part that actually matters.
 
+![Premature Optimization, animated](../../assets/animations/premature-optimization.svg)
+
 ## How it works
 
 Donald Knuth wrote the famous line in a 1974 paper on structured programming: "premature optimization is the root of all evil". The sentences right after it are the part people forget. He said not to pass up the critical 3 percent of code where speed really matters, but to find that code first, because programmers who measure keep learning that their guesses about it are wrong.

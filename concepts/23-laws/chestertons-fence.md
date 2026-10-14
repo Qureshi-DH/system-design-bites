@@ -2,6 +2,8 @@
 
 > Before you remove something that looks pointless, find out why it was put there. The odd retry, sleep, or cron job is often the scar from an old outage, and deleting it brings the outage back.
 
+![Chesterton's Fence, animated](../../assets/animations/chestertons-fence.svg)
+
 ## How it works
 
 G. K. Chesterton told it as a parable in his 1929 book The Thing. A reformer finds a fence across a road, can't see what it's for, and wants it torn down. A wiser reformer refuses: if you don't know why it's there, go and find out first, then we can talk about removing it.

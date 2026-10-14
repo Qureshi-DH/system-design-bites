@@ -2,6 +2,8 @@
 
 > Systems end up shaped like the teams that build them. Two teams that rarely talk build two parts with a thin, awkward seam between them, so if you want a certain architecture, arrange the teams first.
 
+![Conway's Law, animated](../../assets/animations/conways-law.svg)
+
 ## How it works
 
 Melvin Conway made the case in a 1968 Datamation article, after Harvard Business Review turned it down for lack of proof. Fred Brooks later named it Conway's Law in The Mythical Man Month.

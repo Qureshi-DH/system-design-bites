@@ -2,6 +2,8 @@
 
 > Kingman's formula estimates how long work waits in a queue. Waiting grows like utilization over one minus utilization, so a worker that's 95% busy makes jobs wait about five times longer than one at 80%.
 
+![Kingman's Formula, animated](../../assets/animations/kingmans-formula.svg)
+
 ## How it works
 
 John Kingman, a British mathematician, published this approximation in 1961. It covers one worker pulling jobs from one queue, and it's most accurate when that worker is busy, which is exactly when you care. It multiplies three plain parts:

@@ -2,6 +2,8 @@
 
 > Coupling is how much one part of a system depends on the others, and cohesion is how well the things inside one part belong together. Aim for loose coupling and high cohesion, so most changes stay inside one box.
 
+![Coupling and Cohesion, animated](../../assets/animations/coupling-and-cohesion.svg)
+
 ## How it works
 
 Larry Constantine worked out both ideas in the 1960s, and they reached a wide audience through the 1974 paper Structured Design, written with Wayne Stevens and Glenford Myers.

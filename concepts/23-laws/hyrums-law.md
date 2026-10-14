@@ -2,6 +2,8 @@
 
 > Once enough people use your API, every behavior they can see becomes part of the contract, documented or not. Someone depends on your error text, your response order, and your timing.
 
+![Hyrum's Law, animated](../../assets/animations/hyrums-law.svg)
+
 ## How it works
 
 It is named after Hyrum Wright, who kept running into it while making large code changes across Google. His colleague Titus Winters gave it the name, and it appears in the 2020 book Software Engineering at Google. The short version: with enough users, "all observable behaviors of your system will be depended on by somebody."

@@ -2,6 +2,8 @@
 
 > PACELC extends CAP to normal days: during a Partition, pick Availability or Consistency, Else pick Latency or Consistency. That second choice hits every single request, not just the rare outage.
 
+![PACELC, animated](../../assets/animations/pacelc.svg)
+
 ## How it works
 
 CAP only talks about the rare moment the network splits. Daniel Abadi, then a database professor at Yale, pointed out in a 2010 blog post and a 2012 paper that the bigger tradeoff happens when nothing is broken. To keep copies of the data (replicas) in sync, a write has to reach the other replicas before you call it done, or a read has to check more than one. Waiting costs latency. Not waiting means a read might see old data.

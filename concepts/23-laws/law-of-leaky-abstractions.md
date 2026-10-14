@@ -2,6 +2,8 @@
 
 > Every useful abstraction hides messy details, and sooner or later those details leak through. When they do, you need to understand the layer underneath, the one the abstraction promised you could ignore.
 
+![Law of Leaky Abstractions, animated](../../assets/animations/law-of-leaky-abstractions.svg)
+
 ## How it works
 
 Joel Spolsky named it in a 2002 essay on his blog, Joel on Software. An abstraction is a simple interface over messy machinery: TCP over a network that drops packets, an ORM (a library that turns rows into objects) over SQL, a file API over a network drive. It works most of the time, and that's the trap. The day it doesn't, the machinery shows through.

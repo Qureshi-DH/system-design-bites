@@ -2,6 +2,8 @@
 
 > The Pareto principle is the rough pattern that most of an effect comes from a few causes, often quoted as 80/20. In systems work it means profile first, because a handful of endpoints or queries usually cause most of the slowness.
 
+![Pareto Principle, animated](../../assets/animations/pareto-principle.svg)
+
 ## How it works
 
 List the causes of almost anything, like slow requests, errors, cloud spend, or support tickets, and sort them by impact. The top few usually account for most of the total. 80/20 is the catchy version. Real splits might be 90/10 or 70/30, and the two numbers don't need to add up to 100, because they measure different things: 20% of the queries, 80% of the database time.

@@ -2,6 +2,8 @@
 
 > DRY, short for "don't repeat yourself", says every piece of knowledge in a system should live in exactly one place. It is about rules and facts, not about code that merely looks alike.
 
+![DRY, animated](../../assets/animations/dry.svg)
+
 ## How it works
 
 Andy Hunt and Dave Thomas coined it in The Pragmatic Programmer in 1999. They asked for a "single, unambiguous, authoritative representation" of each piece of knowledge.

@@ -2,6 +2,8 @@
 
 > FLP proves that when messages can take any amount of time, a group of servers can't be guaranteed to finish agreeing if even one of them might crash. Real systems get around it by trusting timeouts.
 
+![FLP Impossibility, animated](../../assets/animations/flp-impossibility.svg)
+
 ## How it works
 
 Michael Fischer, Nancy Lynch and Michael Paterson proved it in a paper published in 1985. The setup is a fully asynchronous network: every message arrives eventually, but there's no limit on how long it takes, and no clocks to measure it. Then they allow just one server to crash, silently, at the worst moment.

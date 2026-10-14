@@ -2,6 +2,8 @@
 
 > Zipf's Law says popularity falls off with rank: the second most popular item gets about half the traffic of the first, the third about a third. That's why a small cache catches most requests, and why a few keys run hot.
 
+![Zipf's Law, animated](../../assets/animations/zipfs-law.svg)
+
 ## How it works
 
 Rank items by how often they're requested. Under Zipf's Law, the item at rank `k` gets traffic in proportion to `1 / k^s`, where `s` sets how steep the drop is, usually near 1. So rank 1 gets one full share, rank 2 gets half, rank 10 gets a tenth, and a long tail of items gets almost nothing each.

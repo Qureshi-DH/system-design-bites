@@ -2,6 +2,8 @@
 
 > Be strict in what you send and forgiving in what you accept. It helped the early internet's mismatched machines talk to each other, and taken too far, it turns everyone's bugs into permanent features.
 
+![Postel's Law, animated](../../assets/animations/postels-law.svg)
+
 ## How it works
 
 Jon Postel, who edited the specs for IP and TCP, put it in RFC 760 and RFC 761 in January 1980 and kept it in RFC 791 and RFC 793 in 1981. The TCP version says "be conservative in what you do, be liberal in what you accept from others."

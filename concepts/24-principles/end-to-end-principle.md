@@ -2,6 +2,8 @@
 
 > Some guarantees, like "this file arrived intact", can only be checked by the two ends that care about the result. Lower layers can make them faster, but they can't make them correct.
 
+![End to End Principle, animated](../../assets/animations/end-to-end-principle.svg)
+
 ## How it works
 
 Jerome Saltzer, David Reed, and David Clark laid it out in a paper presented in April 1981 and published in revised form in ACM Transactions on Computer Systems in November 1984.

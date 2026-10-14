@@ -2,6 +2,8 @@
 
 > KISS stands for "keep it simple, stupid". Pick the simplest design that meets the real need, because every extra moving part is one more thing to build, learn, watch, and fix at 3 a.m.
 
+![KISS, animated](../../assets/animations/kiss.svg)
+
 ## How it works
 
 Lockheed's own history calls it the favorite maxim of Kelly Johnson, who ran its Skunk Works, the team that built the world's first dedicated spy plane. The US Navy was using the phrase by 1960 too. As the story goes, Johnson wanted jets an average mechanic could repair in the field with a few basic tools. In that story, the "stupid" was never aimed at the engineers. It was aimed at designs too clever to fix under pressure.

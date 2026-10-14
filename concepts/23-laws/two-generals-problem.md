@@ -2,6 +2,8 @@
 
 > Two machines talking over a link that can lose messages can never both be sure they agree. Every confirmation needs its own confirmation, forever, so real systems stop chasing certainty and make retries safe instead.
 
+![Two Generals Problem, animated](../../assets/animations/two-generals-problem.svg)
+
 ## How it works
 
 Two armies sit on opposite hills with the enemy in the valley between them. They win only if they attack together, and the only way to talk is a messenger who might get caught. General A sends "attack at dawn". Did it arrive? A can't know unless B replies. But B can't know the reply arrived unless A replies to the reply. Whoever sent the last message is always left guessing, so no number of round trips makes both sides sure.

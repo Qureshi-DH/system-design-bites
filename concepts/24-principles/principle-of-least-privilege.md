@@ -2,6 +2,8 @@
 
 > Give every user, service, and process only the permissions it needs for its job, and nothing more. When something gets hacked or goes wrong, the damage stops at that small set.
 
+![Principle of Least Privilege, animated](../../assets/animations/principle-of-least-privilege.svg)
+
 ## How it works
 
 Jerome Saltzer and Michael Schroeder listed it as a core design rule in their 1975 paper on protecting information in computer systems. The cloud just gave it a lot more places to apply.

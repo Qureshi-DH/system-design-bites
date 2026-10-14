@@ -2,6 +2,8 @@
 
 > Fail fast means stopping with a loud, clear error the moment something is wrong, instead of limping along on bad data. A crash at startup is cheap, while a quiet wrong answer in production is expensive.
 
+![Fail Fast, animated](../../assets/animations/fail-fast.svg)
+
 ## How it works
 
 Jim Shore made the case in a 2004 IEEE Software column. His example was a config reader that quietly fell back to a default when a setting was missing. The app kept running, got mysteriously slow for customers, and tracking down why could take days. An error naming the missing setting would have been a 30 second fix.

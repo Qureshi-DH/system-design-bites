@@ -2,6 +2,8 @@
 
 > Defense in depth stacks several independent security layers, so an attacker has to beat all of them. When one control fails, and one always does eventually, the next one is still standing.
 
+![Defense in Depth, animated](../../assets/animations/defense-in-depth.svg)
+
 ## How it works
 
 The name is borrowed from military strategy, where you defend with several lines instead of one wall. The US Department of Defense made it official policy for its computer systems in 2002.

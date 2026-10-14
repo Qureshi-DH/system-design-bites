@@ -2,6 +2,8 @@
 
 > The Byzantine Generals Problem asks how honest servers can agree when some of them lie. To survive f liars you need at least 3f + 1 nodes, and the consensus inside most databases doesn't even try.
 
+![Byzantine Generals Problem, animated](../../assets/animations/byzantine-generals-problem.svg)
+
 ## How it works
 
 Most failure plans assume a broken server goes quiet: it crashes, stops replying, and the rest carry on. A Byzantine failure is worse. The server keeps talking, but what it says is wrong, because of a bug, a corrupted disk, or an attacker. It can even tell different peers different things.

@@ -2,6 +2,8 @@
 
 > Eight things everyone assumes about the network the first time they build a distributed system. All eight are false, and each one breeds its own family of production bugs.
 
+![Fallacies of Distributed Computing, animated](../../assets/animations/fallacies-of-distributed-computing.svg)
+
 ## How it works
 
 On your laptop, a call to another service takes 0.1 ms and never fails. In production, the same call crosses cables, switches, and other people's config. The fallacies list what stops being true when that happens.

@@ -2,6 +2,8 @@
 
 > Every complex system that works grew out of a simple system that worked. Design the complex version from scratch and it won't work, and no amount of patching will fix it.
 
+![Gall's Law, animated](../../assets/animations/galls-law.svg)
+
 ## How it works
 
 John Gall, a pediatrician, wrote it in General Systemantics (1975), a dry, funny book about why systems misbehave, later reissued as Systemantics.

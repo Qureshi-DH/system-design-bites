@@ -2,6 +2,8 @@
 
 > Turn a metric into a target and people will find ways to hit the number without doing the thing it was meant to measure. The dashboard turns green and stops telling you anything.
 
+![Goodhart's Law, animated](../../assets/animations/goodharts-law.svg)
+
 ## How it works
 
 Economist Charles Goodhart made the point in 1975 about British monetary policy: a statistic that tracks the economy well tends to break down once the government starts steering by it. Anthropologist Marilyn Strathern gave it the popular wording in 1997: "When a measure becomes a target, it ceases to be a good measure."

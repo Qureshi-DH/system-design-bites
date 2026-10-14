@@ -2,6 +2,8 @@
 
 > Amdahl's Law says the part of a job that can't run in parallel caps your speedup. If 10% of the work must happen in order, a thousand machines still can't make it more than 10 times faster.
 
+![Amdahl's Law, animated](../../assets/animations/amdahls-law.svg)
+
 ## How it works
 
 Split any job into two parts: the bit you can spread across workers, and the bit that has to happen one step at a time. Adding workers shrinks the first part. The second part doesn't budge.

@@ -2,6 +2,8 @@
 
 > A module, class, or service should have only one reason to change, which in practice means it answers to one group of people. Then a change one team asks for can't quietly break another team's feature.
 
+![Single Responsibility Principle, animated](../../assets/animations/single-responsibility-principle.svg)
+
 ## How it works
 
 Robert C. Martin coined the single responsibility principle (SRP) in the late 1990s, and it became the S in SOLID. His first wording was one reason to change. Plenty of people read that as each module doing just one thing, which Martin says is a separate rule meant for small functions. In his book Clean Architecture he restated it: a module should be responsible to one actor, meaning one group of people who ask for its changes.
