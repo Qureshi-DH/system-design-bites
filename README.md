@@ -1,6 +1,4 @@
-# System Design Bites
-
-**214 system design ideas. One page each. Plain English.**
+<p align="center"><img src="assets/banner.svg" alt="System Design Bites" width="100%"></p>
 
 Everyone has heard the words. Load balancer. Sharding. Idempotency. CAP theorem. Most people nod along, read a few chapters of a 600 page book, and still could not explain any of them to a friend.
 
