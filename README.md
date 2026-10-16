@@ -422,3 +422,7 @@ Rules of thumb that keep designs simple, safe, and easy to change. [Open section
 ## Contributing
 
 Found a mistake, or a sentence that made you read it twice? Open an issue or a pull request. The page format and writing rules are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+The pages and animations are licensed under [CC BY 4.0](LICENSE). Share them, adapt them, and use them in talks or courses, as long as you give credit.
