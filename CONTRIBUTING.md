@@ -2,6 +2,12 @@
 
 Thanks for helping. The whole point of this repo is that every page is short, plain, and correct. These rules keep it that way.
 
+## Ways to help
+
+- **Found a mistake?** Open an issue with the "Fix a mistake" template. Say what the page says, what it should say, and link a source.
+- **Missing a concept?** Open an issue with the "Suggest a concept" template before you write it, so we can agree on where it fits.
+- **Want to fix it yourself?** Pull requests are welcome. Small fixes can skip the issue.
+
 ## The page format
 
 Every concept page has the same shape:
@@ -58,6 +64,13 @@ Every page opens with a small looping animation from `assets/animations/`. They 
 - Short labels, text no smaller than 11 px, and a one line caption at the bottom.
 - No scripts, no external fonts or images.
 
-## Fixing something
+## Facts need sources
 
-Small fixes are welcome as they are. For a new concept, open an issue first so we can agree on where it fits.
+Every number, default, date, and product behavior on a page should be checkable. When you add or change one, link the source in your pull request: official docs, an RFC, the original paper, or the vendor's own documentation. Blog posts are fine for color, not for facts.
+
+## Before you open a pull request
+
+- The page keeps its shape: one line, How it works, Example, Picture it, Related.
+- The diagram renders in the GitHub preview.
+- Related links point to pages that exist, with their exact titles.
+- If you touched an animation, it still loops cleanly and matches the page.
