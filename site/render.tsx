@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Rail from "./components/Rail";
 
 const DESCRIPTION =
-  "Every system design idea that matters, on one page. One line and one moving picture each, with the full explanation one tap away.";
+  "Sprint through system design: every idea that matters on one page, each in one line and one moving picture, with the full explanation one tap away.";
 
 const plain = (html: string) =>
   html.replace(/<[^>]+>/g, "").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&");

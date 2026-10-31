@@ -775,6 +775,13 @@ main {
   color: var(--fg-2);
 }
 
+.hero-note {
+  max-width: 44em;
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--fg-3);
+}
+
 /* ---------- sections ---------- */
 
 .section-head {
