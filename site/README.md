@@ -14,6 +14,10 @@ That builds the page and serves it at http://localhost:4321. It rebuilds when an
 
 `npm run build` writes the finished site to `site/out/`. It is plain static files, so any static host can serve that folder, at the root or under a subpath.
 
+## Publish it
+
+`.github/workflows/site.yml` builds the site and publishes it to GitHub Pages on every push to main, and once on its own when the repo is made public. While the repo is private it skips every run. Before the first publish, set Pages to deploy from GitHub Actions in the repo settings, once.
+
 ## How it is put together
 
 | File | Job |
