@@ -10,7 +10,7 @@ Two designs cover most databases.
 
 A **B tree** stores data in fixed size pages, 8 KB in Postgres and 16 KB in MySQL's InnoDB, arranged as a sorted tree. A read walks from the root to the right page in 3 or 4 hops. A write finds the page that holds the row and updates it in place. Reads are fast and predictable, but writes land at random spots all over the disk. MySQL's InnoDB and SQLite store whole tables as B trees, and Postgres uses them for its indexes.
 
-An **LSM tree** (log structured merge tree) never updates in place. New writes go into a sorted buffer in memory called a memtable. When it fills up, it's flushed to disk as a new sorted file that never changes. Writing is fast because it's always sequential. Reading is slower, since a key could be in memory or in any of several files, so the engine checks the newest first and uses Bloom filters to skip files. Cassandra, RocksDB, and ScyllaDB work this way.
+An **LSM tree** (log structured merge tree) never updates in place. New writes go into a sorted buffer in memory called a memtable. When it fills up, it's flushed to disk as a new sorted file that never changes. Writing is fast because it's always sequential. Reading is slower, since a key could be in memory or in any of several files, so the engine checks the newest first and can use Bloom filters to skip files. Cassandra, RocksDB, and ScyllaDB work this way.
 
 Compaction keeps the files in check. In the background, the engine merges small files into bigger ones, keeping only the newest value of each key. It costs disk bandwidth and CPU, and when it falls behind, files pile up and reads slow down.
 

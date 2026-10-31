@@ -27,7 +27,7 @@ A photo sharing app lets people search photos by description, like "dog on a bea
 
 Searching one user's photos returns nothing. The query asks for `user_id = 42` and the 10 closest vectors. HNSW returns the 40 closest photos out of all 80 million, none of them belong to user 42, and the filter throws all 40 away.
 
-User 42 has only 3,000 photos, so this query shouldn't use the vector index at all. With a B tree index on `user_id`, Postgres can fetch those 3,000 rows first and compare each one exactly, in a few milliseconds, with nothing missed. For broad filters, like public photos from 2024, pgvector's iterative scans keep walking the index until enough rows pass.
+User 42 has only 3,000 photos, so this query shouldn't use the vector index at all. With a B tree index on `user_id`, Postgres can fetch those 3,000 rows first and compare each one exactly, in a few milliseconds, with nothing missed. For broad filters, like public photos from 2024, you can turn on pgvector's iterative scans, which keep walking the index until enough rows pass.
 
 ```sql
 CREATE INDEX ON photos (user_id);

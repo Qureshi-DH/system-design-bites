@@ -23,7 +23,7 @@ The catch: blast radius, meaning how much can break if the experiment goes wrong
 
 A social feed service reads from 3 Redis cache nodes. Everyone assumed losing one was fine, since misses just fall through to the database.
 
-On a game day, the team killed one node in staging. The p99 jumped from 120 ms to 9 seconds. The Redis client had no timeout, so every call to the dead node hung until the operating system gave up on the connection.
+On a game day, the team killed one node in staging. The p99 jumped from 120 ms to 10 seconds. The Redis client had no timeout, so every call to the dead node hung until the feed's own 10 second request limit cut it off.
 
 They added a 50 ms timeout and a circuit breaker per node and ran the same experiment again. This time p99 rose to 180 ms and the feed stayed up. A month later, they ran it in production on one node, and nobody outside the team noticed. They found the bug over coffee on a Tuesday instead of during a 3 a.m. outage.
 

@@ -8,7 +8,7 @@
 
 Every second or so, each node picks a random peer, or a few, and they compare notes: which nodes exist, which seem up, each node's latest heartbeat counter, maybe its load. For every entry, both sides keep whichever version is newer. Next round, they each pass that on to someone else.
 
-News spreads fast because every node that hears it becomes a messenger. One node knows, then 2, then 4, then 8. In a 1,000 node cluster, that's around 10 rounds, so seconds, not minutes. No node ever talks to everyone, so the work per node stays flat as the cluster grows. There's no central server to fail, either. Any node can die and the rumor routes around it.
+News spreads fast because every node that hears it becomes a messenger. One node knows, then 2, then 4, then 8. In a 1,000 node cluster, that's about 10 rounds, or a few more since some news lands on nodes that already know. Seconds, not minutes. No node ever talks to everyone, so the work per node stays flat as the cluster grows. There's no central server to fail, either. Any node can die and the rumor routes around it.
 
 Cassandra uses gossip for cluster membership. Every second, each node gossips with up to three others about every node it knows. Failure detection rides along: if a node's heartbeat counter stops climbing in the gossip everyone receives, each node decides on its own that it's probably down. Consul and Redis Cluster use gossip too.
 

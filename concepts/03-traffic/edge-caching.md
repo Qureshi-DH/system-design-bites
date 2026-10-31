@@ -19,7 +19,7 @@ The catch: caching something personal. If `/api/account` gets cached under a sha
 
 ## Example
 
-An online store runs a flash sale, and product pages take 40,000 requests a second. The product API sits behind Fastly, a CDN, but almost nothing gets cached. Responses go out with no caching headers, and every newsletter link adds `utm_source` and `utm_campaign`, so the same product has hundreds of different cache keys.
+An online store runs a flash sale, and product pages take 40,000 requests a second. The product API sits behind Fastly, a CDN, but almost nothing gets cached. Responses go out with `Cache-Control: private`, and every newsletter link adds `utm_source` and `utm_campaign`, so the same product has hundreds of different cache keys.
 
 The team sets three rules. Product responses get a 60 second edge TTL, a 30 second stale window, and a tag with the product ID. The CDN drops `utm_*` parameters from the cache key. Cart and account endpoints get `private, no-store`.
 

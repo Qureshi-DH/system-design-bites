@@ -13,7 +13,7 @@ Patterns that stop one failure from turning into an outage.
 | [Load Shedding](load-shedding.md) | Load shedding is a server dropping some requests on purpose when it gets more than it can handle. Rejecting a fifth of them fast beats serving all of them too slowly to matter. |
 | [Graceful Degradation](graceful-degradation.md) | Graceful degradation means that when one piece of your system breaks, users get a smaller version of the product instead of an error page. Lose the recommendations, keep the video playing. |
 | [Health Checks](health-checks.md) | A health check is a tiny endpoint, like `/health`, that the load balancer calls every few seconds. If a server stops passing it, the load balancer stops sending that server traffic. |
-| [Liveness and Readiness Probes](liveness-and-readiness-probes.md) | Kubernetes asks every container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation. |
+| [Liveness and Readiness Probes](liveness-and-readiness-probes.md) | Once you define probes, Kubernetes asks a container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation. |
 | [Graceful Shutdown](graceful-shutdown.md) | Graceful shutdown means a server that's told to stop first finishes the requests it already started, then exits. Without it, every deploy cuts off whatever was in flight. |
 | [Chaos Engineering](chaos-engineering.md) | Chaos engineering means breaking parts of your system on purpose, while you're watching, to find the weak spots before a real outage finds them for you. |
 

@@ -1,6 +1,6 @@
 # Liveness and Readiness Probes
 
-> Kubernetes asks every container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation.
+> Once you define probes, Kubernetes asks a container two different questions: are you stuck, and can you take traffic right now? Failing liveness gets the container restarted, while failing readiness just takes it out of rotation.
 
 ![Liveness and Readiness Probes, animated](../../assets/animations/liveness-and-readiness-probes.svg)
 

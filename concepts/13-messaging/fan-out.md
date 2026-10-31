@@ -25,7 +25,7 @@ Watch out: don't fan out inside the request that creates the post. Writing to 5,
 
 ## Example
 
-A social app has 20 million users. A typical user has 200 followers, so a post means 200 small Redis writes, done by workers in well under a second.
+A social app has 50 million users. A typical user has 200 followers, so a post means 200 small Redis writes, done by workers in well under a second.
 
 Then a pop star with 30 million followers joins. Each of her posts queues 30 million writes. At 500,000 writes a second, that's a full minute of work for one post, and everyone else's posts wait behind it.
 

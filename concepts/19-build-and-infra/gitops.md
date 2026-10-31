@@ -13,7 +13,7 @@ Every few minutes, or right away when a webhook fires, the agent compares the cl
 - **Deploy.** CI builds an image and opens a pull request that bumps the tag in the config repo. Merge it, and the agent rolls it out.
 - **Rollback.** Revert the commit. The agent sees the old tag and rolls back. No special tooling, no digging for what was there before.
 - **Audit.** Who deployed what, when, and who approved it is just git history.
-- **Drift repair.** Flux, or Argo CD with self heal turned on, notices a change someone made by hand with `kubectl` and puts it back to match git.
+- **Drift repair.** Flux on plain manifests, or Argo CD with self heal turned on, notices a change someone made by hand with `kubectl` and puts it back to match git.
 
 A nice side effect: CI never needs production credentials, so a breach of your CI provider cannot reach the cluster directly.
 

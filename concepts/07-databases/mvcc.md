@@ -1,6 +1,6 @@
 # MVCC
 
-> MVCC lets a database keep several versions of each row, so readers see a consistent snapshot while writers keep working. Nobody waits on anybody, but old versions pile up and have to be cleaned away.
+> MVCC lets a database keep several versions of each row, so readers see a consistent snapshot while writers keep working. Readers and writers don't wait on each other, but old versions pile up and have to be cleaned away.
 
 ![MVCC, animated](../../assets/animations/mvcc.svg)
 

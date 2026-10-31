@@ -1,6 +1,6 @@
 # WebSockets
 
-> A WebSocket is one long lived connection where the client and the server can both send messages at any moment. It is the standard choice for chat, multiplayer games, and live collaboration.
+> A WebSocket is one long lived connection where the client and the server can both send messages at any moment. It is the standard choice for chat, browser games, and live collaboration.
 
 ![WebSockets, animated](../../assets/animations/websockets.svg)
 

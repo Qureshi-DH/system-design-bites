@@ -8,7 +8,7 @@
 
 The browser makes a normal HTTP request. The server answers with `Content-Type: text/event-stream` and never finishes the response. Whenever there is news, it writes a few lines of text, and the browser fires an event in your code. On the client, that is `new EventSource("/live")` plus a message handler.
 
-- **Plain HTTP.** It works with your existing auth, cookies, load balancers, and HTTP/2. No new protocol to support.
+- **Plain HTTP.** It works with cookie logins, load balancers, and HTTP/2. No new protocol to support. The browser's `EventSource` can't add an `Authorization` header, though.
 - **Automatic reconnect.** If the connection drops, the browser reconnects by itself after a few seconds and, if events carry an ID, sends a `Last-Event-ID` header, so the server can replay what was missed.
 - **One way only.** The server talks, the client listens. To send something back, the client makes a normal HTTP request.
 - **Text only.** Events are plain text. Most apps send JSON, and binary data has to be encoded first, as base64 for example.
